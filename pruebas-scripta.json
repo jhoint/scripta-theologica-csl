@@ -1,17 +1,16 @@
 [
 	{
-		"id": "Schmaus1962",
+		"id": "Schmaus1961",
 		"type": "book",
-		"citation-key": "Schmaus1962",
-		"collection-number": "5",
+		"citation-key": "Schmaus1961",
+		"collection-number": "4",
 		"collection-title": "Manuales de la Biblioteca del Pensamiento Actual",
-		"edition": "2",
 		"language": "spa",
 		"number-of-pages": "894",
 		"publisher": "Rialp",
 		"publisher-place": "Madrid",
 		"source": "unika.unav.edu",
-		"title": "Teología dogmática. 4, La Iglesia",
+		"title": "Teología dogmática. IV: La Iglesia",
 		"author": [
 			{
 				"family": "Schmaus",
@@ -35,7 +34,7 @@
 		"issued": {
 			"date-parts": [
 				[
-					"1962"
+					"1961"
 				]
 			]
 		}
@@ -96,7 +95,8 @@
 		"container-title": "Dictionnaire de théologie catholique",
 		"page": "341-502",
 		"publisher-place": "París",
-		"title": "Thélogie",
+		"title": "Théologie",
+		"title-short": "DTC",
 		"volume": "15",
 		"author": [
 			{
@@ -120,9 +120,11 @@
 		"DOI": "10.15581/006.17.18575",
 		"ISSN": "0036-9764",
 		"issue": "1",
+		"journalAbbreviation": "ScrTh",
 		"language": "eng",
 		"page": "227–243",
 		"publisher": "University of Navarre",
+		"publisher-place": "Pamplona",
 		"source": "unika.unav.edu",
 		"title": "Teología y filosofía en San Gregorio el Taumaturgo. Aspectos conceptuales en el «Discurso de Agradecimiento a Orígenes",
 		"volume": "17",
@@ -209,7 +211,7 @@
 		"container-title": "Cristo y el Dios de los cristianos: hacia una comprensión actual de la teología : XVIII Simposio Internacional de Teología de la Universidad de Navarra",
 		"ISBN": "978-84-8081-002-9",
 		"language": "spa",
-		"page": "420",
+		"page": "420-428",
 		"publisher": "Servicio de Publicaciones de la Universidad de Navarra",
 		"publisher-place": "Pamplona",
 		"source": "unika.unav.edu",
@@ -287,7 +289,7 @@
 		"container-title": "De la Iglesia y de Navarra: estudios en honor del Prof. Goñi Gaztambide",
 		"ISBN": "978-84-313-0868-1",
 		"language": "spa",
-		"note": "editorial-director: Saranyana, Josep Ignasi",
+		"note": "editorial-director: Saranyana || Josep-Ignasi\neditorial-director: Apellido || Nombre\neditorial-director: A2pellido || Mombre",
 		"page": "225-232",
 		"publisher": "Eunsa",
 		"publisher-place": "Pamplona",
@@ -374,7 +376,7 @@
 		"publisher": "Rivingtons",
 		"publisher-place": "London",
 		"source": "unika.unav.edu",
-		"title": "Parochial and plain sermons.",
+		"title": "Parochial and plain sermons",
 		"volume": "VII",
 		"author": [
 			{
@@ -400,7 +402,7 @@
 		"ISBN": "978-84-313-0778-3",
 		"language": "spa",
 		"number-of-pages": "498",
-		"publisher": "EUNSA",
+		"publisher": "Eunsa",
 		"publisher-place": "Pamplona",
 		"source": "unika.unav.edu",
 		"title": "El catecismo romano, fuentes e historia del texto y de la redacción: bases críticas para el estudio teológico del catecismo del Concilio de Trento",
@@ -419,32 +421,6 @@
 			"date-parts": [
 				[
 					"1982"
-				]
-			]
-		}
-	},
-	{
-		"id": "Newman1882",
-		"type": "book",
-		"call-number": "FA 806.039",
-		"citation-key": "Newman1882",
-		"edition": "New edition",
-		"language": "eng",
-		"publisher": "Rivingtons",
-		"publisher-place": "London",
-		"source": "unika.unav.edu",
-		"title": "Parochial and plain sermons",
-		"volume": "VII",
-		"author": [
-			{
-				"family": "Newman",
-				"given": "John Henry"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"1882"
 				]
 			]
 		}
