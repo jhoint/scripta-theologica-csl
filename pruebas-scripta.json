@@ -1,0 +1,613 @@
+[
+	{
+		"id": "Schmaus1962",
+		"type": "book",
+		"citation-key": "Schmaus1962",
+		"collection-number": "5",
+		"collection-title": "Manuales de la Biblioteca del Pensamiento Actual",
+		"edition": "2",
+		"language": "spa",
+		"number-of-pages": "894",
+		"publisher": "Rialp",
+		"publisher-place": "Madrid",
+		"source": "unika.unav.edu",
+		"title": "Teología dogmática. 4, La Iglesia",
+		"author": [
+			{
+				"family": "Schmaus",
+				"given": "Michael"
+			}
+		],
+		"contributor": [
+			{
+				"family": "Drudis Baldrich",
+				"given": "Raimundo"
+			},
+			{
+				"family": "Caballero Cuesta",
+				"given": "José María"
+			},
+			{
+				"family": "García Ortega",
+				"given": "Lucio"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1962"
+				]
+			]
+		}
+	},
+	{
+		"id": "Illanes1975",
+		"type": "entry-encyclopedia",
+		"citation-key": "Illanes1975",
+		"container-title": "Gran Enciclopedia Rialp",
+		"page": "659-662",
+		"publisher": "Rialp",
+		"title": "Vocación",
+		"volume": "23",
+		"author": [
+			{
+				"family": "Illanes",
+				"given": "Juan Luis"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1975"
+				]
+			]
+		}
+	},
+	{
+		"id": "Fernandez1979",
+		"type": "book",
+		"citation-key": "Fernandez1979",
+		"ISBN": "978-84-7009-064-6",
+		"language": "spa",
+		"number-of-pages": "261",
+		"publisher": "Aldecoa",
+		"publisher-place": "Burgos",
+		"source": "unika.unav.edu",
+		"title": "Sacerdocio común y sacerdocio ministerial: un problema teológico",
+		"title-short": "Sacerdocio común y sacerdocio ministerial",
+		"author": [
+			{
+				"family": "Fernández",
+				"given": "Aurelio"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1979"
+				]
+			]
+		}
+	},
+	{
+		"id": "Congar1946",
+		"type": "entry-dictionary",
+		"citation-key": "Congar1946",
+		"container-title": "Dictionnaire de théologie catholique",
+		"page": "341-502",
+		"publisher-place": "París",
+		"title": "Thélogie",
+		"volume": "15",
+		"author": [
+			{
+				"family": "Congar",
+				"given": "Yves"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1946"
+				]
+			]
+		}
+	},
+	{
+		"id": "Merino1985",
+		"type": "article-journal",
+		"citation-key": "Merino1985",
+		"container-title": "Scripta theologica",
+		"DOI": "10.15581/006.17.18575",
+		"ISSN": "0036-9764",
+		"issue": "1",
+		"language": "eng",
+		"page": "227–243",
+		"publisher": "University of Navarre",
+		"source": "unika.unav.edu",
+		"title": "Teología y filosofía en San Gregorio el Taumaturgo. Aspectos conceptuales en el «Discurso de Agradecimiento a Orígenes",
+		"volume": "17",
+		"author": [
+			{
+				"family": "Merino",
+				"given": "Marcelo"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1985"
+				]
+			]
+		}
+	},
+	{
+		"id": "Pellitero2007",
+		"type": "chapter",
+		"citation-key": "Pellitero2007",
+		"collection-title": "Cuestiones fundamentales",
+		"container-title": "Vivir el amor: en torno a la encíclica Deus caritas est",
+		"ISBN": "978-84-321-3635-1",
+		"language": "spa",
+		"page": "109-117",
+		"publisher": "Rialp",
+		"publisher-place": "Madrid",
+		"source": "unika.unav.edu",
+		"title": "”Especialmente con los más necesitados”: un signo eficaz del amor",
+		"author": [
+			{
+				"family": "Pellitero",
+				"given": "Ramiro"
+			}
+		],
+		"editor": [
+			{
+				"family": "Pellitero",
+				"given": "Ramiro"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2007"
+				]
+			]
+		}
+	},
+	{
+		"id": "Pellitero2007a",
+		"type": "book",
+		"citation-key": "Pellitero2007a",
+		"collection-title": "Cuestiones fundamentales",
+		"ISBN": "978-84-321-3635-1",
+		"language": "spa",
+		"number-of-pages": "186",
+		"publisher": "Rialp",
+		"publisher-place": "Madrid",
+		"source": "unika.unav.edu",
+		"title": "Vivir el amor: en torno a la encíclica \"Deus caritas est\"",
+		"title-short": "Vivir el amor",
+		"author": [
+			{
+				"family": "Pellitero",
+				"given": "Ramiro"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2007"
+				]
+			]
+		}
+	},
+	{
+		"id": "Aranda1998",
+		"type": "chapter",
+		"citation-key": "Aranda1998",
+		"collection-number": "18",
+		"collection-title": "Simposios Internacionales de Teología de la Universidad de Navarra",
+		"container-title": "Cristo y el Dios de los cristianos: hacia una comprensión actual de la teología : XVIII Simposio Internacional de Teología de la Universidad de Navarra",
+		"ISBN": "978-84-8081-002-9",
+		"language": "spa",
+		"page": "420",
+		"publisher": "Servicio de Publicaciones de la Universidad de Navarra",
+		"publisher-place": "Pamplona",
+		"source": "unika.unav.edu",
+		"title": "Canon bíblico y comprensión actual de la Teología",
+		"author": [
+			{
+				"family": "Aranda",
+				"given": "Gonzalo"
+			}
+		],
+		"editor": [
+			{
+				"family": "Morales",
+				"given": "José"
+			},
+			{
+				"family": "Alviar",
+				"given": "José"
+			},
+			{
+				"family": "Lluch",
+				"given": "Miguel"
+			},
+			{
+				"family": "Urbano",
+				"given": "Pedro"
+			},
+			{
+				"family": "Enériz",
+				"given": "José"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1998"
+				]
+			]
+		}
+	},
+	{
+		"id": "Morales1998",
+		"type": "book",
+		"citation-key": "Morales1998",
+		"collection-number": "18",
+		"collection-title": "Simposios Internacionales de Teología de la Universidad de Navarra",
+		"ISBN": "978-84-8081-002-9",
+		"language": "spa",
+		"number-of-pages": "651",
+		"publisher": "Servicio de Publicaciones de la Universidad de Navarra",
+		"publisher-place": "Pamplona",
+		"source": "unika.unav.edu",
+		"title": "Cristo y el Dios de los cristianos: hacia una comprensión actual de la teología : XVIII Simposio Internacional de Teología de la Universidad de Navarra",
+		"title-short": "Cristo y el Dios de los cristianos",
+		"editor": [
+			{
+				"family": "Morales",
+				"given": "José"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1998"
+				]
+			]
+		}
+	},
+	{
+		"id": "Rodriguez1984",
+		"type": "chapter",
+		"citation-key": "Rodriguez1984",
+		"collection-number": "40",
+		"collection-title": "Colección Teológica de la Universidad de Navarra",
+		"container-title": "De la Iglesia y de Navarra: estudios en honor del Prof. Goñi Gaztambide",
+		"ISBN": "978-84-313-0868-1",
+		"language": "spa",
+		"note": "editorial-director: Saranyana, Josep Ignasi",
+		"page": "225-232",
+		"publisher": "Eunsa",
+		"publisher-place": "Pamplona",
+		"source": "unika.unav.edu",
+		"title": "La teología del Papado según Santa Catalina de Siena",
+		"author": [
+			{
+				"family": "Rodríguez",
+				"given": "Pedro"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1984"
+				]
+			]
+		}
+	},
+	{
+		"id": "Saranyana1984",
+		"type": "book",
+		"citation-key": "Saranyana1984",
+		"collection-number": "40",
+		"collection-title": "Colección Teológica de la Universidad de Navarra",
+		"ISBN": "978-84-313-0868-1",
+		"language": "spa",
+		"number-of-pages": "443",
+		"publisher": "Ediciones Universidad de Navarra",
+		"publisher-place": "Pamplona",
+		"source": "unika.unav.edu",
+		"title": "De la Iglesia y de Navarra: estudios en honor del Prof. Goñi Gaztambide",
+		"title-short": "De la Iglesia y de Navarra",
+		"author": [
+			{
+				"family": "Saranyana",
+				"given": "Josep-Ignasi"
+			},
+			{
+				"family": "Goñi Gaztambide",
+				"given": "José"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1984"
+				]
+			]
+		}
+	},
+	{
+		"id": "Scheffczyk1978",
+		"type": "book",
+		"citation-key": "Scheffczyk1978",
+		"edition": "2",
+		"ISBN": "978-3-557-91148-7",
+		"language": "ger",
+		"number-of-pages": "381",
+		"publisher": "Pattloch",
+		"publisher-place": "Aschaffenburg",
+		"source": "unika.unav.edu",
+		"title": "Katholische Glaubenswelt: Wahrheit und Gestalt",
+		"title-short": "Katholische Glaubenswelt",
+		"author": [
+			{
+				"family": "Scheffczyk",
+				"given": "Leo"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1978"
+				]
+			]
+		}
+	},
+	{
+		"id": "Newman1887",
+		"type": "book",
+		"citation-key": "Newman1887",
+		"language": "eng",
+		"publisher": "Rivingtons",
+		"publisher-place": "London",
+		"source": "unika.unav.edu",
+		"title": "Parochial and plain sermons.",
+		"volume": "VII",
+		"author": [
+			{
+				"family": "Newman",
+				"given": "John Henry"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1887"
+				]
+			]
+		}
+	},
+	{
+		"id": "Rodriguez1982a",
+		"type": "book",
+		"call-number": "A 112.686",
+		"citation-key": "Rodriguez1982a",
+		"collection-number": "35",
+		"collection-title": "Colección Teológica de la Universidad de Navarra",
+		"ISBN": "978-84-313-0778-3",
+		"language": "spa",
+		"number-of-pages": "498",
+		"publisher": "EUNSA",
+		"publisher-place": "Pamplona",
+		"source": "unika.unav.edu",
+		"title": "El catecismo romano, fuentes e historia del texto y de la redacción: bases críticas para el estudio teológico del catecismo del Concilio de Trento",
+		"title-short": "El catecismo romano, fuentes e historia del texto y de la redacción",
+		"author": [
+			{
+				"family": "Rodríguez",
+				"given": "Pedro"
+			},
+			{
+				"family": "Lanzetti",
+				"given": "Raul"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1982"
+				]
+			]
+		}
+	},
+	{
+		"id": "Newman1882",
+		"type": "book",
+		"call-number": "FA 806.039",
+		"citation-key": "Newman1882",
+		"edition": "New edition",
+		"language": "eng",
+		"publisher": "Rivingtons",
+		"publisher-place": "London",
+		"source": "unika.unav.edu",
+		"title": "Parochial and plain sermons",
+		"volume": "VII",
+		"author": [
+			{
+				"family": "Newman",
+				"given": "John Henry"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1882"
+				]
+			]
+		}
+	},
+	{
+		"id": "Lavenia2017",
+		"type": "article-journal",
+		"abstract": "This paper proposes a literary journey through the manuals for soldiers written by Jesuits prior to the twentieth century. After briefly outlining the debut of these publications, at the hands of Antonio Possevino and of Thomas Sailly, who led the first permanent mission of military chaplains in Flanders, it will focus on three moments: the second half of the seventeenth century, when the wars of religion wound down and we find the first manuals where, alongside the desire to impose discipline on armies, a patriotic rhetoric begins to be heard; the middle years of the eighteenth century, before the French Revolution, when, after the establishment of barracks and permanent chaplaincies, even texts aimed at the Christian soldier transposed the vocabulary of the\n              Droit des gens\n              in; finally, the nineteenth century, when the Society was restored and undertook the religious conversion of the soldiery against the perils of the modern world. In Belgium, the birth of a liberal Catholic regime supported a patriotically-toned missionary effort from Jesuit chaplains. Later, the mystique of the nation would affect the majority of texts aimed at combatants and their chaplains during the Great War.",
+		"citation-key": "Lavenia2017",
+		"container-title": "Journal of Jesuit Studies",
+		"DOI": "10.1163/22141332-00404004",
+		"ISSN": "2214-1324, 2214-1332",
+		"issue": "4",
+		"page": "599-623",
+		"source": "DOI.org (Crossref)",
+		"title": "Jesuit Catechisms for Soldiers (Seventeenth–Nineteenth Centuries): Changes and Continuities",
+		"title-short": "Jesuit Catechisms for Soldiers (Seventeenth–Nineteenth Centuries)",
+		"URL": "https://brill.com/view/journals/jjs/4/4/article-p599_599.xml",
+		"volume": "4",
+		"author": [
+			{
+				"family": "Lavenia",
+				"given": "Vincenzo"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					2,
+					12
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					8,
+					8
+				]
+			]
+		}
+	},
+	{
+		"id": "Parenti2012",
+		"type": "post-weblog",
+		"citation-key": "Parenti2012",
+		"container-title": "Psicologia e Cattolicesimo",
+		"title": "Psicologia e Cattolicesimo: BASI PER UNA PSICOTERAPIA CRISTIANA - IGNACIO ANDEREGGEN",
+		"title-short": "Psicologia e Cattolicesimo",
+		"URL": "http://psicologiacattolicesimo.blogspot.com/2012/04/basi-per-una-psicoterapia-cristiana.html",
+		"author": [
+			{
+				"family": "Parenti",
+				"given": "Stefano"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					2,
+					12
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2012",
+					4,
+					26
+				]
+			]
+		}
+	},
+	{
+		"id": "Brady1951",
+		"type": "article-journal",
+		"citation-key": "Brady1951",
+		"container-title": "Franciscan studies",
+		"DOI": "10.1353/frc.1951.0004",
+		"ISSN": "0080-5459",
+		"issue": "3/4",
+		"language": "eng",
+		"page": "317–345",
+		"publisher": "Franciscan Institute",
+		"publisher-place": "St. Bonaventure, N.Y",
+		"source": "unika.unav.edu",
+		"title": "The history of mental prayer in the order of Friars Minor",
+		"volume": "11",
+		"author": [
+			{
+				"family": "Brady",
+				"given": "Ignatius"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1951"
+				]
+			]
+		}
+	},
+	{
+		"id": "Jimenez2008",
+		"type": "book",
+		"call-number": "A 038.676",
+		"citation-key": "Jimenez2008",
+		"collection-number": "119",
+		"collection-title": "Monografías",
+		"ISBN": "978-84-7392-701-7",
+		"language": "spa",
+		"number-of-pages": "279",
+		"publisher": "Fundacion Universitaria Española",
+		"publisher-place": "Madrid",
+		"source": "unika.unav.edu",
+		"title": "Introducción a la teologia de Benedicto XVI: actas del Ciclo organizado por el Seminario de Pensamiento \"Ángel González Álvarez\" de la Fundación Universitaria Española los días 21, 22 y 23 de marzo de 2007",
+		"title-short": "Introducción a la teologia de Benedicto XVI",
+		"author": [
+			{
+				"family": "Jiménez",
+				"given": "Lydia"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2008"
+				]
+			]
+		}
+	},
+	{
+		"id": "Jimenez2008a",
+		"type": "chapter",
+		"call-number": "A 038.676",
+		"citation-key": "Jimenez2008a",
+		"collection-number": "119",
+		"collection-title": "Monografías",
+		"container-title": "Introducción a la teologia de Benedicto XVI",
+		"ISBN": "978-84-7392-701-7",
+		"language": "spa",
+		"note": "editorial-director: Jiménez, Lydia",
+		"page": "59-86",
+		"publisher": "Fundacion Universitaria Española",
+		"publisher-place": "Madrid",
+		"source": "unika.unav.edu",
+		"title": "Jesucristo, plenitud de la Revelación. El centro dela teología de Joseph Ratzinger",
+		"author": [
+			{
+				"family": "Martínez Camino",
+				"given": "Juan Antonio"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2008"
+				]
+			]
+		}
+	}
+]
