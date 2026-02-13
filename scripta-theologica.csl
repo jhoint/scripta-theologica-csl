@@ -151,6 +151,7 @@
         <group delimiter=" ">
           <group>
             <number variable="edition" form="numeric"/>
+            <text value="."/>
             <text value="a" vertical-align="sup"/>
           </group>
           <text term="edition" form="short"/>

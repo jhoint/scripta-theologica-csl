@@ -6,6 +6,13 @@ De momento no es un proyecto oficial, sino un desarrollo personal que todavía e
 
 Se ha seguido como referencia la [documentación de CSL](https://docs.citationstyles.org/en/stable/index.html)
 
+## Archivos
+scripta-theologica.csl: es el archivo del estilo que hay que usar.
+
+pruebas-scripta.json: es la bibliografía que aparece en los ejemplos de las normas para los autores que se ha empleado para probar el estilo
+
+Lorem ipsum dolor sit amet.docx: es el documento de word en el que se están haciendo las pruebas.
+
 ## Particularidades del estilo
 
 ### dir./dirs. en vez de ed./eds.
