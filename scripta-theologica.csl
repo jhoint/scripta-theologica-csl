@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="0.1" demote-non-dropping-particle="sort-only" default-locale="es-ES">
+<style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" demote-non-dropping-particle="sort-only" default-locale="es-ES">
   <info>
     <title>Scripta Theologica</title>
-    <title-short>ScTh</title-short>
-    <id>http://www.zotero.org/styles/scripta-theologica</id>
-    <link href="http://www.zotero.org/styles/scripta-theologica" rel="self"/>
+    <title-short>ScrTh</title-short>
+    <id>https://github.com/jhoint/scripta-theologica-csl/blob/master/scripta-theologica.csl</id>
+    <link href="https://github.com/jhoint/scripta-theologica-csl/blob/master/scripta-theologica.csl" rel="self"/>
     <link href="https://revistas.unav.edu/index.php/scripta-theologica/about/submissions" rel="documentation"/>
     <author>
       <name>Juan Tejero</name>
-      <email>juantejero@juantejero.com</email>
+      <email>juantejero@alumni.unav.es</email>
+      <uri>https://orcid.org/0000-0002-5363-9233</uri>
     </author>
     <category citation-format="note"/>
     <category field="theology"/>
@@ -16,9 +17,10 @@
     <eissn>2254-6227</eissn>
     <summary>Estilo para la revista Scripta Theologica de la Universidad de Navarra. Formato de citación en pruebas.</summary>
     <updated>2026-02-12T12:00:00+00:00</updated>
-    <!-- Algunas indicaciones para el uso -->
-    <!-- Si en una obra colectiva hay director/es en vez de editor/es, se usará el campo editorial-director en vez de editor. En Zotero esto hay que hacerlo poniendo en el campo Adicional lo siguiente: "editorial-director: Apellido || Nombre".   -->
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
+
+
   <locale xml:lang="es">
     <terms>
       <term name="editor" form="short">
@@ -45,6 +47,7 @@
       <term name="no date">sin fecha</term>
     </terms>
   </locale>
+
   <!-- MACROS -->
   <macro name="author">
     <names variable="author">
@@ -199,6 +202,8 @@
       <date-part name="year"/>
     </date>
   </macro>
+
+
   <!-- CITATION -->
   <citation et-al-min="4" et-al-use-first="1" disambiguate-add-names="true">
     <layout suffix="." delimiter="; ">
@@ -354,6 +359,8 @@
       </choose>
     </layout>
   </citation>
+
+
   <!-- BIBLIOGRAPHY -->
   <bibliography hanging-indent="true" et-al-min="4" et-al-use-first="1" subsequent-author-substitute="———">
     <sort>
@@ -464,4 +471,5 @@
       </choose>
     </layout>
   </bibliography>
+
 </style>
