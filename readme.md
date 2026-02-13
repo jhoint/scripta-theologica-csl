@@ -4,7 +4,7 @@ En este repositorio se ofrece la hoja de estilos CSL para la revista *Scripta Th
 
 De momento no es un proyecto oficial, sino un desarrollo personal que todavía está en fase de pruebas.
 
-Se ha seguido como referencia la (documentación de CSL)[https://docs.citationstyles.org/en/stable/index.html]
+Se ha seguido como referencia la [documentación de CSL](https://docs.citationstyles.org/en/stable/index.html)
 
 ## Particularidades del estilo
 
