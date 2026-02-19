@@ -303,7 +303,7 @@
                 </group>
               </else>
             </choose>
-            <text macro="access-url"/>
+            <text macro="access-url"/ prefix=", "/>
           </group>
           <!-- Añadir páginas específicas si se proporcionan, sino mostrar el rango completo (excepto para diccionarios/enciclopedias) -->
           <choose>
