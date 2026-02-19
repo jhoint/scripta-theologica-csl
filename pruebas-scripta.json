@@ -585,5 +585,53 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "Beethoven1862",
+		"type": "musical_score",
+		"citation-key": "Beethoven1862",
+		"title": "Symphony no. 5 in C minor, op. 67",
+		"number": "Op. 67",
+		"genre": "partitura",
+		"publisher": "Breitkopf und Härtel",
+		"publisher-place": "Leipzig",
+		"author": [
+			{
+				"family": "Beethoven",
+				"given": "Ludwig van"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1862"
+				]
+			]
+		}
+	},
+	{
+		"id": "Palestrina2007",
+		"type": "song",
+		"citation-key": "Palestrina2007",
+		"title": "Sicut cervus",
+		"container-title": "Palestrina: Sacred Choral Works",
+		"number": "pista 4",
+		"medium": "CD",
+		"genre": "grabación sonora",
+		"publisher": "Deutsche Grammophon",
+		"publisher-place": "Hamburgo",
+		"author": [
+			{
+				"family": "Palestrina",
+				"given": "Giovanni Pierluigi da"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2007"
+				]
+			]
+		}
 	}
 ]

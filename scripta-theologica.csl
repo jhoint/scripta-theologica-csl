@@ -91,7 +91,7 @@
       <if type="book thesis" match="any">
         <text variable="title" font-style="italic"/>
       </if>
-      <else-if type="chapter paper-conference entry-dictionary entry-encyclopedia" match="any">
+      <else-if type="chapter paper-conference entry-dictionary entry-encyclopedia song" match="any">
         <text variable="title" prefix="«" suffix="»"/>
       </else-if>
       <else-if type="article-journal article-magazine article-newspaper" match="any">
@@ -294,6 +294,35 @@
                   <text macro="issued"/>
                 </group>
               </else-if>
+              <!-- COMPOSICIÓN MUSICAL (PARTITURA) -->
+              <else-if type="musical_score">
+                <group delimiter=", ">
+                  <text macro="title"/>
+                  <text variable="number"/>
+                  <text variable="genre"/>
+                  <text macro="publisher"/>
+                  <text macro="issued"/>
+                </group>
+              </else-if>
+              <!-- GRABACIÓN DE SONIDO -->
+              <else-if type="song">
+                <group delimiter=", ">
+                  <text macro="title"/>
+                  <choose>
+                    <if variable="container-title">
+                      <group delimiter=" ">
+                        <text value="en"/>
+                        <text macro="container-title"/>
+                      </group>
+                    </if>
+                  </choose>
+                  <text variable="number"/>
+                  <text variable="medium"/>
+                  <text variable="genre"/>
+                  <text macro="publisher"/>
+                  <text macro="issued"/>
+                </group>
+              </else-if>
               <!-- OTROS TIPOS -->
               <else>
                 <group delimiter=", ">
@@ -445,6 +474,35 @@
           <else-if type="thesis">
             <group delimiter=", ">
               <text macro="title"/>
+              <text variable="genre"/>
+              <text macro="publisher"/>
+              <text macro="issued"/>
+            </group>
+          </else-if>
+          <!-- COMPOSICIÓN MUSICAL (PARTITURA) -->
+          <else-if type="musical_score">
+            <group delimiter=", ">
+              <text macro="title"/>
+              <text variable="number"/>
+              <text variable="genre"/>
+              <text macro="publisher"/>
+              <text macro="issued"/>
+            </group>
+          </else-if>
+          <!-- GRABACIÓN DE SONIDO -->
+          <else-if type="song">
+            <group delimiter=", ">
+              <text macro="title"/>
+              <choose>
+                <if variable="container-title">
+                  <group delimiter=" ">
+                    <text value="en"/>
+                    <text macro="container-title"/>
+                  </group>
+                </if>
+              </choose>
+              <text variable="number"/>
+              <text variable="medium"/>
               <text variable="genre"/>
               <text macro="publisher"/>
               <text macro="issued"/>
