@@ -303,7 +303,7 @@
                 </group>
               </else>
             </choose>
-            <text macro="access-url" prefix=" "/>
+            <text macro="access-url"/>
           </group>
           <!-- Añadir páginas específicas si se proporcionan, sino mostrar el rango completo (excepto para diccionarios/enciclopedias) -->
           <choose>
@@ -460,7 +460,7 @@
           </else>
         </choose>
       </group>
-      <text macro="access-url"/>
+      <text macro="access-url" prefix=", "/>
       <!-- DOI al final separado por punto -->
       <choose>
         <if variable="DOI">
