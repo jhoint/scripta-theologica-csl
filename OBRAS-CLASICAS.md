@@ -3,40 +3,36 @@
 ## Ejemplos de formato esperado
 
 ### CITATION (primera cita)
-```
-Rufino de Aquileya, Historia ecclesiastica, i, 6, PL 21, 473-475
-```
+
+**Primera cita:** RUFINO DE AQUILEYA, *Historia ecclesiastica*, I, 6: Patrologia Latina 21, p. 473-475.
 
 ### CITATION (citas posteriores)
-```
-Rufino de Aquileya, Historia ecclesiastica, i, 6, PL 21, 472
-```
+
+**Citas posteriores:** RUFINO DE AQUILEYA, *Historia ecclesiastica*, I, 7: PL 21, p. 477.
 
 ### BIBLIOGRAPHY
-```
-Rufino de Aquileya, Historia ecclesiastica i-ii, en Domenico Vallarsi (ed.), PL 21, 461-540, Paris, 1849.
-```
 
----
+**Bibliografía:** RUFINO DE AQUILEYA, *Historia ecclesiastica*, Patrologia Latina 21, Paris, 1849, 461-540.
 
 ## Configuración en Zotero
 
-### 1. Crear un nuevo elemento de tipo "Book"
+### 1. Crear un nuevo elemento de tipo "Book section = Sección de un libro"
 
 En Zotero, crea un nuevo elemento y configura los siguientes campos:
 
-| Campo | Valor Ejemplo | Notas |
-|-------|---------------|-------|
-| **Title** | Historia ecclesiastica | Título de la obra clásica |
-| **Creator (Author)** | Rufino de Aquileya | Autor antiguo |
-| **Collection Title** | Patrologia Latina | Nombre completo de la colección |
-| **Collection Title Short** | PL | Abreviatura (CSL 1.0.2+) - aparece en citas |
-| **Volume** | 21 | Número del volumen de la serie |
-| **Pages** | 473-475 | Páginas/columnas de la edición |
-| **Publisher Place** | Paris | Lugar de publicación de la edición |
-| **Date** | 1849 | Año de la edición usada |
-| **Creator** | Domenico Vallarsi | Editor de la edición (si aplica) |
-| **Extra** | `type: classic` | **CRÍTICO** |
+
+| Campo                        | Valor Ejemplo          | Notas                                                                                        |
+| ------------------------------ | ------------------------ | ---------------------------------------------------------------------------------------------- |
+| **Title = Título**          | Historia ecclesiastica | Título de la obra clásica                                                                  |
+| **Author = Autor**           | Rufino de Aquileya     | Autor antiguo                                                                                |
+| **Collection Title = Serie** | Patrologia Latina      | Nombre completo de la colección                                                             |
+| **collection-title-short**   | PL                     | Hay que ponerlo en el campo "extra = adicional". Abreviatura (CSL 1.0.2+) - aparece en citas |
+| **Volume = Volumen**         | 21                     | Número del volumen de la serie                                                              |
+| **Pages = Páginas**         | 473-475                | Páginas/columnas de la edición                                                             |
+| **Publisher Place = Lugar**  | Paris                  | Lugar de publicación de la edición                                                         |
+| **Date = Fecha**             | 1849                   | Año de la edición usada                                                                    |
+| **Editor**                   | Domenico Vallarsi      | Editor de la edición (si aplica)                                                            |
+| **Extra = Adicional**        | `type: classic`        | **CRÍTICO**                                                                                 |
 
 ### 2. Campo "Extra" - INDISPENSABLE
 
@@ -58,81 +54,52 @@ Si solo rellenas "Collection Title" sin "Collection Title Short", el estilo most
 ## Estructura de datos en Zotero - Ejemplo completo
 
 ```
-Item Type:             Book
+Item Type:             Book section
 Title:                 Historia ecclesiastica
 Creator:               Rufino de Aquileya (Author)
 Collection Title:      Patrologia Latina
-Collection Title Short: PL
 Volume:                21
 Pages:                 473-475
 Publisher Place:       Paris
 Date:                  1849
 Creator:               Domenico Vallarsi (Editor)
 Extra:                 type: classic
+                       collection-title-short: PL
 ```
 
 **Resultado esperado:**
-- **Primera cita:** `Rufino de Aquileya, Historia ecclesiastica, i, 6, PL 21, 473-475`
-- **Citas posteriores:** `Rufino de Aquileya, Historia ecclesiastica, i, 6, PL 21, 472`
-- **Bibliografía:** `Rufino de Aquileya, Historia ecclesiastica i-ii, en Domenico Vallarsi (ed.), PL 21, 461-540, Paris, 1849.`
+
+- **Primera cita:** RUFINO DE AQUILEYA, *Historia ecclesiastica*, I, 6: Patrologia Latina 21 p. 473-475.
+- **Citas posteriores:** RUFINO DE AQUILEYA, *Historia ecclesiastica, I, 7: PL 21, p. 477.
+- **Bibliografía:** RUFINO DE AQUILEYA, *Historia ecclesiastica* , Patrologia Latina 21, Paris, 1849, 461-540.
 
 ---
 
 ## Cómo citar con locator
 
-Proporciona el **locator** cada vez que cites:
+En Word hay que proporciona el **locator** como un párrafo cada vez que cites:
 
-- `i, 6` - Libro I, sección 6
-- `x, 5` - Libro X, sección 5
-- `i-ii` - Libros I a II
+- `I, 6` - Libro I, sección 6
+- `X, 5` - Libro X, sección 5
+- `I-II` - Libros I a II
 - `libros x y xi` - Forma textual
 
-En Zotero, especifica el locator en el campo correspondiente durante la cita.
+Asimismo en el **sufijo** hay que poner las páginas correspondientes de la edición citada de la siguiente manera:
+
+```, p. 473-475```
+
+Importante poner el espacio antes de la coma, y no poner punto al final.
 
 ---
 
 ## Notas importantes
 
-1. **`type: classic` es obligatorio** - Sin él, se formateará como un libro normal
-2. **Collection Title Short** - Es lo que aparecerá en citas (PL, PG, etc.). Si no existe, usa Collection Title
+1. **`type: classic` es obligatorio añadirlo en el campo extra** - Sin él, se formateará como un libro normal
+2. **collection-title-short** - Es lo que aparecerá en citas (PL, PG, etc.). Si no existe, usa Collection Title
 3. **Volume = número de serie** - El número del volumen dentro de la colección
 4. **Pages** - El rango de páginas/columnas en todas las citas
 5. **Editor** - Incluye el editor de la edición si está disponible
 6. **Date & Publisher Place** - Referencia la edición consultada
-
----
-
-## Ejemplos adicionales
-
-### San Agustín, Confesiones
-```
-Item Type:             Book
-Title:                 Confessiones
-Creator:               Augustinus (Author)
-Collection Title:      Patrologia Latina
-Collection Title Short: PL
-Volume:                32
-Pages:                 659-868
-Publisher Place:       Paris
-Date:                  1841
-Extra:                 type: classic
-```
-
-### San Jerónimo,Commentarii in Evangelium Matthaei
-```
-Item Type:             Book
-Title:                 Commentarii in Evangelium Matthaei
-Creator:               Hieronymus (Author)
-Collection Title:      Patrologia Latina
-Collection Title Short: PL
-Volume:                26
-Pages:                 15-218
-Publisher Place:       Paris
-Date:                  1845
-Extra:                 type: classic
-```
-
----
 
 ## Solución de problemas
 
@@ -140,7 +107,7 @@ Extra:                 type: classic
 R: Falta `type: classic` en el campo Extra.
 
 **P: ¿Las siglas PL no aparecen?**
-R: Rellena explícitamente "Collection Title Short" con "PL".
+R: Rellena explícitamente en el campo extra lo siguiente: "collection-title-short: PL"
 
 **P: ¿El editor no aparece en bibliografía?**
 R: Verifica que esté en "Creator" con rol "Editor".
