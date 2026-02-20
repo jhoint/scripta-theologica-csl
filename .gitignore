@@ -1,2 +1,21 @@
+# Ignore config files and folders
+.vscode/
+
+# Ignore ejemplo-reales folder
+ejemplos-reales/
+
+
+# Ignore files for previewing changes
+makefile
+tasks.json
+
+prueba.md
+
+bibliografia.json
+ejemplo-obras-clasicas.json
+historial/
+actual.pdf
+
+
 # Ignore docx files
 *.docx

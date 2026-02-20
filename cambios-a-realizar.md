@@ -1,9 +1,12 @@
+
 ## Tipos de documento a añadir
+
 Tras haber bajado la biblioteca de prueba de [CSL Styles Development](https://www.zotero.org/groups/4211/csl_styles_development) he visto que hay unos cuantos tipos de documentos que no están desarrollados en este estilo, principalmente porque no aparecen en los ejemplos de las [instrucciones para los autores de ScrTH](https://revistas.unav.edu/index.php/scripta-theologica/about/submissions).
 
 A continuación iré listando los tipos de documentos que veo que faltan y los que voy incorporando.
 
 ### Pending types
+
 + Carta (Letter). No aparece el recipient.
 + Software. No estoy seguro de que haga falta incorporarlo de momento.
 + Informe (report).
@@ -26,12 +29,10 @@ A continuación iré listando los tipos de documentos que veo que faltan y los q
 + Página web
 + Caso judicial
 
-
-
-
 ### Added types
 
 ## Other issues
+
 Cuando hay comillas en el título de un capítulo de libro, las cambia a comillas angulares, aunque en zotero estén de otra manera.
 
 Habría que añadir el "accedido el" cuando aparezca una fecha de acceso.
@@ -45,4 +46,3 @@ En un artículo si no hay fecha, tendría que poner s.f.
 Añadir edición, editorial? a enciclopedia y artículo de diccionario.
 
 ¿Qué pasa si tengo fecha y fecha original en un libro?
-

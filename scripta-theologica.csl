@@ -16,7 +16,7 @@
     <issn>0036-9764</issn>
     <eissn>2254-6227</eissn>
     <summary>Estilo para la revista Scripta Theologica de la Universidad de Navarra. Formato de citación en pruebas.</summary>
-    <updated>2026-02-12T12:00:00+00:00</updated>
+    <updated>2026-02-20T12:00:00+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
 
@@ -51,7 +51,10 @@
   <!-- MACROS -->
   <macro name="author">
     <names variable="author">
-      <name name-as-sort-order="all" and="text" sort-separator=", " delimiter=", " delimiter-precedes-last="never" initialize-with="." font-variant="small-caps"/>
+      <name name-as-sort-order="all" and="text" sort-separator=", " delimiter=", " delimiter-precedes-last="never">
+        <name-part name="family" font-variant="small-caps"/>
+        <name-part name="given"/>
+      </name>
       <et-al font-variant="normal"/>
       <label form="short" prefix=" (" suffix=")"/>
       <substitute>
@@ -63,7 +66,10 @@
   </macro>
   <macro name="author-bibliography">
     <names variable="author">
-      <name name-as-sort-order="all" and="text" sort-separator=", " delimiter=", " delimiter-precedes-last="never" initialize-with="." font-variant="small-caps"/>
+      <name name-as-sort-order="all" and="text" sort-separator=", " delimiter=", " delimiter-precedes-last="never">
+        <name-part name="family" font-variant="small-caps"/>
+        <name-part name="given"/>
+      </name>
       <et-al font-variant="normal"/>
       <label form="short" prefix=" (" suffix=")"/>
       <substitute>
@@ -75,7 +81,10 @@
   </macro>
   <macro name="editor">
     <names variable="editor editorial-director director">
-      <name name-as-sort-order="all" and="text" delimiter=", " delimiter-precedes-last="never" initialize-with="." font-variant="small-caps"/>
+      <name name-as-sort-order="all" and="text" delimiter=", " delimiter-precedes-last="never">
+        <name-part name="family" font-variant="small-caps"/>
+        <name-part name="given"/>
+      </name>
       <et-al font-variant="normal"/>
       <label form="short" prefix=" (" suffix=")"/>
     </names>
@@ -88,9 +97,12 @@
   </macro>
   <macro name="title">
     <choose>
-      <if type="book thesis" match="any">
+      <if type="classic">
         <text variable="title" font-style="italic"/>
       </if>
+      <else-if type="book thesis" match="any">
+        <text variable="title" font-style="italic"/>
+      </else-if>
       <else-if type="chapter paper-conference entry-dictionary entry-encyclopedia song" match="any">
         <text variable="title" prefix="«" suffix="»"/>
       </else-if>
@@ -104,9 +116,12 @@
   </macro>
   <macro name="title-short">
     <choose>
-      <if type="book thesis" match="any">
+      <if type="classic">
         <text variable="title" font-style="italic" form="short"/>
       </if>
+      <else-if type="book thesis" match="any">
+        <text variable="title" font-style="italic" form="short"/>
+      </else-if>
       <else>
         <text variable="title" form="short"/>
       </else>
@@ -202,6 +217,23 @@
     <date variable="issued">
       <date-part name="year"/>
     </date>
+  </macro>
+  <macro name="classic-series-volume">
+    <!-- Serie patrística con volumen y abreviatura (ej: Patrologia Latina PL 21 o PL 21) -->
+    <group delimiter=" ">
+      <text variable="collection-title"/>
+      <text variable="volume"/>
+    </group>
+  </macro>
+  <macro name="classic-editor">
+    <!-- Editor para obras clásicas (ej: en Domenico Vallarsi (ed.)) -->
+    <group delimiter=" ">
+      <text value="en"/>
+      <names variable="editor">
+        <name name-as-sort-order="all" and="text" delimiter=", " delimiter-precedes-last="never" initialize-with="." font-variant="normal"/>
+      </names>
+      <text value="(ed.)"/>
+    </group>
   </macro>
 
 
@@ -323,6 +355,19 @@
                   <text macro="issued"/>
                 </group>
               </else-if>
+              <!-- OBRAS CLÁSICAS -->
+              <else-if type="classic">
+                <group delimiter=", ">
+                  <text variable="title" font-style="italic"/>
+                  <group delimiter=": ">
+                  <text variable="locator"/>
+                    <group delimiter=" ">
+                      <text variable="collection-title"/>
+                      <text variable="volume"/>
+                    </group>
+                  </group>
+                </group>
+              </else-if>
               <!-- OTROS TIPOS -->
               <else>
                 <group delimiter=", ">
@@ -359,22 +404,39 @@
         </if>
         <!-- Citas subsiguientes (forma corta) -->
         <else>
-          <group delimiter=", ">
-            <text macro="author"/>
-            <text macro="title-short"/>
-          </group>
-          <!-- Añadir páginas específicas si se proporcionan, sino mostrar el rango completo (excepto para diccionarios/enciclopedias) -->
           <choose>
-            <if type="entry-dictionary entry-encyclopedia" match="none">
-              <choose>
-                <if variable="locator">
-                  <text variable="locator" prefix=", "/>
-                </if>
-                <else>
-                  <text macro="pages" prefix=", "/>
-                </else>
-              </choose>
+            <if type="classic">
+              <group delimiter=", ">
+                <text macro="author"/>
+                <text variable="title" font-style="italic" form="short"/>
+                <group delimiter=": ">
+                  <text variable="locator"/>
+                  <group delimiter=" ">
+                    <text variable="collection-title" form="short"/>
+                    <text variable="volume"/>
+                  </group>
+                </group>
+              </group>
             </if>
+            <else>
+              <group delimiter=", ">
+                <text macro="author"/>
+                <text macro="title-short"/>
+              </group>
+              <!-- Añadir páginas específicas si se proporcionan, sino mostrar el rango completo (excepto para diccionarios/enciclopedias) -->
+              <choose>
+                <if type="entry-dictionary entry-encyclopedia" match="none">
+                  <choose>
+                    <if variable="locator">
+                      <text variable="locator" prefix=", "/>
+                    </if>
+                    <else>
+                      <text macro="pages" prefix=", "/>
+                    </else>
+                  </choose>
+                </if>
+              </choose>
+            </else>
           </choose>
           <!-- DOI al final separado por punto -->
           <choose>
@@ -392,7 +454,7 @@
 
 
   <!-- BIBLIOGRAPHY -->
-  <bibliography hanging-indent="true" et-al-min="4" et-al-use-first="1" subsequent-author-substitute="———">
+  <bibliography hanging-indent="true" et-al-min="4" et-al-use-first="1">
     <sort>
       <key macro="author-bibliography"/>
       <key variable="issued"/>
@@ -506,6 +568,29 @@
               <text variable="genre"/>
               <text macro="publisher"/>
               <text macro="issued"/>
+            </group>
+          </else-if>
+          <!-- OBRAS CLÁSICAS -->
+          <else-if type="classic">
+            <group delimiter=", ">
+              <choose>
+                <if variable="container-title">
+                  <text variable="container-title" font-style="italic"/>
+                </if>
+                <else>
+                  <text variable="title" font-style="italic"/>
+                </else>
+              </choose>
+              <group delimiter=": ">
+                <text variable="locator"/>
+                <group delimiter=", ">
+                  <text macro="classic-editor"/>
+                  <text macro="classic-series-volume"/>
+                </group>
+              </group>
+              <text variable="publisher-place"/>
+              <text macro="issued"/>
+              <text macro="pages"/>
             </group>
           </else-if>
           <!-- OTROS TIPOS -->
