@@ -72,13 +72,15 @@
 
   <macro name="author-short">
     <names variable="author">
-      <name form="short" and="text" delimiter=", ">
-        <name-part name="family" font-variant="small-caps"/>
-      </name>
+      <name form="short" and="text" delimiter=", "/>
       <et-al font-variant="normal"/>
       <substitute>
-        <names variable="editor" form="short"/>
-        <names variable="translator" form="short"/>
+        <names variable="editor">
+          <name form="short" and="text" delimiter=", "/>
+        </names>
+        <names variable="translator">
+          <name form="short" and="text" delimiter=", "/>
+        </names>
         <text macro="title-short"/>
       </substitute>
     </names>
@@ -264,31 +266,17 @@
 
   <macro name="classic-series-volume-short">
     <group delimiter=" ">
-      <choose>
-        <if variable="collection-title-short">
-          <text variable="collection-title-short"/>
-        </if>
-        <else>
-          <text variable="collection-title"/>
-        </else>
-      </choose>
+      <text variable="collection-title" form="short"/>
       <text variable="volume"/>
     </group>
   </macro>
 
   <macro name="classic-series-volume-first-note">
     <group delimiter=" ">
-      <choose>
-        <if variable="collection-title-short">
-          <group>
-            <text variable="collection-title"/>
-            <text variable="collection-title-short" prefix=" (=" suffix=")"/>
-          </group>
-        </if>
-        <else>
-          <text variable="collection-title"/>
-        </else>
-      </choose>
+      <group>
+        <text variable="collection-title"/>
+        <text variable="collection-title" form="short" prefix=" (=" suffix=")"/>
+      </group>
       <text variable="volume"/>
     </group>
   </macro>
@@ -303,16 +291,37 @@
     </group>
   </macro>
 
+  <!-- ============================================ -->
+  <!-- 4. ARCHIVE MACROS (for type="manuscript") -->
+  <!-- ============================================ -->
+
+  <macro name="archive-note">
+    <!-- Format: ABREVIATURA, Título, fecha, signatura -->
+    <group delimiter=", ">
+      <text variable="archive" font-variant="small-caps"/>
+      <text variable="title" font-style="italic"/>
+      <date form="text" variable="issued"/>
+      <text variable="archive_location"/>
+    </group>
+  </macro>
+
+  <!-- ============================================ -->
+  <!-- 5. SOURCE MACROS -->
+  <!-- ============================================ -->
+
   <macro name="source-note">
     <choose>
-      <if type="book">
+      <if type="manuscript">
+        <text macro="archive-note"/>
+      </if>
+      <else-if type="book">
         <group delimiter=", ">
           <text macro="volume"/>
           <text macro="edition"/>
           <text macro="publisher"/>
           <text macro="date-issued"/>
         </group>
-      </if>
+      </else-if>
       <else-if type="chapter paper-conference" match="any">
         <group delimiter=", ">
           <choose>
@@ -391,14 +400,17 @@
 
   <macro name="source-bib">
     <choose>
-      <if type="book">
+      <if type="manuscript">
+        <text macro="archive-note"/>
+      </if>
+      <else-if type="book">
         <group delimiter=", ">
           <text macro="volume"/>
           <text macro="edition"/>
           <text macro="publisher"/>
           <text macro="date-issued"/>
         </group>
-      </if>
+      </else-if>
       <else-if type="chapter paper-conference" match="any">
         <group delimiter=", ">
           <choose>
@@ -532,14 +544,25 @@
   </macro>
 
   <macro name="citation-notes-shortened-author-title">
-    <group>
-      <group delimiter=", ">
-        <text macro="author-short"/>
-        <text macro="title-short"/>
-      </group>
-      <text macro="citation-locator-pages-short"/>
-      <text macro="access-doi"/>
-    </group>
+    <choose>
+      <if type="manuscript">
+        <group>
+          <text macro="archive-note"/>
+          <text macro="citation-locator-pages-short"/>
+          <text macro="access-doi"/>
+        </group>
+      </if>
+      <else>
+        <group>
+          <group delimiter=", ">
+            <text macro="author-short"/>
+            <text macro="title-short"/>
+          </group>
+          <text macro="citation-locator-pages-short"/>
+          <text macro="access-doi"/>
+        </group>
+      </else>
+    </choose>
   </macro>
 
   <macro name="citation-notes-shortened-classic">
@@ -557,28 +580,51 @@
   </macro>
 
   <macro name="citation-notes-full">
-    <group>
-      <group delimiter=", ">
-        <text macro="author-note"/>
-        <text macro="title-note"/>
-        <text macro="source-note"/>
-      </group>
-      <text macro="citation-locator-pages-full"/>
-      <text macro="access-url" prefix=", "/>
-      <text macro="access-doi"/>
-    </group>
+    <choose>
+      <if type="manuscript">
+        <group>
+          <text macro="source-note"/>
+          <text macro="citation-locator-pages-full"/>
+          <text macro="access-url" prefix=", "/>
+          <text macro="access-doi"/>
+        </group>
+      </if>
+      <else>
+        <group>
+          <group delimiter=", ">
+            <text macro="author-note"/>
+            <text macro="title-note"/>
+            <text macro="source-note"/>
+          </group>
+          <text macro="citation-locator-pages-full"/>
+          <text macro="access-url" prefix=", "/>
+          <text macro="access-doi"/>
+        </group>
+      </else>
+    </choose>
   </macro>
 
   <macro name="bibliography-layout">
-    <group>
-      <group delimiter=", ">
-        <text macro="author-bib"/>
-        <text macro="title-bib"/>
-        <text macro="source-bib"/>
-      </group>
-      <text macro="access-url" prefix=", "/>
-      <text macro="access-doi"/>
-    </group>
+    <choose>
+      <if type="manuscript">
+        <group>
+          <text macro="source-bib"/>
+          <text macro="access-url" prefix=", "/>
+          <text macro="access-doi"/>
+        </group>
+      </if>
+      <else>
+        <group>
+          <group delimiter=", ">
+            <text macro="author-bib"/>
+            <text macro="title-bib"/>
+            <text macro="source-bib"/>
+          </group>
+          <text macro="access-url" prefix=", "/>
+          <text macro="access-doi"/>
+        </group>
+      </else>
+    </choose>
   </macro>
 
 
@@ -612,7 +658,13 @@
       <key variable="title"/>
     </sort>
     <layout suffix=".">
-      <text macro="bibliography-layout"/>
+      <choose>
+        <!-- Exclude manuscript type from automatic bibliography -->
+        <if type="manuscript"/>
+        <else>
+          <text macro="bibliography-layout"/>
+        </else>
+      </choose>
     </layout>
   </bibliography>
 
