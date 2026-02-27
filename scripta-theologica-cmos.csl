@@ -257,9 +257,33 @@
 
   <macro name="classic-series-volume">
     <group delimiter=" ">
+      <text variable="collection-title"/>
+      <text variable="volume"/>
+    </group>
+  </macro>
+
+  <macro name="classic-series-volume-short">
+    <group delimiter=" ">
       <choose>
         <if variable="collection-title-short">
           <text variable="collection-title-short"/>
+        </if>
+        <else>
+          <text variable="collection-title"/>
+        </else>
+      </choose>
+      <text variable="volume"/>
+    </group>
+  </macro>
+
+  <macro name="classic-series-volume-first-note">
+    <group delimiter=" ">
+      <choose>
+        <if variable="collection-title-short">
+          <group>
+            <text variable="collection-title"/>
+            <text variable="collection-title-short" prefix=" (=" suffix=")"/>
+          </group>
         </if>
         <else>
           <text variable="collection-title"/>
@@ -346,7 +370,14 @@
       <else-if type="classic">
         <group delimiter=": ">
           <text variable="locator"/>
-          <text macro="classic-series-volume"/>
+          <choose>
+            <if position="first">
+              <text macro="classic-series-volume-first-note"/>
+            </if>
+            <else>
+              <text macro="classic-series-volume"/>
+            </else>
+          </choose>
         </group>
       </else-if>
       <else>
@@ -511,6 +542,20 @@
     </group>
   </macro>
 
+  <macro name="citation-notes-shortened-classic">
+    <group>
+      <group delimiter=", ">
+        <text macro="author-short"/>
+        <text macro="title-short"/>
+        <group delimiter=": ">
+          <text variable="locator"/>
+          <text macro="classic-series-volume-short"/>
+        </group>
+      </group>
+      <text macro="access-doi"/>
+    </group>
+  </macro>
+
   <macro name="citation-notes-full">
     <group>
       <group delimiter=", ">
@@ -542,7 +587,14 @@
     <layout delimiter="; " suffix=".">
       <choose>
         <if position="subsequent">
-          <text macro="citation-notes-shortened-author-title"/>
+          <choose>
+            <if type="classic">
+              <text macro="citation-notes-shortened-classic"/>
+            </if>
+            <else>
+              <text macro="citation-notes-shortened-author-title"/>
+            </else>
+          </choose>
         </if>
         <else>
           <text macro="citation-notes-full"/>
