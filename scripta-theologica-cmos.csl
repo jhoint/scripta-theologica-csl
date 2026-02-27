@@ -350,7 +350,10 @@
         </group>
       </else-if>
       <else>
-        <text value="[source-note placeholder]"/>
+        <group delimiter=", ">
+          <text macro="publisher"/>
+          <text macro="date-issued"/>
+        </group>
       </else>
     </choose>
   </macro>
@@ -431,7 +434,11 @@
         </group>
       </else-if>
       <else>
-        <text value="[source-bib placeholder]"/>
+        <group delimiter=", ">
+          <text macro="publisher"/>
+          <text macro="date-issued"/>
+          <text macro="pages"/>
+        </group>
       </else>
     </choose>
   </macro>
