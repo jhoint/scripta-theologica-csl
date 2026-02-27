@@ -72,14 +72,14 @@
 
   <macro name="author-short">
     <names variable="author">
-      <name form="short" and="text" delimiter=", "/>
+      <name form="short" font-variant="small-caps" and="text" delimiter=", "/>
       <et-al font-variant="normal"/>
       <substitute>
         <names variable="editor">
-          <name form="short" and="text" delimiter=", "/>
+          <name form="short" font-variant="small-caps" and="text" delimiter=", "/>
         </names>
         <names variable="translator">
-          <name form="short" and="text" delimiter=", "/>
+          <name form="short" font-variant="small-caps" and="text" delimiter=", "/>
         </names>
         <text macro="title-short"/>
       </substitute>
