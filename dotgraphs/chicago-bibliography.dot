@@ -1,0 +1,42 @@
+digraph Bibliography {
+    node [shape=box, fontname="Helvetica"];
+    edge [fontname="Helvetica", fontsize=10];
+
+    BibNode [label="<bibliography>\n(et-al-min=7, et-al-use-first=3,\nhanging-indent=true)", shape=ellipse, style=filled, fillcolor=lightgrey];
+    
+    SortBlock [label="<sort>\n1. author-sort\n2. title-and-descriptions-bib\n3. source-bib\n4. volume\n5. part-number\n6. event-date\n7. source-date-issued-or-status\n8. source-archive-bib"];
+    
+    LayoutNode [label="<layout>\nsuffix='.'"];
+    
+    CheckClassic [label="if type='classic'\nAND (archive/publisher...)", shape=diamond, style=filled, fillcolor=lightyellow];
+    CheckEntry [label="else-if type='entry...'\nAND author", shape=diamond, style=filled, fillcolor=lightyellow];
+    CheckPost [label="else-if type='post'", shape=diamond, style=filled, fillcolor=lightyellow];
+    CheckIdent [label="else-if variable='archive...'", shape=diamond, style=filled, fillcolor=lightyellow];
+    CheckCom [label="else-if type='interview...'", shape=diamond, style=filled, fillcolor=lightyellow];
+    CheckPriv [label="else-if type='document...'", shape=diamond, style=filled, fillcolor=lightyellow];
+
+    MacroBibNotes [label="Aplica Macro:\nbibliography-notes", style=filled, fillcolor=lightgreen];
+    Exclude [label="EXCLUIR SILENCIOSAMENTE", style=filled, fillcolor=lightcoral];
+
+    BibNode -> SortBlock;
+    SortBlock -> LayoutNode;
+    LayoutNode -> CheckClassic;
+
+    CheckClassic -> MacroBibNotes [label="Sí"];
+    CheckClassic -> CheckEntry [label="No"];
+
+    CheckEntry -> MacroBibNotes [label="Sí"];
+    CheckEntry -> CheckPost [label="No"];
+
+    CheckPost -> Exclude [label="Sí"];
+    CheckPost -> CheckIdent [label="No"];
+
+    CheckIdent -> MacroBibNotes [label="Sí"];
+    CheckIdent -> CheckCom [label="No"];
+
+    CheckCom -> Exclude [label="Sí"];
+    CheckCom -> CheckPriv [label="No"];
+
+    CheckPriv -> Exclude [label="Sí"];
+    CheckPriv -> MacroBibNotes [label="No (else)"];
+}

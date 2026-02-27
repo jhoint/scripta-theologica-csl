@@ -1,0 +1,105 @@
+digraph CitationNotesShort {
+    rankdir=TB;
+    node [shape=box, fontname="Helvetica"];
+    edge [fontname="Helvetica", fontsize=10];
+    
+    // Colors for macros:
+    // citation-notes-shortened-author-title-item: #95E1D3 (cyan/teal)
+    // author-short: #FFD93D (golden yellow)
+    // title-and-descriptions-short: #27AE60 (dark green)
+    // date-short: #AF7AC5 (medium purple)
+    // source-medium-note: #EC7063 (coral/red soft)
+    // citation-notes-shortened-author-title-disambiguate: #4D96FF (bright blue)
+    // source-monographic-publication-short-unbracketed: #9D84B7 (purple)
+    // source-monographic-publication-short-bracketed: #FF6B9D (hot pink)
+    // source-locator-subsequent: #F38181 (coral)
+    // source-locator-subsequent-serial: #FFA502 (orange)
+    // source-locator-subsequent-monographic: #52B788 (forest green)
+    
+    subgraph cluster_citation_notes_shortened_item {
+        label="Macro: citation-notes-shortened-author-title-item (detail)";
+        style=rounded;
+        color=grey;
+        
+        ItemDefNode [label="<macro name='citation-notes-shortened-author-title-item'>", shape=ellipse, style=filled, fillcolor=lightgrey];
+        
+        subgraph cluster_outer_group {
+            label="group (delimiter=' ')";
+            style=rounded;
+            bgcolor=white;
+            color=lightblue;
+            
+            subgraph cluster_inner_group {
+                label="group (delimiter=', ')";
+                style=rounded;
+                bgcolor=white;
+                color=lightgreen;
+                
+                AuthorShort [label="author-short", shape=box3d, style=filled, fillcolor="#FFD93D"];
+                
+                CheckLegal [label="type NOT IN:\nbill, hearing, legal_case,\nlegislation, regulation, treaty", shape=diamond, style=filled, fillcolor=lightyellow];
+                TitleShort [label="title-and-descriptions-short", shape=box3d, style=filled, fillcolor="#27AE60"];
+                
+                Disambiguate [label="citation-notes-shortened-author-title-disambiguate", shape=box3d, style=filled, fillcolor="#4D96FF"];
+                
+                CheckAccess [label="has archive, archive-place,\ncontainer-title, DOI, number,\npublisher, references, URL?", shape=diamond, style=filled, fillcolor=lightyellow];
+                CheckInterview [label="position='first' AND\ntype='interview'?", shape=diamond, style=filled, fillcolor=lightyellow];
+                DateShort [label="date-short", shape=box3d, style=filled, fillcolor="#AF7AC5"];
+                SourceMediumNote1 [label="source-medium-note", shape=box3d, style=filled, fillcolor="#EC7063"];
+                
+                CheckPersonal [label="position='first' AND\ntype='personal_communication'?", shape=diamond, style=filled, fillcolor=lightyellow];
+                SourceMediumNote2 [label="source-medium-note", shape=box3d, style=filled, fillcolor="#EC7063"];
+                
+                PubShortUnbracketed [label="source-monographic-publication-short-unbracketed", shape=box3d, style=filled, fillcolor="#9D84B7"];
+            }
+            
+            PubShortBracketed [label="source-monographic-publication-short-bracketed", shape=box3d, style=filled, fillcolor="#FF6B9D"];
+        }
+        
+        // Flow
+        ItemDefNode -> AuthorShort;
+        AuthorShort -> CheckLegal;
+        CheckLegal -> TitleShort [label="Sí"];
+        CheckLegal -> Disambiguate [label="No"];
+        TitleShort -> Disambiguate;
+        Disambiguate -> CheckAccess;
+        CheckAccess -> CheckInterview [label="No"];
+        CheckAccess -> PubShortUnbracketed [label="Sí"];
+        CheckInterview -> DateShort [label="Sí"];
+        DateShort -> SourceMediumNote1;
+        SourceMediumNote1 -> PubShortUnbracketed;
+        CheckInterview -> CheckPersonal [label="No"];
+        CheckPersonal -> SourceMediumNote2 [label="Sí"];
+        SourceMediumNote2 -> PubShortUnbracketed;
+        CheckPersonal -> PubShortUnbracketed [label="No"];
+        PubShortUnbracketed -> PubShortBracketed;
+    }
+    
+    subgraph cluster_source_locator_subsequent {
+        label="Macro: source-locator-subsequent (detail)";
+        style=rounded;
+        color=grey;
+        
+        LocatorDefNode [label="<macro name='source-locator-subsequent'>", shape=ellipse, style=filled, fillcolor=lightgrey];
+        
+        CheckType [label="type IN:\narticle-journal, article-magazine,\narticle-newspaper, periodical,\npost-weblog, review, review-book?", shape=diamond, style=filled, fillcolor=lightyellow];
+        MacroSerial1 [label="source-locator-subsequent-serial", shape=box3d, style=filled, fillcolor="#FFA502"];
+        
+        CheckEditor [label="has collection-editor,\ncompiler, editor,\neditorial-director?", shape=diamond, style=filled, fillcolor=lightyellow];
+        MacroMono1 [label="source-locator-subsequent-monographic", shape=box3d, style=filled, fillcolor="#52B788"];
+        
+        CheckInterview2 [label="type IN:\ninterview,\npaper-conference?", shape=diamond, style=filled, fillcolor=lightyellow];
+        MacroSerial2 [label="source-locator-subsequent-serial", shape=box3d, style=filled, fillcolor="#FFA502"];
+        
+        MacroMono2 [label="source-locator-subsequent-monographic", shape=box3d, style=filled, fillcolor="#52B788"];
+        
+        // Flow
+        LocatorDefNode -> CheckType;
+        CheckType -> MacroSerial1 [label="Sí"];
+        CheckType -> CheckEditor [label="No"];
+        CheckEditor -> MacroMono1 [label="Sí"];
+        CheckEditor -> CheckInterview2 [label="No"];
+        CheckInterview2 -> MacroSerial2 [label="Sí"];
+        CheckInterview2 -> MacroMono2 [label="No (default)"];
+    }
+}

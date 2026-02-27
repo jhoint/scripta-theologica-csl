@@ -1,0 +1,145 @@
+digraph Citation {
+    rankdir=TB;
+    node [shape=box, fontname="Helvetica"];
+    edge [fontname="Helvetica", fontsize=10];
+    
+    // Definición de colores para macros únicos
+    // citation-notes-full: rojo
+    // citation-notes-shortened-author-title: turquesa
+    // legal-reference: amarillo
+    // source-date-accessed-DOI-URL-note: verde claro
+    // author-note: rosa
+    // title-and-source-note: púrpura
+    // citation-notes-shortened-author-title-item: verde-azul
+    // source-locator-subsequent: rosa-coral
+    
+    subgraph cluster_citation {
+        label="Citation (estructura principal)";
+        style=rounded;
+        
+        CitationNode [label="<citation>\n(et-al-min=3, et-al-use-first=1,\ndesambiguación activa)", shape=ellipse, style=filled, fillcolor=lightgrey];
+        LayoutNode [label="<layout>\ndelimiter='; ', suffix='.'"];
+        ChooseNode [label="<choose>", shape=diamond, style=filled, fillcolor=lightyellow];
+        
+        MacroShort [label="citation-notes-shortened-author-title", shape=box3d, style=filled, fillcolor="#4ECDC4"];
+        MacroFull [label="citation-notes-full", shape=box3d, style=filled, fillcolor="#FF6B6B"];
+
+        CitationNode -> LayoutNode;
+        LayoutNode -> ChooseNode;
+        
+        ChooseNode -> MacroShort [label="if position='subsequent'"];
+        ChooseNode -> MacroFull [label="else"];
+    }
+    
+    subgraph cluster_citation_notes_full {
+        label="Macro: citation-notes-full (detalle)";
+        style=rounded;
+        
+        MacroNode [label="<macro name='citation-notes-full'>", shape=ellipse, style=filled, fillcolor=lightgrey];
+        
+        GroupNode [label="<group>\ndelimiter=', '"];
+        
+        ChooseNodeFull [label="<choose>", shape=diamond, style=filled, fillcolor=lightyellow];
+        
+        CheckLegal [label="if type='bill | hearing |\nlegal_case | legislation |\nregulation | treaty'", shape=diamond, style=filled, fillcolor=lightyellow];
+        CheckPCGenre [label="else-if type='personal_communication'\nAND variable='genre'", shape=diamond, style=filled, fillcolor=lightyellow];
+        CheckPCAuthorRecip [label="else-if type='personal_communication'\nAND variable='author recipient'", shape=diamond, style=filled, fillcolor=lightyellow];
+        CheckElse [label="else", shape=diamond, style=filled, fillcolor=lightyellow];
+
+        MacroLegal1 [label="legal-reference", shape=box3d, style=filled, fillcolor="#FFE66D"];
+        MacroLegal2 [label="source-date-accessed-DOI-URL-note", shape=box3d, style=filled, fillcolor="#A8E6CF"];
+        
+        MacroAuthorNote1 [label="author-note", shape=box3d, style=filled, fillcolor="#FF8B94"];
+        MacroTitleSource1 [label="title-and-source-note", shape=box3d, style=filled, fillcolor="#B4A7D6"];
+        
+        GroupSpace [label="<group>\ndelimiter=' '"];
+        MacroAuthorNote2 [label="author-note", shape=box3d, style=filled, fillcolor="#FF8B94"];
+        MacroTitleSource2 [label="title-and-source-note", shape=box3d, style=filled, fillcolor="#B4A7D6"];
+        
+        MacroAuthorNote3 [label="author-note", shape=box3d, style=filled, fillcolor="#FF8B94"];
+        MacroTitleSource3 [label="title-and-source-note", shape=box3d, style=filled, fillcolor="#B4A7D6"];
+
+        MacroNode -> GroupNode;
+        GroupNode -> ChooseNodeFull;
+        
+        ChooseNodeFull -> CheckLegal;
+        CheckLegal -> CheckPCGenre [label="No"];
+        CheckPCGenre -> CheckPCAuthorRecip [label="No"];
+        CheckPCAuthorRecip -> CheckElse [label="No"];
+        
+        CheckLegal -> MacroLegal1 [label="Sí"];
+        MacroLegal1 -> MacroLegal2;
+        
+        CheckPCGenre -> MacroAuthorNote1 [label="Sí"];
+        MacroAuthorNote1 -> MacroTitleSource1;
+        
+        CheckPCAuthorRecip -> GroupSpace [label="Sí"];
+        GroupSpace -> MacroAuthorNote2;
+        MacroAuthorNote2 -> MacroTitleSource2;
+        
+        CheckElse -> MacroAuthorNote3 [label="(default)"];
+        MacroAuthorNote3 -> MacroTitleSource3;
+    }
+    
+    subgraph cluster_citation_notes_shortened {
+        label="Macro: citation-notes-shortened-author-title (detalle)";
+        style=rounded;
+        
+        MacroNodeShort [label="<macro name='citation-notes-shortened-author-title'>", shape=ellipse, style=filled, fillcolor=lightgrey];
+        
+        GroupNodeShort [label="<group>\ndelimiter=', '"];
+        
+        ChooseNodeShort [label="<choose>", shape=diamond, style=filled, fillcolor=lightyellow];
+        
+        CheckPartVolume [label="if variable='part-number | volume'", shape=diamond, style=filled, fillcolor=lightyellow];
+        CheckNotClassic [label="else-if NOT type='classic'", shape=diamond, style=filled, fillcolor=lightyellow];
+        CheckNumericLoc [label="else-if is-numeric='locator'", shape=diamond, style=filled, fillcolor=lightyellow];
+        CheckChapterLine [label="else-if locator='chapter |\nline | verse'", shape=diamond, style=filled, fillcolor=lightyellow];
+        CheckElseShort [label="else", shape=diamond, style=filled, fillcolor=lightyellow];
+
+        MacroItem1 [label="citation-notes-shortened-author-title-item", shape=box3d, style=filled, fillcolor="#95E1D3"];
+        MacroLocator1 [label="source-locator-subsequent", shape=box3d, style=filled, fillcolor="#F38181"];
+        
+        MacroItem2 [label="citation-notes-shortened-author-title-item", shape=box3d, style=filled, fillcolor="#95E1D3"];
+        MacroLocator2 [label="source-locator-subsequent", shape=box3d, style=filled, fillcolor="#F38181"];
+        
+        MacroItem3 [label="citation-notes-shortened-author-title-item", shape=box3d, style=filled, fillcolor="#95E1D3"];
+        MacroLocator3 [label="source-locator-subsequent", shape=box3d, style=filled, fillcolor="#F38181"];
+        
+        GroupSpaceShort [label="<group>\ndelimiter=' '"];
+        MacroItem4 [label="citation-notes-shortened-author-title-item", shape=box3d, style=filled, fillcolor="#95E1D3"];
+        MacroLocator4 [label="source-locator-subsequent", shape=box3d, style=filled, fillcolor="#F38181"];
+        
+        MacroItem5 [label="citation-notes-shortened-author-title-item", shape=box3d, style=filled, fillcolor="#95E1D3"];
+        MacroLocator5 [label="source-locator-subsequent", shape=box3d, style=filled, fillcolor="#F38181"];
+
+        MacroNodeShort -> GroupNodeShort;
+        GroupNodeShort -> ChooseNodeShort;
+        
+        ChooseNodeShort -> CheckPartVolume;
+        CheckPartVolume -> CheckNotClassic [label="No"];
+        CheckNotClassic -> CheckNumericLoc [label="No"];
+        CheckNumericLoc -> CheckChapterLine [label="No"];
+        CheckChapterLine -> CheckElseShort [label="No"];
+        
+        CheckPartVolume -> MacroItem1 [label="Sí"];
+        MacroItem1 -> MacroLocator1;
+        
+        CheckNotClassic -> MacroItem2 [label="Sí"];
+        MacroItem2 -> MacroLocator2;
+        
+        CheckNumericLoc -> MacroItem3 [label="Sí"];
+        MacroItem3 -> MacroLocator3;
+        
+        CheckChapterLine -> GroupSpaceShort [label="Sí"];
+        GroupSpaceShort -> MacroItem4;
+        MacroItem4 -> MacroLocator4;
+        
+        CheckElseShort -> MacroItem5 [label="(default)"];
+        MacroItem5 -> MacroLocator5;
+    }
+    
+    // Conexiones entre clusters
+    MacroFull -> MacroNode [style=dashed, color=blue, label="expande a", fontcolor=blue];
+    MacroShort -> MacroNodeShort [style=dashed, color=blue, label="expande a", fontcolor=blue];
+}

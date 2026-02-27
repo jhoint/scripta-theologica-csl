@@ -1,0 +1,192 @@
+digraph AuthorShort {
+    rankdir=TB;
+    node [shape=box, fontname="Helvetica"];
+    edge [fontname="Helvetica", fontsize=10];
+    
+    // Colors for macros:
+    // author-short: #FFD93D (golden yellow)
+    // title-and-descriptions-short: #27AE60 (dark green)
+    // author-short-and-recipient: #E8DAEF (lavender)
+    // author-title-substitute-short: #AED6F1 (light blue)
+    // author-title-substitute-container: #F9E79F (pale yellow)
+    // author-title-substitute-container-short: #D5F4E6 (mint green)
+    // source-archive-note: #FADBD8 (pale coral)
+    
+    subgraph cluster_author_short {
+        label="Macro: author-short (detail)";
+        style=rounded;
+        color=grey;
+        
+        AuthorDefNode [label="<macro name='author-short'>", shape=ellipse, style=filled, fillcolor=lightgrey];
+        
+        CheckLegal [label="type IN:\nbill, hearing, legal_case,\nlegislation, regulation, treaty?", shape=diamond, style=filled, fillcolor=lightyellow];
+        TitleDescShort [label="title-and-descriptions-short", shape=box3d, style=filled, fillcolor="#27AE60"];
+        
+        CheckInterview [label="type IN:\ninterview, personal_communication?", shape=diamond, style=filled, fillcolor=lightyellow];
+        AuthorShortRecipient [label="author-short-and-recipient", shape=box3d, style=filled, fillcolor="#E8DAEF"];
+        
+        subgraph cluster_else_branch {
+            label="else: names (composer)";
+            style=rounded;
+            bgcolor=white;
+            color=lightblue;
+            
+            ComposerNames [label="<names variable='composer'>", shape=box];
+            SubstituteStart [label="<substitute>", shape=box];
+            
+            Author1 [label="<names variable='author'>", shape=box];
+            Guest1 [label="<names variable='guest'>", shape=box];
+            Host1 [label="<names variable='host'>", shape=box];
+            
+            CheckSong [label="type='song'?", shape=diamond, style=filled, fillcolor=lightyellow];
+            Performer [label="<names variable='performer'>", shape=box];
+            
+            CheckClassic [label="type IN:\nclassic, performance?", shape=diamond, style=filled, fillcolor=lightyellow];
+            MacroTitleSubShort1 [label="author-title-substitute-short", shape=box3d, style=filled, fillcolor="#AED6F1"];
+            
+            CheckBroadcast1 [label="type='broadcast' AND\nhas container-title,\nnumber, title?", shape=diamond, style=filled, fillcolor=lightyellow];
+            MacroTitleSubContainer1 [label="author-title-substitute-container", shape=box3d, style=filled, fillcolor="#F9E79F"];
+            
+            CheckBroadcast2 [label="type IN:\nbroadcast, motion_picture,\nsong?", shape=diamond, style=filled, fillcolor=lightyellow];
+            MacroTitleSubShort2 [label="author-title-substitute-short", shape=box3d, style=filled, fillcolor="#AED6F1"];
+            
+            CheckURLDOI [label="has DOI or URL?", shape=diamond, style=filled, fillcolor=lightyellow];
+            
+            CheckEntry [label="type IN:\nentry, entry-dictionary,\nentry-encyclopedia?", shape=diamond, style=filled, fillcolor=lightyellow];
+            MacroTitleSubContainer2 [label="author-title-substitute-container", shape=box3d, style=filled, fillcolor="#F9E79F"];
+            
+            Illustrator [label="<names variable='illustrator'>", shape=box];
+            
+            CheckContainerTitle [label="has container-title?", shape=diamond, style=filled, fillcolor=lightyellow];
+            CheckVolume [label="else-if has number-of-volumes,\npart-number, part-title,\nvolume, volume-title?", shape=diamond, style=filled, fillcolor=lightyellow];
+            CollectionEditor1 [label="<names variable='collection-editor'>", shape=box];
+            
+            CheckStandard [label="type NOT 'standard'?", shape=diamond, style=filled, fillcolor=lightyellow];
+            EditorTranslator [label="<names variable='editor-translator'>", shape=box];
+            Editor [label="<names variable='editor'>", shape=box];
+            Translator [label="<names variable='translator'>", shape=box];
+            CollectionEditor2 [label="<names variable='collection-editor'>", shape=box];
+            
+            CheckBroadcast3 [label="type='broadcast' AND\nhas container-title,\nnumber, title?", shape=diamond, style=filled, fillcolor=lightyellow];
+            Director [label="<names variable='director'>", shape=box];
+            Producer [label="<names variable='producer'>", shape=box];
+            ExecutiveProducer [label="<names variable='executive-producer'>", shape=box];
+            SeriesCreator [label="<names variable='series-creator'>", shape=box];
+            
+            CheckBroadcast4 [label="type='broadcast'?", shape=diamond, style=filled, fillcolor=lightyellow];
+            Contributor [label="<names variable='contributor'>", shape=box];
+            
+            EditorialDirector [label="<names variable='editorial-director'>", shape=box];
+            Compiler [label="<names variable='compiler'>", shape=box];
+            
+            CheckEvent [label="type IN:\nevent, performance, speech?", shape=diamond, style=filled, fillcolor=lightyellow];
+            Chair [label="<names variable='chair'>", shape=box];
+            Organizer [label="<names variable='organizer'>", shape=box];
+            
+            Curator [label="<names variable='curator'>", shape=box];
+            
+            CheckSoftware [label="type IN:\nsoftware, webpage?", shape=diamond, style=filled, fillcolor=lightyellow];
+            PublisherShort [label="<text variable='publisher' form='short'>", shape=box];
+            
+            CheckStandard2 [label="else-if type='standard'?", shape=diamond, style=filled, fillcolor=lightyellow];
+            AuthorityShort [label="<text variable='authority' form='short'>", shape=box];
+            
+            MacroTitleSubContainerShort [label="author-title-substitute-container-short", shape=box3d, style=filled, fillcolor="#D5F4E6"];
+            MacroTitleSubShort3 [label="author-title-substitute-short", shape=box3d, style=filled, fillcolor="#AED6F1"];
+            
+            CheckVars [label="has container-title, event-date,\nevent-place, event-title,\ngenre, title, publisher,\npublisher-place?", shape=diamond, style=filled, fillcolor=lightyellow];
+            CheckManuscript [label="else-if type='manuscript'?", shape=diamond, style=filled, fillcolor=lightyellow];
+            MacroSourceArchive [label="source-archive-note", shape=box3d, style=filled, fillcolor="#FADBD8"];
+        }
+        
+        // Flow
+        AuthorDefNode -> CheckLegal;
+        CheckLegal -> TitleDescShort [label="Sí"];
+        CheckLegal -> CheckInterview [label="No"];
+        CheckInterview -> AuthorShortRecipient [label="Sí"];
+        CheckInterview -> ComposerNames [label="No (else)"];
+        
+        // Substitute branch
+        ComposerNames -> SubstituteStart;
+        SubstituteStart -> Author1;
+        Author1 -> Guest1;
+        Guest1 -> Host1;
+        Host1 -> CheckSong;
+        CheckSong -> Performer [label="Sí"];
+        CheckSong -> CheckClassic [label="No"];
+        Performer -> CheckClassic;
+        
+        CheckClassic -> MacroTitleSubShort1 [label="Sí"];
+        CheckClassic -> CheckBroadcast1 [label="No"];
+        
+        CheckBroadcast1 -> MacroTitleSubContainer1 [label="Sí"];
+        CheckBroadcast1 -> CheckBroadcast2 [label="No"];
+        
+        CheckBroadcast2 -> MacroTitleSubShort2 [label="Sí"];
+        CheckBroadcast2 -> CheckURLDOI [label="No"];
+        
+        CheckURLDOI -> CheckEntry [label="No"];
+        CheckURLDOI -> CheckEntry [label="Sí (skip URL/DOI check)"];
+        
+        CheckEntry -> MacroTitleSubContainer2 [label="Sí"];
+        CheckEntry -> Illustrator [label="No"];
+        
+        MacroTitleSubShort1 -> Illustrator;
+        MacroTitleSubContainer1 -> Illustrator;
+        MacroTitleSubShort2 -> Illustrator;
+        MacroTitleSubContainer2 -> Illustrator;
+        
+        Illustrator -> CheckContainerTitle;
+        CheckContainerTitle -> CheckVolume [label="No"];
+        CheckVolume -> CollectionEditor1 [label="Sí"];
+        CheckVolume -> CheckStandard [label="No"];
+        CollectionEditor1 -> CheckStandard;
+        
+        CheckStandard -> EditorTranslator [label="Sí"];
+        CheckStandard -> CheckBroadcast3 [label="No"];
+        
+        EditorTranslator -> Editor;
+        Editor -> Translator;
+        Translator -> CollectionEditor2;
+        
+        CollectionEditor2 -> CheckBroadcast3;
+        CheckStandard -> CheckBroadcast3 [label="No"];
+        
+        CheckBroadcast3 -> Director [label="No"];
+        CheckBroadcast3 -> SeriesCreator [label="Sí"];
+        
+        Director -> Producer;
+        Producer -> ExecutiveProducer;
+        ExecutiveProducer -> SeriesCreator;
+        
+        SeriesCreator -> CheckBroadcast4;
+        CheckBroadcast4 -> Contributor [label="Sí"];
+        CheckBroadcast4 -> EditorialDirector [label="No"];
+        Contributor -> EditorialDirector;
+        
+        EditorialDirector -> Compiler;
+        Compiler -> CheckEvent;
+        CheckEvent -> Chair [label="Sí"];
+        CheckEvent -> Curator [label="No"];
+        Chair -> Organizer;
+        Organizer -> Curator;
+        
+        Curator -> CheckSoftware;
+        CheckSoftware -> PublisherShort [label="Sí"];
+        CheckSoftware -> CheckStandard2 [label="No"];
+        
+        CheckStandard2 -> AuthorityShort [label="Sí"];
+        CheckStandard2 -> MacroTitleSubContainerShort [label="No"];
+        
+        PublisherShort -> MacroTitleSubContainerShort;
+        AuthorityShort -> MacroTitleSubContainerShort;
+        
+        MacroTitleSubContainerShort -> MacroTitleSubShort3;
+        MacroTitleSubShort3 -> CheckVars;
+        
+        CheckVars -> CheckManuscript [label="No"];
+        CheckVars -> CheckManuscript [label="Sí (skip)"];
+        
+        CheckManuscript -> MacroSourceArchive [label="Sí"];
+    }
+}
