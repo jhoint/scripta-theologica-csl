@@ -1,0 +1,35 @@
+[
+	{
+		"id": "Rodriguez1982a",
+		"type": "book",
+		"call-number": "A 112.686",
+		"citation-key": "Rodriguez1982a",
+		"collection-number": "35",
+		"collection-title": "Colección Teológica de la Universidad de Navarra",
+		"ISBN": "978-84-313-0778-3",
+		"language": "spa",
+		"number-of-pages": "498",
+		"publisher": "Eunsa",
+		"publisher-place": "Pamplona",
+		"source": "unika.unav.edu",
+		"title": "El catecismo romano, fuentes e historia del texto y de la redacción: bases críticas para el estudio teológico del catecismo del Concilio de Trento",
+		"title-short": "El catecismo romano, fuentes e historia del texto y de la redacción",
+		"author": [
+			{
+				"family": "Rodríguez",
+				"given": "Pedro"
+			},
+			{
+				"family": "Lanzetti",
+				"given": "Raul"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1982"
+				]
+			]
+		}
+	}
+]

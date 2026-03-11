@@ -1,0 +1,42 @@
+[
+	{
+		"id": "Schmaus1961",
+		"type": "book",
+		"citation-key": "Schmaus1961",
+		"collection-number": "4",
+		"collection-title": "Manuales de la Biblioteca del Pensamiento Actual",
+		"language": "spa",
+		"number-of-pages": "894",
+		"publisher": "Rialp",
+		"publisher-place": "Madrid",
+		"source": "unika.unav.edu",
+		"title": "Teología dogmática. IV: La Iglesia",
+		"author": [
+			{
+				"family": "Schmaus",
+				"given": "Michael"
+			}
+		],
+		"contributor": [
+			{
+				"family": "Drudis Baldrich",
+				"given": "Raimundo"
+			},
+			{
+				"family": "Caballero Cuesta",
+				"given": "José María"
+			},
+			{
+				"family": "García Ortega",
+				"given": "Lucio"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1961"
+				]
+			]
+		}
+	}
+]
