@@ -1,42 +1,385 @@
-digraph Bibliography {
-    node [shape=box, fontname="Helvetica"];
-    edge [fontname="Helvetica", fontsize=10];
+digraph CSL_Macros {
+    label="CSL Bibliography";
+    labelloc=t;
+    rankdir=LR;
+    concentrate=true;
+    splines=curved;
+    fontname="Helvetica"; fontsize=13;
+    node [fontname="Helvetica", fontsize=10];
+    edge [fontname="Helvetica", fontsize=8, arrowsize=0.6];
 
-    BibNode [label="<bibliography>\n(et-al-min=7, et-al-use-first=3,\nhanging-indent=true)", shape=ellipse, style=filled, fillcolor=lightgrey];
-    
-    SortBlock [label="<sort>\n1. author-sort\n2. title-and-descriptions-bib\n3. source-bib\n4. volume\n5. part-number\n6. event-date\n7. source-date-issued-or-status\n8. source-archive-bib"];
-    
-    LayoutNode [label="<layout>\nsuffix='.'"];
-    
-    CheckClassic [label="if type='classic'\nAND (archive/publisher...)", shape=diamond, style=filled, fillcolor=lightyellow];
-    CheckEntry [label="else-if type='entry...'\nAND author", shape=diamond, style=filled, fillcolor=lightyellow];
-    CheckPost [label="else-if type='post'", shape=diamond, style=filled, fillcolor=lightyellow];
-    CheckIdent [label="else-if variable='archive...'", shape=diamond, style=filled, fillcolor=lightyellow];
-    CheckCom [label="else-if type='interview...'", shape=diamond, style=filled, fillcolor=lightyellow];
-    CheckPriv [label="else-if type='document...'", shape=diamond, style=filled, fillcolor=lightyellow];
+    subgraph cluster_legend {
+        label="Leyenda"; style=dotted; fontsize=9; rank=sink;
+        _L_entry [label="<citation>\n<bibliography>", shape=ellipse, style=filled, fillcolor="#AED6F1", fontsize=8];
+        _L_cond  [label="Condicional\n(con <choose>)", shape=hexagon, style=filled, fillcolor="#FFF2CC", fontsize=8];
+        _L_term  [label="Terminal\n(solo variables)", shape=box, style="filled,rounded", fillcolor="#FCE5CD", fontsize=8];
+        _L_aggr  [label="Agregadora\n(llama macros)", shape=box, style=filled, fillcolor="#FFFFFF", fontsize=8];
+        _L_norm  [label="llamada normal", shape=plaintext, fontsize=8];
+        _L_sub   [label="llamada substitute", shape=plaintext, fontsize=8];
+        _L_norm -> _L_sub [style=dashed, color=gray, arrowsize=0.5];
+    }
 
-    MacroBibNotes [label="Aplica Macro:\nbibliography-notes", style=filled, fillcolor=lightgreen];
-    Exclude [label="EXCLUIR SILENCIOSAMENTE", style=filled, fillcolor=lightcoral];
+    __bibliography__ [label="<bibliography>", shape=ellipse, style=filled, fillcolor="#A9DFBF"];
+    { rank=same; __bibliography__ }
 
-    BibNode -> SortBlock;
-    SortBlock -> LayoutNode;
-    LayoutNode -> CheckClassic;
+    subgraph cluster_c1_author {
+        label="§1 Autor"; style=filled; fillcolor="#D6EAF8";
+        fontname="Helvetica"; fontsize=11; fontcolor="#444444";
+        author_bib [label="author-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        author_sort [label="author-sort", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        author_title_substitute_bib [label="author-title-substitute-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        author_title_substitute_container [label="author-title-substitute-container", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+    }
 
-    CheckClassic -> MacroBibNotes [label="Sí"];
-    CheckClassic -> CheckEntry [label="No"];
+    subgraph cluster_c2_date {
+        label="§2 Fecha"; style=filled; fillcolor="#D1F8F5";
+        fontname="Helvetica"; fontsize=11; fontcolor="#444444";
+        date_event_full [label="date-event-full", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        date_event_year [label="date-event-year", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        date_issued_full [label="date-issued-full", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        date_issued_year [label="date-issued-year", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        date_issued_year_month [label="date-issued-year-month", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        date_original_full [label="date-original-full", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        date_original_year [label="date-original-year", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        date_original_year_month [label="date-original-year-month", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+    }
 
-    CheckEntry -> MacroBibNotes [label="Sí"];
-    CheckEntry -> CheckPost [label="No"];
+    subgraph cluster_c3_title {
+        label="§3.1 Título"; style=filled; fillcolor="#FEF9E7";
+        fontname="Helvetica"; fontsize=11; fontcolor="#444444";
+        title_and_descriptions_bib [label="title-and-descriptions-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        title_and_part_filter_review_bib [label="title-and-part-filter-review-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        title_and_part_title_bib [label="title-and-part-title-bib", shape=box, style=filled, fillcolor="#FFFFFF"];
+        title_and_source_bib [label="title-and-source-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        title_bib [label="title-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        title_part [label="title-part", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        title_primary [label="title-primary", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        title_volume [label="title-volume", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+    }
 
-    CheckPost -> Exclude [label="Sí"];
-    CheckPost -> CheckIdent [label="No"];
+    subgraph cluster_c3_desc {
+        label="§3.2 Descripción"; style=filled; fillcolor="#FEF3E2";
+        fontname="Helvetica"; fontsize=11; fontcolor="#444444";
+        description_bib [label="description-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        description_format_bib [label="description-format-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        description_format_note [label="description-format-note", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        description_interview_bib [label="description-interview-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        description_letter_bib [label="description-letter-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        description_paper_conference_bib [label="description-paper-conference-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        description_review_bib [label="description-review-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        description_review_genre_bib [label="description-review-genre-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        description_review_term_unsigned_bib [label="description-review-term-unsigned-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        description_review_title [label="description-review-title", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        description_serial_bib [label="description-serial-bib", shape=box, style=filled, fillcolor="#FFFFFF"];
+        description_song_bib [label="description-song-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+    }
 
-    CheckIdent -> MacroBibNotes [label="Sí"];
-    CheckIdent -> CheckCom [label="No"];
+    subgraph cluster_c3_ident {
+        label="§3.3 Identificadores"; style=filled; fillcolor="#FDEBD0";
+        fontname="Helvetica"; fontsize=11; fontcolor="#444444";
+        identifier_bib [label="identifier-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        identifier_contributors_and_volume_bib [label="identifier-contributors-and-volume-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        identifier_contributors_and_volume_monographic_bib [label="identifier-contributors-and-volume-monographic-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        identifier_contributors_bib [label="identifier-contributors-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        identifier_contributors_monographic_bib [label="identifier-contributors-monographic-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        identifier_contributors_monographic_bib_multivolume [label="identifier-contributors-monographic-bib-multivolume", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        identifier_contributors_serial_bib [label="identifier-contributors-serial-bib", shape=box, style="filled,rounded", fillcolor="#FCE5CD"];
+        identifier_edition_bib [label="identifier-edition-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        identifier_edition_note [label="identifier-edition-note", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        identifier_number_bib [label="identifier-number-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        identifier_patent [label="identifier-patent", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        identifier_report_bib [label="identifier-report-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        identifier_volume_bib [label="identifier-volume-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        identifier_volume_note [label="identifier-volume-note", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+    }
 
-    CheckCom -> Exclude [label="Sí"];
-    CheckCom -> CheckPriv [label="No"];
+    subgraph cluster_c_label {
+        label="Etiquetas"; style=filled; fillcolor="#F2F3F4";
+        fontname="Helvetica"; fontsize=11; fontcolor="#444444";
+        label_chapter_number_capitalized [label="label-chapter-number-capitalized", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        label_collection_number [label="label-collection-number", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        label_edition [label="label-edition", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        label_edition_capitalized [label="label-edition-capitalized", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        label_issue [label="label-issue", shape=box, style="filled,rounded", fillcolor="#FCE5CD"];
+        label_locator [label="label-locator", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        label_locator_all [label="label-locator-all", shape=box, style="filled,rounded", fillcolor="#FCE5CD"];
+        label_number_capitalized [label="label-number-capitalized", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        label_number_of_volumes [label="label-number-of-volumes", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        label_page [label="label-page", shape=box, style="filled,rounded", fillcolor="#FCE5CD"];
+        label_part_number [label="label-part-number", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        label_part_number_capitalized [label="label-part-number-capitalized", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        label_section_capitalized [label="label-section-capitalized", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        label_section_symbol [label="label-section-symbol", shape=box, style="filled,rounded", fillcolor="#FCE5CD"];
+        label_supplement_number [label="label-supplement-number", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        label_version [label="label-version", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        label_version_capitalized [label="label-version-capitalized", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        label_volume [label="label-volume", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        label_volume_capitalized [label="label-volume-capitalized", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+    }
 
-    CheckPriv -> Exclude [label="Sí"];
-    CheckPriv -> MacroBibNotes [label="No (else)"];
+    subgraph cluster_c4_serial {
+        label="§4.1 Serial"; style=filled; fillcolor="#EBF5EB";
+        fontname="Helvetica"; fontsize=11; fontcolor="#444444";
+        source_serial_bib [label="source-serial-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_serial_identifier_bib [label="source-serial-identifier-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_serial_identifier_volume_bib [label="source-serial-identifier-volume-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_serial_locator [label="source-serial-locator", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_serial_name [label="source-serial-name", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_serial_title_bib [label="source-serial-title-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_serial_title_volume_bib [label="source-serial-title-volume-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_serial_volume_status_bib [label="source-serial-volume-status-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+    }
+
+    subgraph cluster_c4_mono {
+        label="§4.2 Monográfico"; style=filled; fillcolor="#D5F5E3";
+        fontname="Helvetica"; fontsize=11; fontcolor="#444444";
+        source_monographic_bib [label="source-monographic-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_monographic_description [label="source-monographic-description", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_monographic_identifier_bib [label="source-monographic-identifier-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_monographic_identifier_contributors_and_volume_bib [label="source-monographic-identifier-contributors-and-volume-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_monographic_identifier_contributors_bib [label="source-monographic-identifier-contributors-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_monographic_identifier_contributors_bib_container_author [label="source-monographic-identifier-contributors-bib-container-author", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_monographic_locator [label="source-monographic-locator", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_monographic_preposition_bib [label="source-monographic-preposition-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_monographic_publication_bib [label="source-monographic-publication-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+    }
+
+    subgraph cluster_c4_series_ev {
+        label="§4.3-4 Serie/Evento"; style=filled; fillcolor="#ABEBC6";
+        fontname="Helvetica"; fontsize=11; fontcolor="#444444";
+        source_event_bib [label="source-event-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_event_description_bib [label="source-event-description-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_event_place_first [label="source-event-place-first", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_event_status_bib [label="source-event-status-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_event_title [label="source-event-title", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_event_title_capitalized [label="source-event-title-capitalized", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_series_bib [label="source-series-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_series_title [label="source-series-title", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+    }
+
+    subgraph cluster_c4_arch_url {
+        label="§4.9-10 Arch./URL"; style=filled; fillcolor="#B2DFDB";
+        fontname="Helvetica"; fontsize=11; fontcolor="#444444";
+        source_DOI_URL [label="source-DOI-URL", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_archive_bib [label="source-archive-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_archive_database_number [label="source-archive-database-number", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_archive_locator [label="source-archive-locator", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_archive_reference_institution_first [label="source-archive-reference-institution-first", shape=box, style=filled, fillcolor="#FFFFFF"];
+        source_archive_reference_location_first_bib [label="source-archive-reference-location-first-bib", shape=box, style=filled, fillcolor="#FFFFFF"];
+        source_date_accessed_DOI_URL_bib [label="source-date-accessed-DOI-URL-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+    }
+
+    subgraph cluster_c4_pub_date {
+        label="§4.5-6 Editor/Fecha"; style=filled; fillcolor="#C8E6C9";
+        fontname="Helvetica"; fontsize=11; fontcolor="#444444";
+        source_date_issued_full [label="source-date-issued-full", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_date_issued_full_serial [label="source-date-issued-full-serial", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_date_issued_or_status [label="source-date-issued-or-status", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_date_original [label="source-date-original", shape=box, style=filled, fillcolor="#FFFFFF"];
+        source_date_original_full [label="source-date-original-full", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_date_original_full_serial [label="source-date-original-full-serial", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_date_status_bib [label="source-date-status-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_publication_and_date_bib [label="source-publication-and-date-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_publication_description_bib [label="source-publication-description-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_publication_history_bib [label="source-publication-history-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_publication_original_title_bib [label="source-publication-original-title-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_publication_publisher_bib [label="source-publication-publisher-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+        source_publication_publisher_original_bib [label="source-publication-publisher-original-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+    }
+
+    subgraph cluster_c4_loc_med {
+        label="§4.7-8 Loc./Medio"; style=filled; fillcolor="#A9DFBF";
+        fontname="Helvetica"; fontsize=11; fontcolor="#444444";
+        source_medium_bib [label="source-medium-bib", shape=box, style="filled,rounded", fillcolor="#FCE5CD"];
+    }
+
+    subgraph cluster_c4_source {
+        label="§4 Fuente (gen.)"; style=filled; fillcolor="#F0FFF4";
+        fontname="Helvetica"; fontsize=11; fontcolor="#444444";
+        source_bib [label="source-bib", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+    }
+
+    subgraph cluster_c5_notes {
+        label="§5 Notas/Citas"; style=filled; fillcolor="#F5EEF8";
+        fontname="Helvetica"; fontsize=11; fontcolor="#444444";
+        bibliography_notes [label="bibliography-notes", shape=hexagon, style=filled, fillcolor="#FFF2CC"];
+    }
+
+    __bibliography__ -> author_sort;
+    __bibliography__ -> bibliography_notes;
+    __bibliography__ -> source_archive_bib;
+    __bibliography__ -> source_bib;
+    __bibliography__ -> source_date_issued_or_status;
+    __bibliography__ -> title_and_descriptions_bib;
+
+    author_sort -> author_bib;
+    author_title_substitute_bib -> title_and_descriptions_bib;
+    author_title_substitute_bib -> title_bib;
+    author_title_substitute_container -> source_serial_name;
+    bibliography_notes -> author_bib;
+    bibliography_notes -> source_date_accessed_DOI_URL_bib;
+    bibliography_notes -> title_and_source_bib;
+    description_bib -> description_format_bib;
+    description_bib -> description_interview_bib;
+    description_bib -> description_letter_bib;
+    description_bib -> description_paper_conference_bib;
+    description_bib -> description_review_bib;
+    description_bib -> description_serial_bib;
+    description_bib -> description_song_bib;
+    description_interview_bib -> description_format_bib;
+    description_interview_bib -> source_event_place_first;
+    description_letter_bib -> date_event_full;
+    description_letter_bib -> description_format_bib;
+    description_paper_conference_bib -> description_format_bib;
+    description_paper_conference_bib -> description_serial_bib;
+    description_paper_conference_bib -> source_event_bib;
+    description_review_bib -> description_review_genre_bib;
+    description_review_bib -> description_review_title;
+    description_review_bib -> label_section_capitalized;
+    description_review_bib -> source_event_place_first;
+    description_review_genre_bib -> description_review_term_unsigned_bib;
+    description_serial_bib -> description_format_bib;
+    description_serial_bib -> label_section_capitalized;
+    identifier_bib -> identifier_contributors_and_volume_bib;
+    identifier_bib -> identifier_contributors_bib;
+    identifier_bib -> identifier_edition_bib;
+    identifier_bib -> identifier_number_bib;
+    identifier_bib -> identifier_patent;
+    identifier_bib -> identifier_report_bib;
+    identifier_bib -> label_version_capitalized;
+    identifier_contributors_and_volume_bib -> identifier_contributors_and_volume_monographic_bib;
+    identifier_contributors_and_volume_bib -> identifier_contributors_serial_bib;
+    identifier_contributors_and_volume_monographic_bib -> identifier_contributors_monographic_bib;
+    identifier_contributors_and_volume_monographic_bib -> identifier_contributors_monographic_bib_multivolume;
+    identifier_contributors_and_volume_monographic_bib -> identifier_volume_bib;
+    identifier_contributors_and_volume_monographic_bib -> label_number_of_volumes;
+    identifier_contributors_bib -> identifier_contributors_monographic_bib;
+    identifier_contributors_bib -> identifier_contributors_serial_bib;
+    identifier_edition_bib -> label_edition_capitalized;
+    identifier_edition_note -> label_edition;
+    identifier_number_bib -> label_number_capitalized;
+    identifier_patent -> date_issued_full;
+    identifier_report_bib -> identifier_contributors_and_volume_bib;
+    identifier_report_bib -> identifier_contributors_bib;
+    identifier_report_bib -> identifier_edition_bib;
+    identifier_report_bib -> identifier_number_bib;
+    identifier_report_bib -> label_version_capitalized;
+    identifier_volume_bib -> label_part_number;
+    identifier_volume_bib -> label_part_number_capitalized;
+    identifier_volume_bib -> label_volume_capitalized;
+    identifier_volume_bib -> title_part;
+    identifier_volume_bib -> title_volume;
+    identifier_volume_note -> label_part_number;
+    identifier_volume_note -> label_volume;
+    identifier_volume_note -> title_part;
+    identifier_volume_note -> title_volume;
+    source_archive_bib -> source_archive_database_number;
+    source_archive_bib -> source_archive_reference_institution_first;
+    source_archive_bib -> source_archive_reference_location_first_bib;
+    source_archive_locator -> label_locator_all;
+    source_archive_locator -> label_page;
+    source_archive_reference_institution_first -> source_archive_locator;
+    source_archive_reference_location_first_bib -> source_archive_locator;
+    source_bib -> source_monographic_bib;
+    source_bib -> source_serial_bib;
+    source_date_accessed_DOI_URL_bib -> source_DOI_URL;
+    source_date_issued_full -> date_event_year;
+    source_date_issued_full -> date_issued_full;
+    source_date_issued_full -> date_issued_year;
+    source_date_issued_full -> source_date_issued_full_serial;
+    source_date_issued_full_serial -> date_issued_full;
+    source_date_issued_full_serial -> date_issued_year;
+    source_date_issued_full_serial -> date_issued_year_month;
+    source_date_issued_or_status -> source_date_issued_full;
+    source_date_original -> source_date_original_full;
+    source_date_original_full -> date_original_full;
+    source_date_original_full -> date_original_year;
+    source_date_original_full -> source_date_original_full_serial;
+    source_date_original_full_serial -> date_original_full;
+    source_date_original_full_serial -> date_original_year;
+    source_date_original_full_serial -> date_original_year_month;
+    source_event_bib -> source_event_description_bib;
+    source_event_bib -> source_event_status_bib;
+    source_event_description_bib -> date_event_full;
+    source_event_description_bib -> source_event_title;
+    source_event_description_bib -> source_event_title_capitalized;
+    source_event_place_first -> date_event_full;
+    source_monographic_bib -> source_event_bib;
+    source_monographic_bib -> source_monographic_description;
+    source_monographic_bib -> source_monographic_identifier_bib;
+    source_monographic_bib -> source_monographic_identifier_contributors_bib_container_author;
+    source_monographic_bib -> source_monographic_locator;
+    source_monographic_bib -> source_monographic_preposition_bib;
+    source_monographic_bib -> source_series_bib;
+    source_monographic_description -> description_format_note;
+    source_monographic_identifier_bib -> identifier_edition_note;
+    source_monographic_identifier_bib -> identifier_number_bib;
+    source_monographic_identifier_bib -> label_version;
+    source_monographic_identifier_bib -> source_monographic_identifier_contributors_and_volume_bib;
+    source_monographic_identifier_contributors_and_volume_bib -> identifier_volume_note;
+    source_monographic_identifier_contributors_and_volume_bib -> label_number_of_volumes;
+    source_monographic_identifier_contributors_and_volume_bib -> source_monographic_identifier_contributors_bib;
+    source_monographic_locator -> label_locator;
+    source_monographic_preposition_bib -> label_chapter_number_capitalized;
+    source_monographic_publication_bib -> source_publication_and_date_bib;
+    source_monographic_publication_bib -> source_publication_original_title_bib;
+    source_publication_and_date_bib -> source_date_issued_or_status;
+    source_publication_and_date_bib -> source_date_status_bib;
+    source_publication_and_date_bib -> source_publication_history_bib;
+    source_publication_history_bib -> label_edition_capitalized;
+    source_publication_history_bib -> source_date_original;
+    source_publication_history_bib -> source_publication_description_bib;
+    source_publication_history_bib -> source_publication_publisher_bib;
+    source_publication_history_bib -> source_publication_publisher_original_bib;
+    source_publication_original_title_bib -> source_date_original;
+    source_publication_original_title_bib -> source_publication_publisher_original_bib;
+    source_serial_bib -> source_serial_identifier_bib;
+    source_serial_bib -> source_serial_title_bib;
+    source_serial_bib -> source_serial_title_volume_bib;
+    source_serial_identifier_bib -> label_edition_capitalized;
+    source_serial_identifier_bib -> source_serial_identifier_volume_bib;
+    source_serial_identifier_bib -> source_serial_locator;
+    source_serial_identifier_volume_bib -> label_issue;
+    source_serial_identifier_volume_bib -> label_supplement_number;
+    source_serial_identifier_volume_bib -> label_volume;
+    source_serial_identifier_volume_bib -> source_date_issued_or_status;
+    source_serial_identifier_volume_bib -> source_serial_volume_status_bib;
+    source_serial_locator -> label_locator;
+    source_serial_title_bib -> source_serial_name;
+    source_serial_title_volume_bib -> source_monographic_identifier_contributors_bib;
+    source_serial_title_volume_bib -> source_monographic_preposition_bib;
+    source_serial_title_volume_bib -> title_volume;
+    source_serial_volume_status_bib -> source_date_issued_or_status;
+    source_serial_volume_status_bib -> source_date_status_bib;
+    source_series_bib -> label_collection_number;
+    source_series_bib -> label_issue;
+    source_series_bib -> source_series_title;
+    source_series_title -> label_collection_number;
+    source_series_title -> label_issue;
+    title_and_descriptions_bib -> description_bib;
+    title_and_descriptions_bib -> identifier_bib;
+    title_and_descriptions_bib -> identifier_number_bib;
+    title_and_descriptions_bib -> title_bib;
+    title_and_part_filter_review_bib -> title_and_part_title_bib;
+    title_and_part_title_bib -> label_part_number_capitalized;
+    title_and_part_title_bib -> title_part;
+    title_and_part_title_bib -> title_primary;
+    title_and_source_bib -> description_bib;
+    title_and_source_bib -> identifier_number_bib;
+    title_and_source_bib -> source_archive_bib;
+    title_and_source_bib -> source_bib;
+    title_and_source_bib -> source_date_accessed_DOI_URL_bib;
+    title_and_source_bib -> source_event_bib;
+    title_and_source_bib -> source_medium_bib;
+    title_and_source_bib -> source_monographic_identifier_contributors_bib;
+    title_and_source_bib -> source_monographic_identifier_contributors_bib_container_author;
+    title_and_source_bib -> source_monographic_publication_bib;
+    title_and_source_bib -> source_series_bib;
+    title_and_source_bib -> title_and_descriptions_bib;
+    title_and_source_bib -> title_bib;
+    title_bib -> title_and_part_filter_review_bib;
+    title_bib -> title_primary;
+    author_bib -> author_title_substitute_bib [style=dashed, color="#AAAAAA"];
+    author_bib -> author_title_substitute_container [style=dashed, color="#AAAAAA"];
+    author_bib -> source_archive_bib [style=dashed, color="#AAAAAA"];
 }
