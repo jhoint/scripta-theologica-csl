@@ -53,6 +53,9 @@ Para citar fuentes antiguas o colecciones patrísticas (ej. *Patrologia Latina*,
 #### Uso del *locator* (Página / Pasaje específico):
 Al insertar la cita en Word/Obsidian, introduce el pasaje (ej. `I, 6` o `libros X-XI`) en el campo **Locator** / **Página**.
 
+
+## Resultados no conseguidos:
+Cuando se cita un capítulo de libro y coinciden autor y editor, el editor aparece con apellidos y nombre en vez de con «Id.».
 ---
 
 ## Licencia y referencias
