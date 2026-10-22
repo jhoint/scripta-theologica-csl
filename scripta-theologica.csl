@@ -438,15 +438,6 @@
               </choose>
             </else>
           </choose>
-          <!-- DOI al final separado por punto -->
-          <choose>
-            <if variable="DOI">
-              <group>
-                <text value=". "/>
-                <text variable="DOI" prefix="https://doi.org/"/>
-              </group>
-            </if>
-          </choose>
         </else>
       </choose>
     </layout>
