@@ -115,18 +115,15 @@
     </choose>
   </macro>
   <macro name="title-short">
-    <choose>
-      <if type="classic">
-        <text variable="title" font-style="italic" form="short"/>
-      </if>
-      <else-if type="book thesis" match="any">
-        <text variable="title" font-style="italic" form="short"/>
-      </else-if>
-      <else>
-        <text variable="title" form="short"/>
-      </else>
-    </choose>
-  </macro>
+      <choose>
+        <if type="classic book thesis" match="any">
+          <text variable="title" font-style="italic" form="short"/>
+        </if>
+        <else>
+          <text variable="title" form="short" prefix="«" suffix="»"/>
+        </else>
+      </choose>
+    </macro>
   <macro name="container-title">
     <choose>
       <if type="article-journal article-magazine article-newspaper entry-dictionary entry-encyclopedia" match="any">
