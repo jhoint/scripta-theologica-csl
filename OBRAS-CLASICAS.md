@@ -4,15 +4,17 @@
 
 ### CITATION (primera cita)
 
-**Primera cita:** RUFINO DE AQUILEYA, *Historia ecclesiastica*, I, 6: Patrologia Latina 21, p. 473-475.
+**Primera cita:** RUFINO DE AQUILEYA, *Historia ecclesiastica*, I, 6: Patrologia Latina 21, 473-475.
 
 ### CITATION (citas posteriores)
 
-**Citas posteriores:** RUFINO DE AQUILEYA, *Historia ecclesiastica*, I, 7: PL 21, p. 477.
+**Citas posteriores:** RUFINO DE AQUILEYA, *Historia ecclesiastica*, I, 7: PL 21, 477.
 
 ### BIBLIOGRAPHY
 
-**Bibliografía:** RUFINO DE AQUILEYA, *Historia ecclesiastica*, Patrologia Latina 21, Paris, 1849, 461-540.
+**Bibliografía:** RUFINO DE AQUILEYA, *Historia ecclesiastica*, Patrologia Latina 21, Paris, 1849, 461-540. Si la ficha tiene editor: RUFINO DE AQUILEYA, *Historia ecclesiastica*, en Domenico Vallarsi (ed.), Patrologia Latina 21, Paris, 1849, 461-540.
+
+Las páginas se escriben **sin «p.»**: el estilo imprime las páginas sin etiqueta.
 
 ## Configuración en Zotero
 
@@ -28,7 +30,7 @@ En Zotero, crea un nuevo elemento y configura los siguientes campos:
 | **Collection Title = Serie** | Patrologia Latina      | Nombre completo de la colección                                                             |
 | **collection-title-short**   | PL                     | Hay que ponerlo en el campo "extra = adicional". Abreviatura (CSL 1.0.2+) - aparece en citas |
 | **Volume = Volumen**         | 21                     | Número del volumen de la serie                                                              |
-| **Pages = Páginas**         | 473-475                | Páginas/columnas de la edición                                                             |
+| **Pages = Páginas**         | 461-540                | Rango completo de páginas de la obra en la edición (sale en la bibliografía; en la cita va el locator y, después, las páginas citadas) |
 | **Publisher Place = Lugar**  | Paris                  | Lugar de publicación de la edición                                                         |
 | **Date = Fecha**             | 1849                   | Año de la edición usada                                                                    |
 | **Editor**                   | Domenico Vallarsi      | Editor de la edición (si aplica)                                                            |
@@ -59,7 +61,7 @@ Title:                 Historia ecclesiastica
 Creator:               Rufino de Aquileya (Author)
 Collection Title:      Patrologia Latina
 Volume:                21
-Pages:                 473-475
+Pages:                 461-540
 Publisher Place:       Paris
 Date:                  1849
 Creator:               Domenico Vallarsi (Editor)
@@ -69,9 +71,9 @@ Extra:                 type: classic
 
 **Resultado esperado:**
 
-- **Primera cita:** RUFINO DE AQUILEYA, *Historia ecclesiastica*, I, 6: Patrologia Latina 21 p. 473-475.
-- **Citas posteriores:** RUFINO DE AQUILEYA, *Historia ecclesiastica, I, 7: PL 21, p. 477.
-- **Bibliografía:** RUFINO DE AQUILEYA, *Historia ecclesiastica* , Patrologia Latina 21, Paris, 1849, 461-540.
+- **Primera cita:** RUFINO DE AQUILEYA, *Historia ecclesiastica*, I, 6: Patrologia Latina 21, 473-475.
+- **Citas posteriores:** RUFINO DE AQUILEYA, *Historia ecclesiastica*, I, 7: PL 21, 477.
+- **Bibliografía:** RUFINO DE AQUILEYA, *Historia ecclesiastica*, Patrologia Latina 21, Paris, 1849, 461-540.
 
 ---
 
@@ -86,9 +88,19 @@ En Word hay que proporciona el **locator** como un párrafo cada vez que cites:
 
 Asimismo en el **sufijo** hay que poner las páginas correspondientes de la edición citada de la siguiente manera:
 
-```, p. 473-475```
+```, 473-475```
 
-Importante poner el espacio antes de la coma, y no poner punto al final.
+Importante poner el espacio antes de la coma, no poner «p.» y no poner punto al final.
+
+### Con Pandoc
+
+El locator va entre llaves, pegado a la clave, y las páginas de la edición después:
+
+```markdown
+[@rufino{I, 6}, 473-475]
+```
+
+Dentro de una nota con texto propio: `@rufino [{I, 6}, 473-475]`. No se escribe `[@rufino, I, 6, 473-475]`: Pandoc no reconoce `I, 6` como locator y lo coloca detrás de la edición.
 
 ---
 

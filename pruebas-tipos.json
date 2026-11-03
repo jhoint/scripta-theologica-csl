@@ -1,0 +1,1091 @@
+[
+ {
+  "title": "Documento de trabajo de ejemplo",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "publisher": "Repositorio Ejemplo",
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "URL": "https://example.org/a",
+  "id": "t-article",
+  "type": "article"
+ },
+ {
+  "title": "Un artículo de ejemplo",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "container-title": "Revista de Ejemplo",
+  "volume": "12",
+  "issue": "3",
+  "page": "23-32",
+  "issued": {
+   "date-parts": [
+    [
+     2001
+    ]
+   ]
+  },
+  "DOI": "10.1000/ejemplo",
+  "id": "t-article-journal",
+  "type": "article-journal"
+ },
+ {
+  "title": "Un artículo de revista no académica",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "container-title": "Revista Popular",
+  "page": "3",
+  "issued": {
+   "date-parts": [
+    [
+     1976,
+     5,
+     12
+    ]
+   ]
+  },
+  "id": "t-article-magazine",
+  "type": "article-magazine"
+ },
+ {
+  "title": "Una noticia",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "container-title": "Diario de Ejemplo",
+  "page": "4",
+  "issued": {
+   "date-parts": [
+    [
+     1974,
+     6,
+     3
+    ]
+   ]
+  },
+  "id": "t-article-newspaper",
+  "type": "article-newspaper"
+ },
+ {
+  "title": "Proyecto de ley de ejemplo",
+  "number": "H.R. 1234",
+  "authority": "Congreso",
+  "issued": {
+   "date-parts": [
+    [
+     1999
+    ]
+   ]
+  },
+  "id": "t-bill",
+  "type": "bill"
+ },
+ {
+  "title": "Un libro de ejemplo",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "publisher": "Editorial Ejemplo",
+  "publisher-place": "Pamplona",
+  "issued": {
+   "date-parts": [
+    [
+     1979
+    ]
+   ]
+  },
+  "edition": "2",
+  "id": "t-book",
+  "type": "book"
+ },
+ {
+  "title": "Un programa",
+  "author": [
+   {
+    "family": "Director",
+    "given": "Luis"
+   }
+  ],
+  "container-title": "Serie de Ejemplo",
+  "publisher": "Cadena Ejemplo",
+  "issued": {
+   "date-parts": [
+    [
+     1967,
+     12,
+     29
+    ]
+   ]
+  },
+  "id": "t-broadcast",
+  "type": "broadcast"
+ },
+ {
+  "title": "Un capítulo de ejemplo",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "editor": [
+   {
+    "family": "Editor",
+    "given": "Eva"
+   }
+  ],
+  "container-title": "Obra colectiva de ejemplo",
+  "publisher": "Editorial Ejemplo",
+  "publisher-place": "Madrid",
+  "page": "10-30",
+  "issued": {
+   "date-parts": [
+    [
+     1998
+    ]
+   ]
+  },
+  "id": "t-chapter",
+  "type": "chapter"
+ },
+ {
+  "title": "Obra clásica",
+  "author": [
+   {
+    "family": "Autor Antiguo",
+    "given": ""
+   }
+  ],
+  "collection-title": "Patrologia Latina",
+  "collection-title-short": "PL",
+  "volume": "21",
+  "page": "461-540",
+  "publisher-place": "Paris",
+  "issued": {
+   "date-parts": [
+    [
+     1849
+    ]
+   ]
+  },
+  "editor": [
+   {
+    "family": "Vallarsi",
+    "given": "Domenico"
+   }
+  ],
+  "id": "t-classic",
+  "type": "classic"
+ },
+ {
+  "title": "Fondo de ejemplo",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "archive": "Archivo Ejemplo",
+  "issued": {
+   "date-parts": [
+    [
+     1950
+    ]
+   ]
+  },
+  "id": "t-collection",
+  "type": "collection"
+ },
+ {
+  "title": "Datos de ejemplo",
+  "author": [
+   {
+    "family": "Instituto",
+    "given": "Ejemplo"
+   }
+  ],
+  "publisher": "Instituto Ejemplo",
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "URL": "https://example.org/datos",
+  "id": "t-dataset",
+  "type": "dataset"
+ },
+ {
+  "title": "Un documento de ejemplo",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "archive": "Archivo Ejemplo",
+  "archive_location": "012.34.567",
+  "issued": {
+   "date-parts": [
+    [
+     1953,
+     2,
+     14
+    ]
+   ]
+  },
+  "id": "t-document",
+  "type": "document"
+ },
+ {
+  "title": "Una voz",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "container-title": "Obra de consulta",
+  "publisher": "Editorial Ejemplo",
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "id": "t-entry",
+  "type": "entry"
+ },
+ {
+  "title": "Théologie",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "container-title": "Dictionnaire de Ejemplo",
+  "container-title-short": "DE",
+  "volume": "15",
+  "page": "341-502",
+  "publisher": "Letouzey",
+  "publisher-place": "Paris",
+  "issued": {
+   "date-parts": [
+    [
+     1946
+    ]
+   ]
+  },
+  "id": "t-entry-dictionary",
+  "type": "entry-dictionary"
+ },
+ {
+  "title": "Vocación",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "container-title": "Gran Enciclopedia Ejemplo",
+  "volume": "23",
+  "page": "678",
+  "publisher": "Rialp",
+  "publisher-place": "Madrid",
+  "issued": {
+   "date-parts": [
+    [
+     1975
+    ]
+   ]
+  },
+  "id": "t-entry-encyclopedia",
+  "type": "entry-encyclopedia"
+ },
+ {
+  "title": "Congreso de ejemplo",
+  "event-place": "Roma",
+  "issued": {
+   "date-parts": [
+    [
+     2010,
+     5,
+     1
+    ]
+   ]
+  },
+  "id": "t-event",
+  "type": "event"
+ },
+ {
+  "title": "Una figura",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1990
+    ]
+   ]
+  },
+  "id": "t-figure",
+  "type": "figure"
+ },
+ {
+  "title": "Una obra gráfica",
+  "author": [
+   {
+    "family": "Pintor",
+    "given": "Pablo"
+   }
+  ],
+  "medium": "óleo sobre lienzo",
+  "publisher-place": "Madrid",
+  "publisher": "Museo Ejemplo",
+  "issued": {
+   "date-parts": [
+    [
+     1931
+    ]
+   ]
+  },
+  "id": "t-graphic",
+  "type": "graphic"
+ },
+ {
+  "title": "Audiencia de ejemplo",
+  "authority": "Comité de Ejemplo",
+  "issued": {
+   "date-parts": [
+    [
+     1995
+    ]
+   ]
+  },
+  "id": "t-hearing",
+  "type": "hearing"
+ },
+ {
+  "title": "Entrevista de ejemplo",
+  "author": [
+   {
+    "family": "Entrevistado",
+    "given": "Elena"
+   }
+  ],
+  "interviewer": [
+   {
+    "family": "Periodista",
+    "given": "Pedro"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022,
+     3,
+     4
+    ]
+   ]
+  },
+  "URL": "https://example.org/e",
+  "id": "t-interview",
+  "type": "interview"
+ },
+ {
+  "title": "Dudley v. Stephens",
+  "container-title": "Queen's Bench Division",
+  "volume": "14",
+  "page": "273",
+  "issued": {
+   "date-parts": [
+    [
+     1884
+    ]
+   ]
+  },
+  "id": "t-legal_case",
+  "type": "legal_case"
+ },
+ {
+  "title": "Ley de Ejemplo",
+  "number": "1/2000",
+  "authority": "Cortes",
+  "issued": {
+   "date-parts": [
+    [
+     2000
+    ]
+   ]
+  },
+  "id": "t-legislation",
+  "type": "legislation"
+ },
+ {
+  "title": "Un manuscrito",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "archive": "Archivo Ejemplo",
+  "archive_location": "012.34.567",
+  "genre": "manuscrito",
+  "issued": {
+   "date-parts": [
+    [
+     1954,
+     3,
+     1
+    ]
+   ]
+  },
+  "id": "t-manuscript",
+  "type": "manuscript"
+ },
+ {
+  "title": "Mapa de ejemplo",
+  "author": [
+   {
+    "family": "Cartógrafo",
+    "given": "Carlos"
+   }
+  ],
+  "publisher": "Servicio Geográfico",
+  "publisher-place": "Madrid",
+  "issued": {
+   "date-parts": [
+    [
+     1951
+    ]
+   ]
+  },
+  "scale": "1:24000",
+  "id": "t-map",
+  "type": "map"
+ },
+ {
+  "title": "Una película",
+  "author": [
+   {
+    "family": "Director",
+    "given": "Luis"
+   }
+  ],
+  "publisher": "Estudio Ejemplo",
+  "issued": {
+   "date-parts": [
+    [
+     2014
+    ]
+   ]
+  },
+  "id": "t-motion_picture",
+  "type": "motion_picture"
+ },
+ {
+  "title": "Sinfonía de ejemplo",
+  "author": [
+   {
+    "family": "Compositor",
+    "given": "Carlos"
+   }
+  ],
+  "publisher": "Breitkopf und Härtel",
+  "publisher-place": "Leipzig",
+  "issued": {
+   "date-parts": [
+    [
+     1862
+    ]
+   ]
+  },
+  "id": "t-musical_score",
+  "type": "musical_score"
+ },
+ {
+  "title": "Un folleto",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "publisher": "Imprenta Ejemplo",
+  "publisher-place": "Bilbao",
+  "issued": {
+   "date-parts": [
+    [
+     1957
+    ]
+   ]
+  },
+  "id": "t-pamphlet",
+  "type": "pamphlet"
+ },
+ {
+  "title": "Una comunicación",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "container-title": "Actas del congreso de ejemplo",
+  "publisher": "Eunsa",
+  "publisher-place": "Pamplona",
+  "page": "7-20",
+  "issued": {
+   "date-parts": [
+    [
+     2006
+    ]
+   ]
+  },
+  "id": "t-paper-conference",
+  "type": "paper-conference"
+ },
+ {
+  "title": "Un invento",
+  "author": [
+   {
+    "family": "Inventor",
+    "given": "Ismael"
+   }
+  ],
+  "number": "US 1234567",
+  "issued": {
+   "date-parts": [
+    [
+     1990
+    ]
+   ]
+  },
+  "id": "t-patent",
+  "type": "patent"
+ },
+ {
+  "title": "Una obra de teatro",
+  "author": [
+   {
+    "family": "Dramaturgo",
+    "given": "Diego"
+   }
+  ],
+  "event-place": "Madrid",
+  "issued": {
+   "date-parts": [
+    [
+     2001,
+     10,
+     5
+    ]
+   ]
+  },
+  "id": "t-performance",
+  "type": "performance"
+ },
+ {
+  "title": "Revista de Ejemplo",
+  "publisher": "Editorial Ejemplo",
+  "issued": {
+   "date-parts": [
+    [
+     2017
+    ]
+   ]
+  },
+  "id": "t-periodical",
+  "type": "periodical"
+ },
+ {
+  "title": "Carta a Carlos Ruiz",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "recipient": [
+   {
+    "family": "Ruiz",
+    "given": "Carlos"
+   }
+  ],
+  "archive": "Archivo Ejemplo",
+  "archive_location": "087.39.128",
+  "issued": {
+   "date-parts": [
+    [
+     1962,
+     3,
+     23
+    ]
+   ]
+  },
+  "id": "t-personal_communication",
+  "type": "personal_communication"
+ },
+ {
+  "title": "Una publicación en redes",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "container-title": "Red Social",
+  "issued": {
+   "date-parts": [
+    [
+     2016,
+     6,
+     7
+    ]
+   ]
+  },
+  "URL": "https://example.org/p",
+  "id": "t-post",
+  "type": "post"
+ },
+ {
+  "title": "Entrada de blog",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "container-title": "Blog de Ejemplo",
+  "issued": {
+   "date-parts": [
+    [
+     2012,
+     4,
+     5
+    ]
+   ]
+  },
+  "URL": "https://example.org/b",
+  "id": "t-post-weblog",
+  "type": "post-weblog"
+ },
+ {
+  "title": "Un preprint",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "publisher": "Repositorio Ejemplo",
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "DOI": "10.1000/pre",
+  "id": "t-preprint",
+  "type": "preprint"
+ },
+ {
+  "title": "Informe de ejemplo",
+  "author": [
+   {
+    "family": "Instituto",
+    "given": "Ejemplo"
+   }
+  ],
+  "publisher": "Instituto Ejemplo",
+  "publisher-place": "Madrid",
+  "number": "12",
+  "issued": {
+   "date-parts": [
+    [
+     1996
+    ]
+   ]
+  },
+  "id": "t-report",
+  "type": "report"
+ },
+ {
+  "title": "Reglamento de ejemplo",
+  "number": "2021/1",
+  "authority": "Consejo",
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "id": "t-regulation",
+  "type": "regulation"
+ },
+ {
+  "title": "Reseña de ejemplo",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "container-title": "Revista de Ejemplo",
+  "volume": "5",
+  "page": "88",
+  "reviewed-title": "Libro reseñado",
+  "issued": {
+   "date-parts": [
+    [
+     2010
+    ]
+   ]
+  },
+  "id": "t-review",
+  "type": "review"
+ },
+ {
+  "title": "Reseña de un libro",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "container-title": "Revista de Ejemplo",
+  "volume": "5",
+  "page": "90",
+  "issued": {
+   "date-parts": [
+    [
+     2011
+    ]
+   ]
+  },
+  "id": "t-review-book",
+  "type": "review-book"
+ },
+ {
+  "title": "Programa de ejemplo",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "version": "2.1",
+  "publisher": "Empresa Ejemplo",
+  "issued": {
+   "date-parts": [
+    [
+     2019
+    ]
+   ]
+  },
+  "id": "t-software",
+  "type": "software"
+ },
+ {
+  "title": "Una canción",
+  "author": [
+   {
+    "family": "Cantante",
+    "given": "Clara"
+   }
+  ],
+  "container-title": "Álbum de Ejemplo",
+  "publisher": "Sello Ejemplo",
+  "publisher-place": "Hamburgo",
+  "issued": {
+   "date-parts": [
+    [
+     2007
+    ]
+   ]
+  },
+  "id": "t-song",
+  "type": "song"
+ },
+ {
+  "title": "Un discurso de ejemplo",
+  "author": [
+   {
+    "family": "Orador",
+    "given": "Oscar"
+   }
+  ],
+  "event": "Acto de ejemplo",
+  "event-place": "Madrid",
+  "issued": {
+   "date-parts": [
+    [
+     1923,
+     8,
+     3
+    ]
+   ]
+  },
+  "id": "t-speech",
+  "type": "speech"
+ },
+ {
+  "title": "Norma técnica de ejemplo",
+  "author": [
+   {
+    "family": "Organismo",
+    "given": "Ejemplo"
+   }
+  ],
+  "number": "ISO 1234",
+  "publisher": "Organismo Ejemplo",
+  "issued": {
+   "date-parts": [
+    [
+     2006
+    ]
+   ]
+  },
+  "id": "t-standard",
+  "type": "standard"
+ },
+ {
+  "title": "Una tesis de ejemplo",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "genre": "tesis doctoral",
+  "publisher": "Universidad de Ejemplo",
+  "publisher-place": "Pamplona",
+  "issued": {
+   "date-parts": [
+    [
+     2019
+    ]
+   ]
+  },
+  "id": "t-thesis",
+  "type": "thesis"
+ },
+ {
+  "title": "Tratado de ejemplo",
+  "authority": "Naciones Unidas",
+  "issued": {
+   "date-parts": [
+    [
+     1948,
+     12,
+     10
+    ]
+   ]
+  },
+  "id": "t-treaty",
+  "type": "treaty"
+ },
+ {
+  "title": "Una página web",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "container-title": "Sitio de Ejemplo",
+  "issued": {
+   "date-parts": [
+    [
+     2020,
+     1,
+     2
+    ]
+   ]
+  },
+  "URL": "https://example.org/w",
+  "accessed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     3
+    ]
+   ]
+  },
+  "id": "t-webpage",
+  "type": "webpage"
+ },
+ {
+  "title": "Artículo sin fecha",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "container-title": "Revista de Ejemplo",
+  "volume": "1",
+  "page": "1-2",
+  "id": "x-sinfecha",
+  "type": "article-journal"
+ },
+ {
+  "title": "Libro con fecha original",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "publisher": "Editorial Ejemplo",
+  "publisher-place": "Madrid",
+  "issued": {
+   "date-parts": [
+    [
+     1999
+    ]
+   ]
+  },
+  "original-date": {
+   "date-parts": [
+    [
+     1950
+    ]
+   ]
+  },
+  "id": "x-origdate",
+  "type": "book"
+ },
+ {
+  "title": "Libro traducido",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "translator": [
+   {
+    "family": "Traductor",
+    "given": "Tomás"
+   }
+  ],
+  "publisher": "Editorial Ejemplo",
+  "publisher-place": "Madrid",
+  "issued": {
+   "date-parts": [
+    [
+     2016
+    ]
+   ]
+  },
+  "id": "x-traduccion",
+  "type": "book"
+ },
+ {
+  "title": "Capítulo con director",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "editorial-director": [
+   {
+    "family": "Casas",
+    "given": "Santiago"
+   }
+  ],
+  "container-title": "Obra dirigida",
+  "publisher": "Eunsa",
+  "publisher-place": "Pamplona",
+  "page": "1-9",
+  "issued": {
+   "date-parts": [
+    [
+     2005
+    ]
+   ]
+  },
+  "id": "x-dir",
+  "type": "chapter"
+ },
+ {
+  "title": "Título con \"comillas interiores\" emparejadas",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "container-title": "Obra colectiva",
+  "publisher": "Editorial Ejemplo",
+  "publisher-place": "Madrid",
+  "page": "1-9",
+  "issued": {
+   "date-parts": [
+    [
+     2005
+    ]
+   ]
+  },
+  "id": "x-comillas",
+  "type": "chapter"
+ },
+ {
+  "title": "Artículo sin DOI con URL",
+  "author": [
+   {
+    "family": "Ejemplo",
+    "given": "Ana"
+   }
+  ],
+  "container-title": "Revista de Ejemplo",
+  "volume": "2",
+  "page": "1-2",
+  "issued": {
+   "date-parts": [
+    [
+     2015
+    ]
+   ]
+  },
+  "URL": "https://example.org/art",
+  "id": "x-urlsolo",
+  "type": "article-journal"
+ }
+]

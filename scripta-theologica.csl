@@ -16,7 +16,7 @@
     <issn>0036-9764</issn>
     <eissn>2254-6227</eissn>
     <summary>Estilo para la revista Scripta Theologica de la Universidad de Navarra. Formato de citación en pruebas.</summary>
-    <updated>2026-02-22T12:00:00+00:00</updated>
+    <updated>2026-11-02T12:00:00+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
 
@@ -39,12 +39,14 @@
       <term name="translator" form="short">trad.</term>
       <term name="editortranslator" form="short">ed. y trad.</term>
       <term name="edition" form="short">ed.</term>
-      <term name="volume" form="short">vol.</term>
+      <!-- Comillas: las pone CSL (quotes="true") y alterna las interiores: «… “…” …» -->
+      <term name="open-quote">«</term>
+      <term name="close-quote">»</term>
+      <term name="open-inner-quote">“</term>
+      <term name="close-inner-quote">”</term>
       <term name="and">y</term>
       <term name="et-al">y otros</term>
       <term name="accessed">recuperado de</term>
-      <term name="cited">citado</term>
-      <term name="no date">sin fecha</term>
     </terms>
   </locale>
 
@@ -60,22 +62,7 @@
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>
-        <text macro="title"/>
-      </substitute>
-    </names>
-  </macro>
-  <macro name="author-bibliography">
-    <names variable="author">
-      <name name-as-sort-order="all" and="text" sort-separator=", " delimiter=", " delimiter-precedes-last="never">
-        <name-part name="family" font-variant="small-caps"/>
-        <name-part name="given"/>
-      </name>
-      <et-al font-variant="normal"/>
-      <label form="short" prefix=" (" suffix=")"/>
-      <substitute>
-        <names variable="editor"/>
-        <names variable="translator"/>
-        <text macro="title"/>
+        <text macro="titulo-sin-autor"/>
       </substitute>
     </names>
   </macro>
@@ -91,24 +78,20 @@
   </macro>
   <macro name="container-author">
     <names variable="container-author">
-      <name name-as-sort-order="all" and="text" delimiter=", " delimiter-precedes-last="never" initialize-with="." font-variant="small-caps"/>
+      <!-- Nombre completo, como autores y editores: apellido en versalitas, nombre de pila normal -->
+      <name name-as-sort-order="all" and="text" sort-separator=", " delimiter=", " delimiter-precedes-last="never">
+        <name-part name="family" font-variant="small-caps"/>
+        <name-part name="given"/>
+      </name>
       <et-al font-variant="normal"/>
     </names>
   </macro>
   <macro name="title">
+    <!-- Partes de una obra y artículos: entre comillas; obras independientes (y el resto): en cursiva -->
     <choose>
-      <if type="classic">
-        <text variable="title" font-style="italic"/>
+      <if type="chapter paper-conference entry entry-dictionary entry-encyclopedia song article-journal article-magazine article-newspaper review review-book article" match="any">
+        <text variable="title" quotes="true"/>
       </if>
-      <else-if type="book thesis" match="any">
-        <text variable="title" font-style="italic"/>
-      </else-if>
-      <else-if type="chapter paper-conference entry-dictionary entry-encyclopedia song" match="any">
-        <text variable="title" prefix="«" suffix="»"/>
-      </else-if>
-      <else-if type="article-journal article-magazine article-newspaper" match="any">
-        <text variable="title" prefix="«" suffix="»"/>
-      </else-if>
       <else>
         <text variable="title" font-style="italic"/>
       </else>
@@ -116,17 +99,48 @@
   </macro>
   <macro name="title-short">
       <choose>
-        <if type="classic book thesis" match="any">
-          <text variable="title" font-style="italic" form="short"/>
+        <if type="personal_communication manuscript document interview speech" match="any">
+          <text macro="titulo-archivo"/>
         </if>
+        <else-if type="webpage post post-weblog" match="any">
+          <choose>
+            <if variable="title">
+              <text variable="title" form="short" font-style="italic"/>
+            </if>
+            <else>
+              <text variable="genre"/>
+            </else>
+          </choose>
+        </else-if>
+        <else-if type="broadcast motion_picture performance event" match="any">
+          <text macro="titulo-audiovisual"/>
+        </else-if>
+        <else-if type="legislation bill regulation legal_case treaty hearing patent" match="any">
+          <choose>
+            <if variable="title">
+              <text macro="titulo-juridico"/>
+            </if>
+            <else>
+              <group delimiter=" ">
+                <text variable="container-title" font-style="italic"/>
+                <text variable="volume"/>
+                <text variable="number"/>
+              </group>
+            </else>
+          </choose>
+        </else-if>
+        <else-if type="classic book thesis collection dataset graphic map pamphlet periodical report software standard figure" match="any">
+          <text variable="title" font-style="italic" form="short"/>
+        </else-if>
         <else>
-          <text variable="title" form="short" prefix="«" suffix="»"/>
+          <text variable="title" form="short" quotes="true"/>
         </else>
       </choose>
     </macro>
   <macro name="container-title">
+    <!-- En revistas y obras de consulta, la forma abreviada si existe (ScrTh, DTC) -->
     <choose>
-      <if type="article-journal article-magazine article-newspaper entry-dictionary entry-encyclopedia" match="any">
+      <if type="article-journal article-magazine article-newspaper entry entry-dictionary entry-encyclopedia" match="any">
         <choose>
           <if variable="container-title-short">
             <text variable="container-title-short" font-style="italic"/>
@@ -136,9 +150,6 @@
           </else>
         </choose>
       </if>
-      <else-if type="chapter paper-conference" match="any">
-        <text variable="container-title" font-style="italic"/>
-      </else-if>
       <else>
         <text variable="container-title" font-style="italic"/>
       </else>
@@ -146,7 +157,7 @@
   </macro>
   <macro name="publisher">
     <choose>
-      <if type="book chapter paper-conference thesis entry-dictionary entry-encyclopedia" match="any">
+      <if type="book chapter paper-conference thesis entry entry-dictionary entry-encyclopedia" match="any">
         <group delimiter=": ">
           <text variable="publisher-place"/>
           <text variable="publisher"/>
@@ -154,18 +165,11 @@
       </if>
     </choose>
   </macro>
-  <macro name="collection-title">
-    <text variable="collection-title" font-style="italic"/>
-  </macro>
   <macro name="edition">
     <choose>
       <if is-numeric="edition">
         <group delimiter=" ">
-          <group>
-            <number variable="edition" form="numeric"/>
-            <text value="."/>
-            <text value="a" vertical-align="sup"/>
-          </group>
+          <number variable="edition" form="numeric"/>
           <text term="edition" form="short"/>
         </group>
       </if>
@@ -179,9 +183,7 @@
       <if type="book" match="any">
         <choose>
           <if is-numeric="volume">
-            <group delimiter=" ">
-              <number variable="volume" form="roman" text-case="uppercase"/>
-            </group>
+            <number variable="volume" form="roman" text-case="uppercase"/>
           </if>
           <else>
             <text variable="volume"/>
@@ -190,24 +192,30 @@
       </if>
     </choose>
   </macro>
+  <macro name="journal-volume">
+    <!-- Revistas: solo el volumen, como en el ejemplo de Scripta («17 (1985) 227-243»); el número, solo si no hay volumen -->
+    <choose>
+      <if variable="volume">
+        <text variable="volume"/>
+      </if>
+      <else>
+        <text variable="issue"/>
+      </else>
+    </choose>
+  </macro>
   <macro name="pages">
     <text variable="page"/>
   </macro>
-  <macro name="access">
-    <choose>
-      <if variable="DOI">
-        <text variable="DOI" prefix="https://doi.org/"/>
-      </if>
-    </choose>
-  </macro>
   <macro name="access-url">
+    <!-- Enlace solo si no hay DOI (normas de Scripta: «En caso de que el artículo no tuviera DOI, deberá incluirse entonces el enlace») -->
     <choose>
-      <if variable="URL">
+      <if variable="DOI"/>
+      <else-if variable="URL">
         <group delimiter=" ">
           <text term="accessed"/>
           <text variable="URL"/>
         </group>
-      </if>
+      </else-if>
     </choose>
   </macro>
   <macro name="issued">
@@ -233,6 +241,314 @@
     </group>
   </macro>
 
+  <macro name="cuerpo-libro">
+    <!-- Libro: título, volumen, edición, lugar: editorial, año. Común a la primera cita y a la bibliografía -->
+    <group delimiter=", ">
+      <group delimiter=", ">
+        <text macro="title"/>
+        <text macro="volume"/>
+      </group>
+      <group delimiter=" ">
+        <text macro="edition"/>
+        <text macro="publisher"/>
+      </group>
+      <text macro="issued"/>
+    </group>
+  </macro>
+  <macro name="cuerpo-tesis">
+    <!-- Tesis: título, tipo, lugar: universidad, año. Común a la primera cita y a la bibliografía -->
+    <group delimiter=", ">
+      <text macro="title"/>
+      <text variable="genre"/>
+      <text macro="publisher"/>
+      <text macro="issued"/>
+    </group>
+  </macro>
+  <macro name="cuerpo-partitura">
+    <!-- Partitura. Común a la primera cita y a la bibliografía -->
+    <group delimiter=", ">
+      <text macro="title"/>
+      <text variable="number"/>
+      <text variable="genre"/>
+      <text macro="lugar-editorial"/>
+      <text macro="issued"/>
+    </group>
+  </macro>
+  <macro name="cuerpo-grabacion">
+    <!-- Grabación sonora. Común a la primera cita y a la bibliografía -->
+    <group delimiter=", ">
+      <text macro="title"/>
+      <choose>
+        <if variable="container-title">
+          <group delimiter=" ">
+            <text value="en"/>
+            <text macro="container-title"/>
+          </group>
+        </if>
+      </choose>
+      <text variable="number"/>
+      <text variable="medium"/>
+      <text variable="genre"/>
+      <text macro="lugar-editorial"/>
+      <text macro="issued"/>
+    </group>
+  </macro>
+  <macro name="cuerpo-otros">
+    <!-- Otros tipos: título, lugar: editorial, año. Común a la primera cita y a la bibliografía -->
+    <group delimiter=", ">
+      <text macro="title"/>
+      <text macro="publisher"/>
+      <text macro="issued"/>
+    </group>
+  </macro>
+
+  <!-- ARCHIVO E INÉDITOS (cartas, manuscritos, documentos, entrevistas, discursos).
+       Las normas de Scripta no los regulan: orden de los elementos según Chicago (18.ª ed.),
+       forma de Scripta. Formato provisional del 2026-10-28, pendiente de confirmar con el director:
+       «Carta a Carlos Ruiz del Castillo, 23-3-1962, AJMA 087.39.128». El autor sale siempre. -->
+  <macro name="titulo-sin-autor">
+    <!-- Título que ocupa el lugar del autor cuando no lo hay: con la forma de su tipo -->
+    <choose>
+      <if type="personal_communication manuscript document interview speech" match="any">
+        <text macro="titulo-archivo"/>
+      </if>
+      <else-if type="webpage post post-weblog" match="any">
+        <text macro="titulo-web"/>
+      </else-if>
+      <else-if type="broadcast motion_picture performance event" match="any">
+        <text macro="titulo-audiovisual"/>
+      </else-if>
+      <else-if type="legislation bill regulation legal_case treaty hearing patent" match="any">
+        <text macro="titulo-juridico"/>
+      </else-if>
+      <else>
+        <text macro="title"/>
+      </else>
+    </choose>
+  </macro>
+  <macro name="fecha-archivo">
+    <!-- Fecha completa en cifras: 23-3-1962 (o solo el año, si no hay más) -->
+    <date variable="issued" delimiter="-">
+      <date-part name="day" form="numeric"/>
+      <date-part name="month" form="numeric"/>
+      <date-part name="year"/>
+    </date>
+  </macro>
+  <macro name="titulo-archivo">
+    <!-- Cartas: título descriptivo sin comillas («Carta a Alberto Otaño»); si no hay título,
+         el tipo de documento (o «carta») y el destinatario. Entrevistas sin título: «entrevista de X».
+         Resto: título entre comillas; si no hay título, el tipo de documento. -->
+    <choose>
+      <if type="personal_communication">
+        <choose>
+          <if variable="title">
+            <text variable="title"/>
+          </if>
+          <else>
+            <group delimiter=" ">
+              <choose>
+                <if variable="genre">
+                  <text variable="genre"/>
+                </if>
+                <else>
+                  <text value="carta"/>
+                </else>
+              </choose>
+              <names variable="recipient" prefix="a ">
+                <name and="text" delimiter=", " delimiter-precedes-last="never"/>
+              </names>
+            </group>
+          </else>
+        </choose>
+      </if>
+      <else-if type="interview">
+        <choose>
+          <if variable="title">
+            <text variable="title" quotes="true"/>
+          </if>
+          <else>
+            <names variable="interviewer" prefix="entrevista de ">
+              <name and="text" delimiter=", " delimiter-precedes-last="never"/>
+            </names>
+          </else>
+        </choose>
+      </else-if>
+      <else>
+        <choose>
+          <if variable="title">
+            <text variable="title" quotes="true"/>
+          </if>
+          <else>
+            <text variable="genre"/>
+          </else>
+        </choose>
+      </else>
+    </choose>
+  </macro>
+  <macro name="archivo">
+    <!-- Colección, archivo y signatura («AJMA 087.39.128»), lugar del archivo si lo hay -->
+    <group delimiter=", ">
+      <text variable="archive_collection"/>
+      <group delimiter=" ">
+        <text variable="archive"/>
+        <text variable="archive_location"/>
+      </group>
+      <text variable="archive-place"/>
+    </group>
+  </macro>
+  <macro name="cuerpo-archivo">
+    <!-- Común a la primera cita y a la bibliografía -->
+    <group delimiter=", ">
+      <text macro="titulo-archivo"/>
+      <choose>
+        <if type="personal_communication manuscript document" match="any">
+          <choose>
+            <if variable="title">
+              <text variable="genre"/>
+            </if>
+          </choose>
+        </if>
+        <else-if type="interview">
+          <choose>
+            <if variable="title">
+              <names variable="interviewer" prefix="entrevista de ">
+                <name and="text" delimiter=", " delimiter-precedes-last="never"/>
+              </names>
+            </if>
+          </choose>
+          <text variable="container-title" font-style="italic"/>
+          <text variable="medium"/>
+        </else-if>
+        <else-if type="speech">
+          <text variable="genre"/>
+          <text variable="event-title"/>
+          <text variable="event-place"/>
+          <text variable="medium"/>
+        </else-if>
+      </choose>
+      <choose>
+        <if type="personal_communication">
+          <text variable="publisher-place"/>
+        </if>
+      </choose>
+      <text macro="fecha-archivo"/>
+      <text macro="archivo"/>
+    </group>
+  </macro>
+
+  <!-- WEB (páginas, entradas de blog, publicaciones en redes). Ejemplo de las normas de Scripta:
+       «ANDEREGGEN, D. I., Basi per una psicoterapia cristiana, 2005, recuperado de http://…».
+       El resto de elementos (sitio, tipo de publicación), según Chicago (18.ª ed.). -->
+  <macro name="titulo-web">
+    <!-- Título en cursiva; si no hay título, el tipo de publicación («reply to…») -->
+    <choose>
+      <if variable="title">
+        <text variable="title" font-style="italic"/>
+      </if>
+      <else>
+        <text variable="genre"/>
+      </else>
+    </choose>
+  </macro>
+  <macro name="cuerpo-web">
+    <!-- Común a la primera cita y a la bibliografía; el enlace va al final, como en los demás tipos -->
+    <group delimiter=", ">
+      <text macro="titulo-web"/>
+      <choose>
+        <if variable="title">
+          <text variable="genre"/>
+        </if>
+      </choose>
+      <text variable="container-title"/>
+      <text variable="medium"/>
+      <text variable="publisher"/>
+      <text macro="issued"/>
+    </group>
+  </macro>
+
+  <!-- OBRAS INDEPENDIENTES NO LIBRESCAS (informes, folletos, mapas, datos, software, normas, obras de arte,
+       colecciones, preprints) y AUDIOVISUALES y JURÍDICOS. Las normas de Scripta no los regulan: elementos y
+       orden según Chicago (18.ª ed.), forma de Scripta (versalitas, cursiva para obras, «» para partes). -->
+  <macro name="lugar-editorial">
+    <group delimiter=": ">
+      <text variable="publisher-place"/>
+      <text variable="publisher"/>
+    </group>
+  </macro>
+  <macro name="cuerpo-independiente">
+    <group delimiter=", ">
+      <text macro="title"/>
+      <text variable="genre"/>
+      <text variable="medium"/>
+      <text variable="version" prefix="versión "/>
+      <text macro="edition"/>
+      <text variable="number"/>
+      <group delimiter=" ">
+        <text value="en"/>
+        <text variable="container-title" font-style="italic"/>
+      </group>
+      <text variable="collection-title"/>
+      <text variable="authority"/>
+      <text macro="lugar-editorial"/>
+      <text macro="issued"/>
+      <text macro="archivo"/>
+    </group>
+  </macro>
+  <macro name="titulo-audiovisual">
+    <!-- Película, programa o espectáculo en cursiva; episodio o escena (con serie u obra) entre comillas -->
+    <choose>
+      <if variable="container-title">
+        <text variable="title" quotes="true"/>
+      </if>
+      <else>
+        <text variable="title" font-style="italic"/>
+      </else>
+    </choose>
+  </macro>
+  <macro name="cuerpo-audiovisual">
+    <group delimiter=", ">
+      <text macro="titulo-audiovisual"/>
+      <text variable="container-title" font-style="italic"/>
+      <text variable="number"/>
+      <names variable="director" prefix="dirigido por ">
+        <name and="text" delimiter=", " delimiter-precedes-last="never"/>
+      </names>
+      <names variable="host" prefix="presentado por ">
+        <name and="text" delimiter=", " delimiter-precedes-last="never"/>
+      </names>
+      <text variable="event-title"/>
+      <text variable="event-place"/>
+      <text variable="medium"/>
+      <text variable="publisher"/>
+      <text macro="issued"/>
+    </group>
+  </macro>
+  <macro name="titulo-juridico">
+    <!-- Sentencias en cursiva; leyes, reglamentos, tratados y proyectos, sin formato -->
+    <choose>
+      <if type="legal_case">
+        <text variable="title" font-style="italic"/>
+      </if>
+      <else>
+        <text variable="title"/>
+      </else>
+    </choose>
+  </macro>
+  <macro name="cuerpo-juridico">
+    <group delimiter=", ">
+      <text macro="titulo-juridico"/>
+      <text variable="number"/>
+      <text variable="authority"/>
+      <group delimiter=" ">
+        <text variable="container-title" font-style="italic"/>
+        <text variable="volume"/>
+      </group>
+      <text variable="chapter-number"/>
+      <text variable="section"/>
+      <text variable="page"/>
+      <text macro="issued"/>
+    </group>
+  </macro>
 
   <!-- CITATION -->
   <citation et-al-min="4" et-al-use-first="1" disambiguate-add-names="true">
@@ -245,15 +561,7 @@
             <choose>
               <!-- LIBRO -->
               <if type="book">
-                <group delimiter=", ">
-                  <group delimiter=", ">
-                    <text macro="title"/>
-                    <text macro="volume"/>
-                  </group>
-                  <text macro="edition"/>
-                  <text macro="publisher"/>
-                  <text macro="issued"/>
-                </group>
+                <text macro="cuerpo-libro"/>
               </if>
               <!-- CAPÍTULO -->
               <else-if type="chapter paper-conference">
@@ -279,21 +587,35 @@
                 </group>
               </else-if>
               <!-- ARTÍCULO DE REVISTA -->
-              <else-if type="article-journal">
+              <else-if type="article-magazine article-newspaper" match="any">
+                <group delimiter=", ">
+                  <text macro="title"/>
+                  <text macro="container-title"/>
+                  <text variable="issue"/>
+                  <date variable="issued" form="text"/>
+                </group>
+              </else-if>
+              <else-if type="article-journal review review-book" match="any">
                 <group delimiter=", ">
                   <text macro="title"/>
                   <group delimiter=" ">
-                    <text macro="container-title"/>
-                    <group>
-                      <text variable="volume"/>
-                      <text variable="issue" prefix="/"/>
+                    <text value="reseña de"/>
+                    <group delimiter=", ">
+                      <text variable="reviewed-title" font-style="italic"/>
+                      <names variable="reviewed-author">
+                        <name and="text" delimiter=", " delimiter-precedes-last="never"/>
+                      </names>
                     </group>
+                  </group>
+                  <group delimiter=" ">
+                    <text macro="container-title"/>
+                    <text macro="journal-volume"/>
                     <text macro="issued" prefix="(" suffix=")"/>
                   </group>
                 </group>
               </else-if>
               <!-- VOZ EN DICCIONARIO O ENCICLOPEDIA -->
-              <else-if type="entry-dictionary entry-encyclopedia">
+              <else-if type="entry entry-dictionary entry-encyclopedia">
                 <group delimiter=", ">
                   <text macro="title"/>
                   <group delimiter=" ">
@@ -316,41 +638,15 @@
               </else-if>
               <!-- THESIS -->
               <else-if type="thesis">
-                <group delimiter=", ">
-                  <text macro="title"/>
-                  <text variable="genre"/>
-                  <text macro="publisher"/>
-                  <text macro="issued"/>
-                </group>
+                <text macro="cuerpo-tesis"/>
               </else-if>
               <!-- COMPOSICIÓN MUSICAL (PARTITURA) -->
               <else-if type="musical_score">
-                <group delimiter=", ">
-                  <text macro="title"/>
-                  <text variable="number"/>
-                  <text variable="genre"/>
-                  <text macro="publisher"/>
-                  <text macro="issued"/>
-                </group>
+                <text macro="cuerpo-partitura"/>
               </else-if>
               <!-- GRABACIÓN DE SONIDO -->
               <else-if type="song">
-                <group delimiter=", ">
-                  <text macro="title"/>
-                  <choose>
-                    <if variable="container-title">
-                      <group delimiter=" ">
-                        <text value="en"/>
-                        <text macro="container-title"/>
-                      </group>
-                    </if>
-                  </choose>
-                  <text variable="number"/>
-                  <text variable="medium"/>
-                  <text variable="genre"/>
-                  <text macro="publisher"/>
-                  <text macro="issued"/>
-                </group>
+                <text macro="cuerpo-grabacion"/>
               </else-if>
               <!-- OBRAS CLÁSICAS -->
               <else-if type="classic">
@@ -365,30 +661,63 @@
                   </group>
                 </group>
               </else-if>
+              <!-- ARCHIVO E INÉDITOS -->
+              <else-if type="personal_communication manuscript document interview speech" match="any">
+                <text macro="cuerpo-archivo"/>
+              </else-if>
+              <!-- WEB -->
+              <else-if type="webpage post post-weblog" match="any">
+                <text macro="cuerpo-web"/>
+              </else-if>
+              <!-- OBRAS INDEPENDIENTES NO LIBRESCAS -->
+              <else-if type="collection dataset graphic map pamphlet periodical report software standard figure article" match="any">
+                <text macro="cuerpo-independiente"/>
+              </else-if>
+              <!-- AUDIOVISUALES -->
+              <else-if type="broadcast motion_picture performance event" match="any">
+                <text macro="cuerpo-audiovisual"/>
+              </else-if>
+              <!-- JURÍDICOS -->
+              <else-if type="legislation bill regulation legal_case treaty hearing patent" match="any">
+                <text macro="cuerpo-juridico"/>
+              </else-if>
               <!-- OTROS TIPOS -->
               <else>
-                <group delimiter=", ">
-                  <text macro="title"/>
-                  <text macro="publisher"/>
-                  <text macro="issued"/>
-                </group>
+                <text macro="cuerpo-otros"/>
               </else>
             </choose>
-            <text macro="access-url"/>
           </group>
-          <!-- Añadir páginas específicas si se proporcionan, sino mostrar el rango completo (excepto para diccionarios/enciclopedias) -->
+          <!-- Añadir páginas específicas si se proporcionan, sino mostrar el rango completo (excepto para diccionarios/enciclopedias y obras clásicas, que ya colocan su locator) -->
           <choose>
-            <if type="entry-dictionary entry-encyclopedia" match="none">
+            <if type="legislation bill regulation legal_case treaty hearing patent" match="any">
+              <text variable="locator" prefix=", "/>
+            </if>
+          </choose>
+          <choose>
+            <if type="entry entry-dictionary entry-encyclopedia classic legislation bill regulation legal_case treaty hearing patent" match="none">
               <choose>
-                <if variable="locator">
-                  <text variable="locator" prefix=", "/>
+                <if type="article-journal review review-book" match="any">
+                  <!-- Revistas: sin coma antes de la página, como en «17 (1985) 227-243» -->
+                  <choose>
+                    <if variable="locator">
+                      <text variable="locator" prefix=" "/>
+                    </if>
+                    <else>
+                      <text macro="pages" prefix=" "/>
+                    </else>
+                  </choose>
                 </if>
+                <else-if variable="locator">
+                  <text variable="locator" prefix=", "/>
+                </else-if>
                 <else>
                   <text macro="pages" prefix=", "/>
                 </else>
               </choose>
             </if>
           </choose>
+          <!-- Enlace (si no hay DOI), después de la página -->
+          <text macro="access-url" prefix=", "/>
           <!-- DOI al final separado por punto -->
           <choose>
             <if variable="DOI">
@@ -422,7 +751,7 @@
               </group>
               <!-- Añadir páginas específicas si se proporcionan, sino mostrar el rango completo (excepto para diccionarios/enciclopedias) -->
               <choose>
-                <if type="entry-dictionary entry-encyclopedia" match="none">
+                <if type="entry entry-dictionary entry-encyclopedia" match="none">
                   <choose>
                     <if variable="locator">
                       <text variable="locator" prefix=", "/>
@@ -444,25 +773,17 @@
   <!-- BIBLIOGRAPHY -->
   <bibliography hanging-indent="true" et-al-min="4" et-al-use-first="1">
     <sort>
-      <key macro="author-bibliography"/>
+      <key macro="author"/>
       <key variable="issued"/>
       <key variable="title"/>
     </sort>
     <layout suffix=".">
       <group delimiter=", ">
-        <text macro="author-bibliography"/>
+        <text macro="author"/>
         <choose>
           <!-- LIBRO -->
           <if type="book">
-            <group delimiter=", ">
-              <group delimiter=", ">
-                <text macro="title"/>
-                <text macro="volume"/>
-              </group>
-              <text macro="edition"/>
-              <text macro="publisher"/>
-              <text macro="issued"/>
-            </group>
+            <text macro="cuerpo-libro"/>
           </if>
           <!-- CAPÍTULO -->
           <else-if type="chapter paper-conference">
@@ -489,16 +810,31 @@
             </group>
           </else-if>
           <!-- ARTÍCULO DE REVISTA -->
-          <else-if type="article-journal">
+          <else-if type="article-magazine article-newspaper" match="any">
+            <group delimiter=", ">
+              <text macro="title"/>
+              <text macro="container-title"/>
+              <text variable="issue"/>
+              <date variable="issued" form="text"/>
+              <text macro="pages"/>
+            </group>
+          </else-if>
+          <else-if type="article-journal review review-book" match="any">
             <group>
               <group delimiter=", ">
                 <text macro="title"/>
                 <group delimiter=" ">
-                  <text macro="container-title"/>
-                  <group>
-                    <text variable="volume"/>
-                    <text variable="issue" prefix="/"/>
+                  <text value="reseña de"/>
+                  <group delimiter=", ">
+                  <text variable="reviewed-title" font-style="italic"/>
+                  <names variable="reviewed-author">
+                    <name and="text" delimiter=", " delimiter-precedes-last="never"/>
+                  </names>
                   </group>
+                </group>
+                <group delimiter=" ">
+                  <text macro="container-title"/>
+                  <text macro="journal-volume"/>
                   <text macro="issued" prefix="(" suffix=")"/>
                 </group>
               </group>
@@ -506,7 +842,7 @@
             </group>
           </else-if>
           <!-- VOZ EN DICCIONARIO O ENCICLOPEDIA -->
-          <else-if type="entry-dictionary entry-encyclopedia">
+          <else-if type="entry entry-dictionary entry-encyclopedia">
             <group delimiter=", ">
               <text macro="title"/>
               <group delimiter=" ">
@@ -522,41 +858,15 @@
           </else-if>
           <!-- THESIS -->
           <else-if type="thesis">
-            <group delimiter=", ">
-              <text macro="title"/>
-              <text variable="genre"/>
-              <text macro="publisher"/>
-              <text macro="issued"/>
-            </group>
+            <text macro="cuerpo-tesis"/>
           </else-if>
           <!-- COMPOSICIÓN MUSICAL (PARTITURA) -->
           <else-if type="musical_score">
-            <group delimiter=", ">
-              <text macro="title"/>
-              <text variable="number"/>
-              <text variable="genre"/>
-              <text macro="publisher"/>
-              <text macro="issued"/>
-            </group>
+            <text macro="cuerpo-partitura"/>
           </else-if>
           <!-- GRABACIÓN DE SONIDO -->
           <else-if type="song">
-            <group delimiter=", ">
-              <text macro="title"/>
-              <choose>
-                <if variable="container-title">
-                  <group delimiter=" ">
-                    <text value="en"/>
-                    <text macro="container-title"/>
-                  </group>
-                </if>
-              </choose>
-              <text variable="number"/>
-              <text variable="medium"/>
-              <text variable="genre"/>
-              <text macro="publisher"/>
-              <text macro="issued"/>
-            </group>
+            <text macro="cuerpo-grabacion"/>
           </else-if>
           <!-- OBRAS CLÁSICAS -->
           <else-if type="classic">
@@ -581,13 +891,29 @@
               <text macro="pages"/>
             </group>
           </else-if>
+          <!-- ARCHIVO E INÉDITOS -->
+          <else-if type="personal_communication manuscript document interview speech" match="any">
+            <text macro="cuerpo-archivo"/>
+          </else-if>
+          <!-- WEB -->
+          <else-if type="webpage post post-weblog" match="any">
+            <text macro="cuerpo-web"/>
+          </else-if>
+          <!-- OBRAS INDEPENDIENTES NO LIBRESCAS -->
+          <else-if type="collection dataset graphic map pamphlet periodical report software standard figure article" match="any">
+            <text macro="cuerpo-independiente"/>
+          </else-if>
+          <!-- AUDIOVISUALES -->
+          <else-if type="broadcast motion_picture performance event" match="any">
+            <text macro="cuerpo-audiovisual"/>
+          </else-if>
+          <!-- JURÍDICOS -->
+          <else-if type="legislation bill regulation legal_case treaty hearing patent" match="any">
+            <text macro="cuerpo-juridico"/>
+          </else-if>
           <!-- OTROS TIPOS -->
           <else>
-            <group delimiter=", ">
-              <text macro="title"/>
-              <text macro="publisher"/>
-              <text macro="issued"/>
-            </group>
+            <text macro="cuerpo-otros"/>
           </else>
         </choose>
       </group>
