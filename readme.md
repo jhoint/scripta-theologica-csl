@@ -12,8 +12,8 @@ Hoja de estilos CSL (*Citation Style Language*) adaptada a las normas de edició
 * `CHANGELOG.md`: historial de cambios.
 * `cambios-a-realizar.md`: pendientes y puntos por decidir.
 * `OBRAS-CLASICAS.md`: guía detallada para citar obras clásicas y patrísticas.
-* `pruebas-scripta.json`: colección de prueba con los ejemplos oficiales de la revista (21 obras).
-* `pruebas-tipos.json` y `pruebas-tipos.md`: 52 casos con datos ficticios, uno por cada tipo de documento más casos límite (ver [Pruebas](#pruebas)).
+* `pruebas-scripta.json`: colección de prueba con los ejemplos de las normas de la revista y algunos casos más (21 obras).
+* `pruebas-tipos.json` y `pruebas-tipos.md`: 51 casos con datos ficticios, uno por cada tipo de documento más casos límite (ver [Pruebas](#pruebas)).
 * `chicago-notes-bibliography.csl`: copia del estilo Chicago (notas y bibliografía), referencia para lo que las normas de la revista no regulan.
 * `zotero-outputs.md`: salidas de Zotero de febrero de 2026, con el estilo en su primera versión. Es histórico: no refleja el estilo actual.
 
@@ -48,7 +48,7 @@ Sintaxis de las citas (la página, **sin «p.»**, porque el estilo imprime las 
 
 ## Tipos de documento
 
-El estilo tiene rama propia para **45 de los 46 tipos de CSL 1.0.2** (los 44 del Chicago oficial, 18.ª ed., más `classic`). El único que usa la rama genérica es `preprint`.
+El estilo tiene rama propia para **los 45 tipos de CSL 1.0.2** (los 44 del Chicago oficial, 18.ª ed., más `classic`). Zotero exporta los preprints como `article` y las notas sueltas como `document`.
 
 | Familia | Tipos CSL |
 | :--- | :--- |
@@ -65,7 +65,7 @@ El estilo tiene rama propia para **45 de los 46 tipos de CSL 1.0.2** (los 44 del
 | Audiovisuales | `broadcast`, `motion_picture`, `performance`, `event` |
 | Jurídicos | `legislation`, `bill`, `regulation`, `legal_case`, `treaty`, `hearing`, `patent` |
 
-Las normas de la revista regulan libros, capítulos, artículos, voces de obras de consulta, tesis, comunicaciones y obras clásicas. **Para el resto, que las normas no regulan**, el estilo toma de Chicago (18.ª ed.) los elementos y su orden, y de *Scripta* la forma: autor en versalitas, cursiva para las obras, «» para las partes.
+Las normas de la revista regulan libros y monografías, capítulos de obras colectivas, artículos de revista, voces de diccionario y enciclopedia, obras clásicas y patrísticas, y dan un ejemplo de documento web. **Para los demás tipos, que las normas no regulan** (tesis y comunicaciones, partituras y grabaciones, archivo e inéditos, web, obras independientes, audiovisuales y jurídicos), el estilo se apoya en Chicago (18.ª ed.) para los elementos y su orden, y en *Scripta* para la forma: autor en versalitas, cursiva para las obras, «» para las partes.
 
 ---
 
@@ -113,7 +113,7 @@ Para citar fuentes antiguas o colecciones patrísticas (*Patrologia Latina*, *Pa
 #### Resultados (comprobados con Pandoc 3.8.2)
 * **Primera cita:** RUFINO DE AQUILEYA, *Historia ecclesiastica*, I, 6: Patrologia Latina 21, 473-475.
 * **Citas posteriores:** RUFINO DE AQUILEYA, *Historia ecclesiastica*, I, 7: PL 21, 477.
-* **Bibliografía:** RUFINO DE AQUILEYA, *Historia ecclesiastica*, en Domenico Vallarsi (ed.), Patrologia Latina 21, Paris, 1849, 461-540.
+* **Bibliografía:** RUFINO DE AQUILEYA, *Historia ecclesiastica*, en Vallarsi, D. (ed.), Patrologia Latina 21, Paris, 1849, 461-540.
 
 (El editor sale en la bibliografía solo si lo hay.) El pasaje (`I, 6`, `libros X-XI`) es el **locator**; las páginas de la edición van después. Más detalles en [`OBRAS-CLASICAS.md`](OBRAS-CLASICAS.md).
 
@@ -123,7 +123,7 @@ Para citar fuentes antiguas o colecciones patrísticas (*Patrologia Latina*, *Pa
 
 * **Forma abreviada** en las citas posteriores, no «Ibid.».
 * **Rangos de páginas completos** (`227-243`, no `227-43`).
-* **«y otros»** a partir de cuatro autores.
+* **Varios autores:** hasta tres se citan todos; a partir de cuatro, el primero y «y otros» (las normas admiten ambas formas desde tres).
 * **El nombre del autor se repite** en la bibliografía, sin raya.
 * **Revistas:** solo el volumen, sin número de fascículo y sin coma antes de la página: «*Scripta Theologica* 17 (1985) 227-243». El número, solo si no hay volumen.
 * **Enlace** solo si no hay DOI; en las notas, después de la página. Con la forma «recuperado de», sin fecha de acceso, como en el ejemplo de la revista.

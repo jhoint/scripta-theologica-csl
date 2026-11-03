@@ -24,7 +24,8 @@ Zotero → tipo CSL → familia del estilo:
 | Manuscrito | `manuscript` | Resuelto (archivo e inéditos). |
 | Estatuto (ley) | `legislation` | Resuelto (jurídicos). |
 | Página web | `webpage` | Resuelto (web). |
-| Nota | — | No es un tipo del esquema CSL 1.0.2: se descarta. |
+| Nota suelta | `document` | Resuelto (archivo e inéditos). |
+| Preprint | `article` | Resuelto (obras independientes). |
 
 ### Otros puntos
 * **Comillas dentro del título de un capítulo:** resuelto con `quotes="true"`. En Zotero se escriben rectas y emparejadas (ver `readme.md`).
@@ -40,13 +41,12 @@ Zotero → tipo CSL → familia del estilo:
 * **«ID.» cuando el editor de la obra es el autor del capítulo:** el estilo repite el nombre (desviación consciente de las normas; ver `readme.md`). Se cambiará si lo pide la revista o el director de la tesis.
 * **Formato de los documentos de archivo:** provisional, las normas no lo regulan. Pendiente de confirmar (fecha en cifras o en romanos; cómo distinguir una carta de y a una misma persona).
 * **Criterio para documentos del Magisterio:** las normas de la revista no lo regulan.
+* **Edición y editorial en las voces de obras de consulta:** hoy no salen, como en el ejemplo de las normas («ILLANES, J.L., «Vocación», en *Gran Enciclopedia Rialp* 23 (1975) 659-662»). Chicago sí las pone; decidir si se añaden.
 
 ### Por implementar
 * **Artículo sin fecha:** debería salir «s.f.». Ahora sale sin fecha ni paréntesis («Revista de Ejemplo 1 1-2»).
 * **Libro con fecha original y fecha de edición:** `original-date` no se muestra.
-* **Edición y editorial en voces de diccionario y enciclopedia:** no salen (comprobado con `entry-dictionary` y `entry-encyclopedia`).
 * **Tipo de tesis:** sale tal como está en el campo *Tipo* de Zotero; «Doctoral dissertation» sale sin traducir. Se resuelve rellenándolo en español, o se traduce en el estilo.
-* **`preprint`:** usa la rama genérica; no tiene rama propia.
 * **Bibliografía por bloques** (fuentes, estudios…): no implementada.
 
 ### Del repositorio

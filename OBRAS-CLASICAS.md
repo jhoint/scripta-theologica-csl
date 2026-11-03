@@ -12,7 +12,7 @@
 
 ### BIBLIOGRAPHY
 
-**Bibliografía:** RUFINO DE AQUILEYA, *Historia ecclesiastica*, Patrologia Latina 21, Paris, 1849, 461-540. Si la ficha tiene editor: RUFINO DE AQUILEYA, *Historia ecclesiastica*, en Domenico Vallarsi (ed.), Patrologia Latina 21, Paris, 1849, 461-540.
+**Bibliografía:** RUFINO DE AQUILEYA, *Historia ecclesiastica*, Patrologia Latina 21, Paris, 1849, 461-540. Si la ficha tiene editor: RUFINO DE AQUILEYA, *Historia ecclesiastica*, en Vallarsi, D. (ed.), Patrologia Latina 21, Paris, 1849, 461-540.
 
 Las páginas se escriben **sin «p.»**: el estilo imprime las páginas sin etiqueta.
 

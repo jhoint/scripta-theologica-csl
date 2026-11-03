@@ -14,11 +14,11 @@ Primera versión que reúne el estilo del repositorio con el del vault de trabaj
 ### Added
 - Obras clásicas y patrísticas (`type: classic`) con la sigla de la colección (`collection-title-short`); ver `OBRAS-CLASICAS.md` (2026-02-20).
 - Partituras (`musical_score`) y canciones o grabaciones (`song`), según Chicago (2026-02-19).
-- **Estilo completo:** rama propia para 45 de los 46 tipos de CSL 1.0.2 (los 44 del Chicago oficial, 18.ª ed., más `classic`), organizados en macros por familia. Para lo que las normas de la revista no regulan: elementos y orden de Chicago, forma de *Scripta* (versalitas, cursiva para las obras, «» para las partes). `preprint` usa la rama genérica (2026-11-03).
+- **Estilo completo:** rama propia para los 45 tipos de CSL 1.0.2 (los 44 del Chicago oficial, 18.ª ed., más `classic`), organizados en macros por familia. Para lo que las normas de la revista no regulan: elementos y orden de Chicago, forma de *Scripta* (versalitas, cursiva para las obras, «» para las partes) (2026-11-03).
   - Archivo e inéditos (cartas, manuscritos, documentos, entrevistas, discursos): autor siempre, título, fecha numérica (`23-3-1962`), colección, archivo y signatura, lugar. Formato provisional.
   - Web (páginas, entradas de blog, publicaciones en redes): título en cursiva, sitio, fecha y enlace.
   - Obras independientes (informes, datos, mapas, obras gráficas, folletos, normas, colecciones, software), audiovisuales, jurídicos, voces genéricas y reseñas.
-- `pruebas-tipos.json` y `pruebas-tipos.md`: 52 casos con datos ficticios, uno por tipo más casos límite.
+- `pruebas-tipos.json` y `pruebas-tipos.md`: 51 casos con datos ficticios, uno por tipo más casos límite.
 
 ### Changed
 - Revistas: solo el volumen, sin número de fascículo (salvo que no haya volumen) y sin coma antes de la página, como en «*Scripta Theologica* 17 (1985) 227-243» (2026-11-02).

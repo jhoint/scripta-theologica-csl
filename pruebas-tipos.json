@@ -702,26 +702,6 @@
   "type": "post-weblog"
  },
  {
-  "title": "Un preprint",
-  "author": [
-   {
-    "family": "Ejemplo",
-    "given": "Ana"
-   }
-  ],
-  "publisher": "Repositorio Ejemplo",
-  "issued": {
-   "date-parts": [
-    [
-     2023
-    ]
-   ]
-  },
-  "DOI": "10.1000/pre",
-  "id": "t-preprint",
-  "type": "preprint"
- },
- {
   "title": "Informe de ejemplo",
   "author": [
    {

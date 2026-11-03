@@ -73,41 +73,39 @@ Caso 33, `post` (t-post). Primera cita [@t-post, 12]. Segunda cita [@t-post, 14]
 
 Caso 34, `post-weblog` (t-post-weblog). Primera cita [@t-post-weblog, 12]. Segunda cita [@t-post-weblog, 14].
 
-Caso 35, `preprint` (t-preprint). Primera cita [@t-preprint, 12]. Segunda cita [@t-preprint, 14].
+Caso 35, `report` (t-report). Primera cita [@t-report, 12]. Segunda cita [@t-report, 14].
 
-Caso 36, `report` (t-report). Primera cita [@t-report, 12]. Segunda cita [@t-report, 14].
+Caso 36, `regulation` (t-regulation). Primera cita [@t-regulation, 12]. Segunda cita [@t-regulation, 14].
 
-Caso 37, `regulation` (t-regulation). Primera cita [@t-regulation, 12]. Segunda cita [@t-regulation, 14].
+Caso 37, `review` (t-review). Primera cita [@t-review, 12]. Segunda cita [@t-review, 14].
 
-Caso 38, `review` (t-review). Primera cita [@t-review, 12]. Segunda cita [@t-review, 14].
+Caso 38, `review-book` (t-review-book). Primera cita [@t-review-book, 12]. Segunda cita [@t-review-book, 14].
 
-Caso 39, `review-book` (t-review-book). Primera cita [@t-review-book, 12]. Segunda cita [@t-review-book, 14].
+Caso 39, `software` (t-software). Primera cita [@t-software, 12]. Segunda cita [@t-software, 14].
 
-Caso 40, `software` (t-software). Primera cita [@t-software, 12]. Segunda cita [@t-software, 14].
+Caso 40, `song` (t-song). Primera cita [@t-song, 12]. Segunda cita [@t-song, 14].
 
-Caso 41, `song` (t-song). Primera cita [@t-song, 12]. Segunda cita [@t-song, 14].
+Caso 41, `speech` (t-speech). Primera cita [@t-speech, 12]. Segunda cita [@t-speech, 14].
 
-Caso 42, `speech` (t-speech). Primera cita [@t-speech, 12]. Segunda cita [@t-speech, 14].
+Caso 42, `standard` (t-standard). Primera cita [@t-standard, 12]. Segunda cita [@t-standard, 14].
 
-Caso 43, `standard` (t-standard). Primera cita [@t-standard, 12]. Segunda cita [@t-standard, 14].
+Caso 43, `thesis` (t-thesis). Primera cita [@t-thesis, 12]. Segunda cita [@t-thesis, 14].
 
-Caso 44, `thesis` (t-thesis). Primera cita [@t-thesis, 12]. Segunda cita [@t-thesis, 14].
+Caso 44, `treaty` (t-treaty). Primera cita [@t-treaty, 12]. Segunda cita [@t-treaty, 14].
 
-Caso 45, `treaty` (t-treaty). Primera cita [@t-treaty, 12]. Segunda cita [@t-treaty, 14].
+Caso 45, `webpage` (t-webpage). Primera cita [@t-webpage, 12]. Segunda cita [@t-webpage, 14].
 
-Caso 46, `webpage` (t-webpage). Primera cita [@t-webpage, 12]. Segunda cita [@t-webpage, 14].
+Caso 46, `article-journal` (x-sinfecha). Primera cita [@x-sinfecha, 12]. Segunda cita [@x-sinfecha, 14].
 
-Caso 47, `article-journal` (x-sinfecha). Primera cita [@x-sinfecha, 12]. Segunda cita [@x-sinfecha, 14].
+Caso 47, `book` (x-origdate). Primera cita [@x-origdate, 12]. Segunda cita [@x-origdate, 14].
 
-Caso 48, `book` (x-origdate). Primera cita [@x-origdate, 12]. Segunda cita [@x-origdate, 14].
+Caso 48, `book` (x-traduccion). Primera cita [@x-traduccion, 12]. Segunda cita [@x-traduccion, 14].
 
-Caso 49, `book` (x-traduccion). Primera cita [@x-traduccion, 12]. Segunda cita [@x-traduccion, 14].
+Caso 49, `chapter` (x-dir). Primera cita [@x-dir, 12]. Segunda cita [@x-dir, 14].
 
-Caso 50, `chapter` (x-dir). Primera cita [@x-dir, 12]. Segunda cita [@x-dir, 14].
+Caso 50, `chapter` (x-comillas). Primera cita [@x-comillas, 12]. Segunda cita [@x-comillas, 14].
 
-Caso 51, `chapter` (x-comillas). Primera cita [@x-comillas, 12]. Segunda cita [@x-comillas, 14].
-
-Caso 52, `article-journal` (x-urlsolo). Primera cita [@x-urlsolo, 12]. Segunda cita [@x-urlsolo, 14].
+Caso 51, `article-journal` (x-urlsolo). Primera cita [@x-urlsolo, 12]. Segunda cita [@x-urlsolo, 14].
 
 # Bibliografía {.unnumbered}
 
