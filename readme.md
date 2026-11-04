@@ -11,6 +11,7 @@ Hoja de estilos CSL (*Citation Style Language*) adaptada a las normas de edició
 * `scripta-theologica.csl`: el estilo (versión 0.2.0).
 * `CHANGELOG.md`: historial de cambios.
 * `cambios-a-realizar.md`: pendientes y puntos por decidir.
+* `CAMPOS.md`: guía de campos de Zotero: qué campos de cada tipo llegan a la cita y a la bibliografía, y qué se puede escribir en Extra.
 * `OBRAS-CLASICAS.md`: guía detallada para citar obras clásicas y patrísticas.
 * `pruebas-scripta.json`: colección de prueba con los ejemplos de las normas de la revista y algunos casos más (21 obras).
 * `pruebas-tipos.json` y `pruebas-tipos.md`: 51 casos con datos ficticios, uno por cada tipo de documento más casos límite (ver [Pruebas](#pruebas)).
@@ -71,7 +72,7 @@ Las normas de la revista regulan libros y monografías, capítulos de obras cole
 
 ## Convenciones de uso en Zotero
 
-Para que salgan bien los casos especiales, sigue estas indicaciones al introducir los datos.
+Para que salgan bien los casos especiales, sigue estas indicaciones al introducir los datos. La lista completa de campos que usa el estilo en cada tipo de documento está en [`CAMPOS.md`](CAMPOS.md).
 
 ### 1. Directores de obras colectivas (`dir.` / `dirs.`)
 Si una obra colectiva tiene director/es en lugar de editor/es, en el campo **Extra / Adicional** de Zotero:
@@ -84,7 +85,7 @@ Escríbelas **rectas y emparejadas** (`"así"`). El estilo pone «» por fuera y
 
 ### 3. Revistas y obras de consulta
 * **Revistas:** si el elemento tiene el campo *Journal Abbr* (abreviatura de la revista), el estilo la usa en lugar del título completo en las citas y en la bibliografía: «*ScrTh* 17 (1985) 227-243».
-* **Voces de diccionario o enciclopedia:** el estilo usa igualmente la abreviatura de la obra de consulta si existe, y en las citas posteriores pone el *Short Title* de la voz si lo tiene («DTC»).
+* **Voces de diccionario o enciclopedia:** Zotero no tiene campo de abreviatura para estos tipos. La sigla de la obra se escribe en **Extra**: `container-title-short: DTC`. El estilo la usa en lugar del título de la obra («en DTC 6 (1920) 1-10»), y en las citas posteriores pone el *Título corto* de la voz si lo tiene.
 
 ### 4. Archivo e inéditos
 Cartas, manuscritos, documentos, entrevistas y discursos salen con el autor siempre, la fecha completa en cifras, y el archivo y la signatura a partir de los campos de archivo de Zotero (*Archive* y *Loc. in Archive*): «EJEMPLO, Ana, Carta a Carlos Ruiz, 23-3-1962, Archivo Ejemplo 087.39.128». Sin título, una carta (o un correo) toma el tipo de documento y el destinatario: «Carta a Carlos Ruiz». **Este formato es provisional**: las normas de la revista no lo regulan y está pendiente de confirmar.

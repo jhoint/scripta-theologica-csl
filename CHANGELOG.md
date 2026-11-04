@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- `CAMPOS.md`: guía de campos de Zotero por tipo de documento (qué campos llegan a la primera cita, a la cita posterior y a la bibliografía; usos del campo Extra), generada a partir del esquema de Zotero y comprobada con Pandoc.
+
+### Changed
+- `readme.md`: la sigla de diccionarios y enciclopedias se escribe en Extra (`container-title-short`), no en un campo propio.
+
 ## [0.2.0] - 2026-11-03
 
 Primera versión que reúne el estilo del repositorio con el del vault de trabajo (una tesis doctoral con Zotero, Obsidian y Pandoc). Los cambios de febrero y octubre de 2026 no se habían registrado antes; se incluyen aquí con su fecha.
