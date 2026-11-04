@@ -58,6 +58,14 @@ Comparación de los 51 casos de `pruebas-tipos.json` con `chicago-notes-bibliogr
 * **Voces de obras de consulta:** la cita posterior omite la página; Chicago la mantiene. Confirmar con las normas si es deliberado.
 * **Tesis y conjuntos de datos:** Chicago pone el título de una tesis entre comillas; el estilo lo pone en cursiva (igual que los conjuntos de datos). Decidir.
 
+### Detectado con «CMOS18 test» (2026-11-04)
+Comparación de los 229 ejemplos de la colección «CMOS18 test» de Zotero (la de pruebas del estilo Chicago) con `chicago-notes-bibliography.csl` (18.ª ed.): campos que Chicago imprime y el estilo no. Origen de los datos (no se publican en este repositorio): colección «CMOS18 test» del grupo de Zotero 2205533 (la que enlaza la cabecera de `chicago-notes-bibliography.csl`), exportada como Better CSL JSON; para repetir la comparación basta exportarla de nuevo y pasarla por Pandoc con los dos estilos.
+* **Obras «en prensa» (`status: forthcoming`):** se pierde en libros y capítulos (Chicago: «Publisher, forthcoming»). Decidir cómo mostrarlo («en prensa») y de qué campo de Zotero sale.
+* **Editor de un libro que también tiene autor** (15 de 77 libros): Chicago imprime «Editado por …»; el estilo lo omite, igual que el traductor (6 libros). Afecta a ediciones preparadas por otro. Relacionado con «Traductor en los libros traducidos» (más arriba).
+* **Serie del libro** (`collection-title` y su número, 15 libros): el estilo no la imprime, tampoco en los ejemplos oficiales de la revista. Comprobar con las normas si hay que ponerla.
+* **Número de volúmenes** («2 vols.», 10 libros): el estilo solo lo imprime en 1 de 10.
+* **Detalles menores:** duración de grabaciones y discursos («4 min., 40 sec.»), número de ProQuest en las tesis y «after» en fechas de manuscritos: Chicago los imprime y el estilo no.
+
 ### Del repositorio
 * `zotero-outputs.md` es de febrero de 2026 y no refleja el estilo actual: regenerarlo con `pruebas-scripta.json` o retirarlo.
 * Obras clásicas: con «Título del libro» (`container-title`) rellenado, la bibliografía imprime ese título en lugar del Título, y las citas no. Decidir si se unifica (hoy se evita dejando el campo vacío; ver `OBRAS-CLASICAS.md`).
