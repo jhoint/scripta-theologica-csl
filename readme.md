@@ -15,7 +15,8 @@ Hoja de estilos CSL (*Citation Style Language*) adaptada a las normas de edició
 * `OBRAS-CLASICAS.md`: guía detallada para citar obras clásicas y patrísticas.
 * `pruebas-scripta.json`: colección de prueba con los ejemplos de las normas de la revista y algunos casos más (21 obras).
 * `pruebas-tipos.json` y `pruebas-tipos.md`: 51 casos con datos ficticios, uno por cada tipo de documento más casos límite (ver [Pruebas](#pruebas)).
-* `chicago-notes-bibliography.csl`: copia del estilo Chicago (notas y bibliografía), referencia para lo que las normas de la revista no regulan.
+* `chicago-notes-bibliography.csl`: copia del estilo Chicago 18.ª ed. (notas y bibliografía) tal como está en el [repositorio oficial de estilos CSL](https://github.com/citation-style-language/styles) (commit `205bf7b`, 2026-11-04), referencia para lo que las normas de la revista no regulan.
+* `chicago-notes-bibliography-copia-2026-02.csl`: la copia anterior (febrero de 2026, tomada del sitio de Zotero), conservada por si tenía cambios propios.
 * `zotero-outputs.md`: salidas de Zotero de febrero de 2026, con el estilo en su primera versión. Es histórico: no refleja el estilo actual.
 
 ---

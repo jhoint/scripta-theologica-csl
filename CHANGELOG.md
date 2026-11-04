@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `CAMPOS.md`: guía de campos de Zotero por tipo de documento (qué campos llegan a la primera cita, a la cita posterior y a la bibliografía; usos del campo Extra), generada a partir del esquema de Zotero y comprobada con Pandoc.
 
 ### Changed
+- Copia de Chicago 18.ª ed. (notas y bibliografía) sustituida por la del repositorio oficial de estilos CSL (commit `205bf7b`, 2026-11-04); la anterior se conserva como `chicago-notes-bibliography-copia-2026-02.csl`.
 - `OBRAS-CLASICAS.md`: corregido lo que no coincidía con el estilo: sin `type: classic` sale un capítulo sin serie ni volumen (no «un libro normal»); la sigla de la serie sale solo en las citas posteriores; las páginas de la edición, la fecha y el lugar, solo en la bibliografía; el editor figura en el resultado de la bibliografía; el pasaje se escribe sin la palabra «libros»; aviso sobre «Título del libro».
 - `CAMPOS.md`: añadida la tabla de la sección de un libro con `type: classic`; precisada la regla del volumen.
 - `readme.md`: la sigla de diccionarios y enciclopedias se escribe en Extra (`container-title-short`), no en un campo propio.
