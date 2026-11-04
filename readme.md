@@ -116,7 +116,7 @@ Para citar fuentes antiguas o colecciones patrísticas (*Patrologia Latina*, *Pa
 * **Citas posteriores:** RUFINO DE AQUILEYA, *Historia ecclesiastica*, I, 7: PL 21, 477.
 * **Bibliografía:** RUFINO DE AQUILEYA, *Historia ecclesiastica*, en Vallarsi, D. (ed.), Patrologia Latina 21, Paris, 1849, 461-540.
 
-(El editor sale en la bibliografía solo si lo hay.) El pasaje (`I, 6`, `libros X-XI`) es el **locator**; las páginas de la edición van después. Más detalles en [`OBRAS-CLASICAS.md`](OBRAS-CLASICAS.md).
+(El editor sale en la bibliografía solo si lo hay.) El pasaje (`I, 6`, `X-XI`; sin la palabra «libros», que Pandoc no imprime) es el **locator**; las páginas de la edición van después. Más detalles en [`OBRAS-CLASICAS.md`](OBRAS-CLASICAS.md).
 
 ---
 

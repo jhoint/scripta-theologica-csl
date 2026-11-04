@@ -51,4 +51,5 @@ Zotero → tipo CSL → familia del estilo:
 
 ### Del repositorio
 * `zotero-outputs.md` es de febrero de 2026 y no refleja el estilo actual: regenerarlo con `pruebas-scripta.json` o retirarlo.
-* Publicar la versión 0.2.0 (etiqueta y *release*) según el proceso del `CHANGELOG.md`.
+* Obras clásicas: con «Título del libro» (`container-title`) rellenado, la bibliografía imprime ese título en lugar del Título, y las citas no. Decidir si se unifica (hoy se evita dejando el campo vacío; ver `OBRAS-CLASICAS.md`).
+* Comentarios del estilo desactualizados: la macro `classic-editor` dice «en Domenico Vallarsi (ed.)» y el resultado es «en Vallarsi, D. (ed.)». Solo es un comentario.

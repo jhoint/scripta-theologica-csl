@@ -22,7 +22,7 @@ Las columnas son **1.ª cita | cita posterior | bibliografía**. «✓» = apare
 * **Título corto:** solo se usa en las **citas posteriores**. Si no lo hay, la cita posterior usa el Título completo. En la primera cita y en la bibliografía nunca sale.
 * **Número (fascículo) de una revista:** solo sale si **no hay Volumen**.
 * **Abreviatura de la revista:** si existe, sustituye al título de la publicación en las citas y en la bibliografía.
-* **Volumen de un libro:** sale en cifras romanas.
+* **Volumen:** en un libro sale en cifras romanas («Título, IV»); en una obra clásica, el de la serie, en cifras árabes («Patrologia Latina 21»); en la sección de un libro no sale.
 * **Autor:** el primer tipo de creador de cada ficha (el «Autor» en libros y artículos; «Artista» en una obra de arte; «Intérprete» en una grabación; etc.) es el que el estilo imprime como autor, en versalitas. Los demás tipos de creador no salen, salvo los que se indican en cada tabla.
 * **Sin autor:** el estilo usa, por este orden, el editor, el traductor y el título (p. ej. «TRAD, Tomás (trad.), *Solo traductor*…»). Un libro sin ninguno de los tres empieza por el título.
 * **Traductor con autor:** si el libro tiene autor, el traductor **no** se imprime.
@@ -156,6 +156,27 @@ No salen (salvo, si no hay autor, el Editor y el Traductor, que ocupan su lugar)
 | DOI | ✓ | · | ✓ |  |
 | URL | ✓ | · | ✓ | solo si no hay DOI |
 | Título corto | · | ✓ | · |  |
+
+### Sección de un libro con `type: classic` (obra clásica o patrística)
+
+Con la línea `type: classic` en Extra (ver `OBRAS-CLASICAS.md`), una Sección de un libro deja de tratarse como capítulo y los campos cambian. Comprobado con Pandoc 3.8.2 (un campo cada vez, sobre un elemento con Título, Autor y Fecha).
+
+Creadores que salen: Autor (✓ | ✓ | ✓); Editor (· | · | ✓, como «en Vallarsi, D. (ed.)»). El pasaje (locator) sale en la primera cita y en las posteriores; las páginas que se escriben tras el locator, también.
+
+| Campo | 1.ª | post. | bibl. | Observación |
+| :--- | :-: | :-: | :-: | :--- |
+| Título | ✓ | ✓ | ✓ | en citas posteriores lo sustituye el Título corto; en la bibliografía lo sustituye el Título del libro, si se rellena (conviene dejarlo vacío) |
+| Serie | ✓ | ✓ | ✓ | en citas posteriores lo sustituye la sigla de Extra, si hay |
+| `collection-title-short` (Extra) | · | ✓ | · | sigla de la serie |
+| Volumen | ✓ | ✓ | ✓ | va con la serie |
+| Fecha | · | · | ✓ |  |
+| Lugar | · | · | ✓ |  |
+| Páginas | · | · | ✓ | rango de la edición |
+| DOI | ✓ | · | ✓ |  |
+| URL | ✓ | · | ✓ | solo si no hay DOI |
+| Título corto | · | ✓ | · |  |
+
+No salen: Editorial, Edición, Traductor, Archivo, Posición en archivo, Número ni Sección.
 
 ### Caso (`case`, CSL `legal_case`)
 
