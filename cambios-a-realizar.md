@@ -66,6 +66,12 @@ Comparación de los 229 ejemplos de la colección «CMOS18 test» de Zotero (la 
 * **Número de volúmenes** («2 vols.», 10 libros): el estilo solo lo imprime en 1 de 10.
 * **Detalles menores:** duración de grabaciones y discursos («4 min., 40 sec.»), número de ProQuest en las tesis y «after» en fechas de manuscritos: Chicago los imprime y el estilo no.
 
+### Detectado por un usuario del estilo (2026-11-10)
+Dudas de un compañero tras probar el estilo, reproducidas con Pandoc 3.8.2 y con citeproc-js (el motor de Zotero con Word; no probado dentro de Zotero ni de Word).
+* **Volumen en las citas posteriores:** en una obra en varios volúmenes, la primera cita da «SCHMAUS, Michael, *Teología dogmática*, I, Madrid: Rialp, 1960, 30» y las posteriores «SCHMAUS, Michael, *Teología dogmática*, 31» para todos los volúmenes, que no se distinguen. Añadir el volumen en la cita posterior. Arreglo provisional: Título corto `Teología dogmática, <i>II</i>` (el número sale en redonda con citeproc-js; con Pandoc, sin comprobar en Word).
+* **Comillas dentro de un título entre comillas (solo Pandoc):** si el título de un artículo o capítulo lleva comillas españolas escritas en Zotero (`«persona»`), Pandoc las deja anidadas («El concepto de «persona» en…»); citeproc-js las pasa a “ ”. Con comillas rectas (`"persona"`) los dos motores dan “persona”. No es un cambio del estilo: documentar en `CAMPOS.md` que dentro de los títulos se escriban comillas rectas.
+* **Varios capítulos de la misma obra colectiva:** cada capítulo repite la descripción completa del libro en su primera cita. Sin solución automática: CSL 1.0.2 solo distingue si ya se ha citado el mismo ítem, no su obra colectiva. Se anota para no volver a investigarlo.
+
 ### Del repositorio
 * `zotero-outputs.md` es de febrero de 2026 y no refleja el estilo actual: regenerarlo con `pruebas-scripta.json` o retirarlo.
 * Obras clásicas: con «Título del libro» (`container-title`) rellenado, la bibliografía imprime ese título en lugar del Título, y las citas no. Decidir si se unifica (hoy se evita dejando el campo vacío; ver `OBRAS-CLASICAS.md`).
