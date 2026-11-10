@@ -45,12 +45,21 @@ Zotero → tipo CSL → familia del estilo:
 
 * **Obras patrísticas y ediciones críticas:** el modelo actual (Sección de un libro con `type: classic`) describe una obra dentro de un volumen numerado de una serie, con editor (PL, PG). Casos que hay que decidir:
   1. Obra dentro de un volumen de una serie: cubierto. Probar con ediciones críticas en serie (CCSL, CSEL, GCS…).
-  2. Edición crítica que ocupa un libro entero (p. ej. un volumen de *Sources Chrétiennes* con una sola obra): se cita como Libro; depende de «Serie del libro».
+  2. Edición crítica que ocupa un libro entero (p. ej. un volumen de *Sources Chrétiennes* con una sola obra): *Libro* con `type: classic` (ver la propuesta más abajo).
   3. Obra en varios volúmenes: depende de «Volumen en las citas posteriores».
   4. Traducción usada además del original: depende de «Traductor en los libros traducidos» y de los datos de la edición original.
   5. Cita por divisiones internas (libro, capítulo): cubierto con el locator (ver `OBRAS-CLASICAS.md`).
 
   Antes de decidir: qué dicen las normas de *Scripta* sobre fuentes patrísticas, cómo citan los Padres los artículos recientes de la revista y una tabla con casos reales. Consultarlo con el director de tesis.
+
+  Propuesta y decisiones de formato (2026-11-10). Nombres: el de la interfaz de Zotero en español, con la variable CSL entre paréntesis (esquema de Zotero, versión 45).
+  * **Dos modelos con `type: classic`:** obra dentro de un volumen de una colección (PL, PG) → *Sección de un libro*; edición crítica u obra publicada como libro propio (CCSL, SC, una traducción) → *Libro*. Con `type: classic` al estilo le llega el tipo `classic` en los dos casos, sin saber cuál era el tipo de Zotero; los distingue por los campos: *Sección de un libro* trae Páginas (`page`), que *Libro* no tiene (solo Número de páginas, `number-of-pages`).
+  * **Número de la colección:** usar Número de la serie (`collection-number`) en lugar de Volumen (`volume`), con Volumen como alternativa si Número de la serie está vacío (las fichas actuales de PL siguen funcionando). Según la especificación de CSL 1.0.2, `collection-number` es el «número que identifica la colección que contiene el ítem (p. ej. el número de serie de un libro)» y `volume`, el volumen del ítem o de su contenedor. Con los dos rellenos, Volumen es el tomo (p. ej. SC 264, t. 1; formato del tomo por decidir). Hoy, con Serie = Sources Chrétiennes, Número de la serie = 264 y Volumen = 1, sale «Sources Chrétiennes 1». Cambia el estilo, los ejemplos de `OBRAS-CLASICAS.md` y `CAMPOS.md`, y hay que repetir las pruebas de obras clásicas.
+  * **Editorial (`publisher`):** en `classic` no sale («Paris, 1849»). Correcto para PL; decidir para las ediciones críticas (Brepols, Cerf).
+  * **«en … (ed.)»:** tiene sentido cuando la obra está dentro de un volumen editado por otro (PL), no cuando ocupa el libro entero: ahí sería algo como «ed. A. Mutzenbecher». Decidir el formato.
+  * **Traductor (`translator`):** en `classic` no sale (prueba con *Contre les hérésies* y *Vida de Moisés*). Ver «Traductor en los libros traducidos».
+  * **Obra clásica sin datos de edición** (*Confessiones*, citada por sus divisiones: «AGUSTÍN DE HIPONA, *Confessiones*, 1.1.1»): sale bien; documentarla en `OBRAS-CLASICAS.md` como uso válido. Decidir si entra en la bibliografía: Chicago 18 no la incluye si no tiene editor, traductor, editorial o archivo (según los comentarios de su código, CMOS18 14.143-14.147); el estilo sí («AGUSTÍN DE HIPONA, *Confessiones*.»).
+  * **Pregunta:** el editor de un clásico sale «en Vallarsi, D. (ed.)», sin versalitas y con inicial; el de una obra colectiva, «en VAUCHEZ, André (ed.)». ¿Decisión de febrero o incoherencia?
 
 ### Por implementar
 * **Artículo sin fecha:** debería salir «s.f.». Ahora sale sin fecha ni paréntesis («Revista de Ejemplo 1 1-2»).
