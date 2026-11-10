@@ -82,7 +82,12 @@ editorial-director: Apellido || Nombre
 ```
 
 ### 2. Comillas dentro de un título
-Escríbelas **rectas y emparejadas** (`"así"`). El estilo pone «» por fuera y “” por dentro: «Título con “comillas interiores” emparejadas». Las comillas inglesas “ ” también funcionan si están bien emparejadas y orientadas; no funcionan las «» interiores ni las comillas sueltas o al revés.
+Escríbelas **rectas y emparejadas** (`"así"`), aunque el original use otras. El estilo pone «» por fuera y “” por dentro: «Título con “comillas interiores” emparejadas». Es la jerarquía que recomienda la RAE: comillas españolas en primer lugar y las inglesas y las simples para entrecomillar dentro de un texto ya entrecomillado (*Diccionario panhispánico de dudas*, «comillas», apdo. 1, https://www.rae.es/dpd/comillas). Por eso el título no conserva las comillas del original: «“Él es emprendedor, pero yo no; yo soy autónomo”: Autorrepresentación…».
+
+Comprobado con Pandoc 3.8.2 y con citeproc-js (el motor del complemento de Word de Zotero):
+* **Rectas `"…"`, inglesas `“…”` o simples rectas `'…'`:** salen “…” en los dos.
+* **Españolas `«…»` dentro del título:** citeproc-js las convierte en “…”, pero Pandoc las deja anidadas («Título con «comillas»…»). No las uses.
+* **Tercer nivel** (comillas dentro de las interiores): la RAE pide simples ‘…’, pero el archivo de idioma español de CSL solo define dos niveles y el procesador vuelve a «…». Si se escriben simples tipográficas `‘…’`, citeproc-js las respeta y Pandoc no. Es raro; con Pandoc, corregirlo a mano en el texto final.
 
 ### 3. Revistas y obras de consulta
 * **Revistas:** si el elemento tiene el campo *Journal Abbr* (abreviatura de la revista), el estilo la usa en lugar del título completo en las citas y en la bibliografía: «*ScrTh* 17 (1985) 227-243».

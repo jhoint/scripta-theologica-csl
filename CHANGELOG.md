@@ -15,6 +15,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `OBRAS-CLASICAS.md`: corregido lo que no coincidía con el estilo: sin `type: classic` sale un capítulo sin serie ni volumen (no «un libro normal»); la sigla de la serie sale solo en las citas posteriores; las páginas de la edición, la fecha y el lugar, solo en la bibliografía; el editor figura en el resultado de la bibliografía; el pasaje se escribe sin la palabra «libros»; aviso sobre «Título del libro».
 - `CAMPOS.md`: añadida la tabla de la sección de un libro con `type: classic`; precisada la regla del volumen.
 - `readme.md`: la sigla de diccionarios y enciclopedias se escribe en Extra (`container-title-short`), no en un campo propio.
+- `readme.md`: comillas dentro de un título, con la jerarquía de la RAE (*Diccionario panhispánico de dudas*), lo comprobado en Pandoc y en citeproc-js y la limitación del tercer nivel (2026-11-10).
+- `CAMPOS.md`: el campo Extra se llama «Adicional» en la interfaz en español; «Editor original» es la editorial; remisión a las comillas; los campos de otras disciplinas que no salen, anotados como posible ampliación (2026-11-10).
+- `OBRAS-CLASICAS.md`: «Extra / Adicional» en todas las menciones; por qué se usa Sección de un libro y no Libro; corregida la nota que decía «un libro normal» (2026-11-10).
+- `cambios-a-realizar.md`: dudas de un usuario del estilo, variables que Chicago imprime y el estilo ignora (con su campo de Zotero) y casos de obras patrísticas por decidir (2026-11-10).
 
 ## [0.2.0] - 2026-11-03
 

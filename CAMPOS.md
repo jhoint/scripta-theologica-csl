@@ -26,13 +26,14 @@ Las columnas son **1.ª cita | cita posterior | bibliografía**. «✓» = apare
 * **Autor:** el primer tipo de creador de cada ficha (el «Autor» en libros y artículos; «Artista» en una obra de arte; «Intérprete» en una grabación; etc.) es el que el estilo imprime como autor, en versalitas. Los demás tipos de creador no salen, salvo los que se indican en cada tabla.
 * **Sin autor:** el estilo usa, por este orden, el editor, el traductor y el título (p. ej. «TRAD, Tomás (trad.), *Solo traductor*…»). Un libro sin ninguno de los tres empieza por el título.
 * **Traductor con autor:** si el libro tiene autor, el traductor **no** se imprime.
+* **Comillas dentro de un título:** se escriben rectas (`"así"`); el estilo pone las que corresponden según la RAE. Ver `readme.md`, apartado «Comillas dentro de un título».
 * **Obra sin fecha:** el estilo no imprime nada (no pone «s. f.»). Está en pendientes.
 * **Fecha de acceso:** nunca se imprime.
-* **Campos que no se usan en ningún tipo:** Accedido, Catálogo de biblioteca, Clave de cita, Duración, Editor original, Escala, Estado, Estado legal, Fecha de prioridad, Fecha de solicitud, Fecha original, Historia, ISBN, ISSN, Idioma, Licencia, Lugar del evento, Lugar original, Nombre de la conferencia, Número de la parte, Número de la serie, Número de páginas, Número de solicitud, Número de volúmenes, Números de prioridad, PMCID, PMID, Referencias, Resumen, Signatura, Tamaño de la obra, Título de la parte, Título de la sesión.
+* **Campos que no se usan en ningún tipo:** Accedido, Catálogo de biblioteca, Clave de cita, Duración, Editor original (es la editorial de la edición original, no una persona), Escala, Estado, Estado legal, Fecha de prioridad, Fecha de solicitud, Fecha original, Historia, ISBN, ISSN, Idioma, Licencia, Lugar del evento, Lugar original, Nombre de la conferencia, Número de la parte, Número de la serie, Número de páginas, Número de solicitud, Número de volúmenes, Números de prioridad, PMCID, PMID, Referencias, Resumen, Signatura, Tamaño de la obra, Título de la parte, Título de la sesión.
 
 ## El campo Extra / Adicional
 
-Zotero permite escribir en **Extra**, una línea por dato, `variable: valor`, para rellenar variables de CSL que no tienen campo propio. Al exportar, Zotero y Better BibTeX las convierten en campos CSL; Better BibTeX lo documenta, y admite nombres en la forma `Apellido || Nombre` ([Better BibTeX, Extra fields](https://retorque.re/zotero-better-bibtex/exporting/extra-fields/)).
+Zotero permite escribir en **Extra** (en la interfaz en español, **Adicional**), una línea por dato, `variable: valor`, para rellenar variables de CSL que no tienen campo propio. Al exportar, Zotero y Better BibTeX las convierten en campos CSL; Better BibTeX lo documenta, y admite nombres en la forma `Apellido || Nombre` ([Better BibTeX, Extra fields](https://retorque.re/zotero-better-bibtex/exporting/extra-fields/)).
 
 **Importante (comprobado):** Pandoc **no** lee el Extra por sí mismo. Con un `biblioteca.json` exportado con **Better CSL JSON** el Extra funciona; con un JSON en el que el texto vaya como nota sin procesar, no. Si algo de Extra no sale en Pandoc, comprueba primero qué ha exportado Better BibTeX.
 
@@ -726,3 +727,4 @@ No salen (salvo, si no hay autor, el Editor y el Traductor, que ocupan su lugar)
 * Las tablas indican **si** un campo sale, no el formato exacto (signos, orden). Para ver el formato, consulta `pruebas-tipos.md` y las tablas de `readme.md`.
 * Que un campo salga en la «1.ª cita» no garantiza que lo haga con cualquier combinación de campos: las únicas anulaciones mutuas detectadas son las de las reglas generales y las que indica la columna «Observación».
 * Mendeley y otros gestores: pendiente.
+* Los creadores y campos propios de otras disciplinas (Compositor, Productor, Guionista, Miembro del reparto, Invitado, Narrador, Escala, Duración…) no salen en ningún tipo. Su posible incorporación está anotada en `cambios-a-realizar.md` como ampliación futura.

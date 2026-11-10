@@ -20,6 +20,8 @@ Las páginas se escriben **sin «p.»**: el estilo imprime las páginas sin etiq
 
 ### 1. Crear un nuevo elemento de tipo "Book section = Sección de un libro"
 
+Se usa *Sección de un libro*, y no *Libro*, porque es el único de los dos tipos con campo **Páginas** (el rango que ocupa la obra dentro del volumen de la colección, p. ej. PL 21, 461-540). *Libro* solo tiene *Número de páginas* (el total del volumen), que el estilo no usa (esquema de Zotero, versión 45). Al estilo le da igual el tipo de Zotero: lo que lo convierte en obra clásica es `type: classic`.
+
 En Zotero, crea un nuevo elemento y configura los siguientes campos:
 
 
@@ -28,7 +30,7 @@ En Zotero, crea un nuevo elemento y configura los siguientes campos:
 | **Title = Título**          | Historia ecclesiastica | Título de la obra clásica                                                                  |
 | **Author = Autor**           | Rufino de Aquileya     | Autor antiguo                                                                                |
 | **Collection Title = Serie** | Patrologia Latina      | Nombre completo de la colección                                                             |
-| **collection-title-short**   | PL                     | Hay que ponerlo en el campo "extra = adicional". Sigla de la colección: sale solo en las citas posteriores |
+| **collection-title-short**   | PL                     | Hay que ponerlo en el campo Extra / Adicional. Sigla de la colección: sale solo en las citas posteriores |
 | **Volume = Volumen**         | 21                     | Número del volumen de la serie                                                              |
 | **Pages = Páginas**         | 461-540                | Rango completo de páginas de la obra en la edición (sale en la bibliografía; en la cita va el locator y, después, las páginas citadas) |
 | **Publisher Place = Lugar**  | Paris                  | Lugar de publicación de la edición                                                         |
@@ -36,7 +38,7 @@ En Zotero, crea un nuevo elemento y configura los siguientes campos:
 | **Editor**                   | Domenico Vallarsi      | Editor de la edición (si aplica)                                                            |
 | **Extra = Adicional**        | `type: classic`        | **CRÍTICO**                                                                                 |
 
-### 2. Campo "Extra" - INDISPENSABLE
+### 2. Campo Extra / Adicional - INDISPENSABLE
 
 ```
 type: classic
@@ -105,7 +107,7 @@ Dentro de una nota con texto propio: `@rufino [{I, 6}, 473-475]`. No se escribe 
 
 ## Notas importantes
 
-1. **`type: classic` es obligatorio añadirlo en el campo extra** - Sin él, se formateará como un libro normal
+1. **`type: classic` es obligatorio añadirlo en el campo Extra / Adicional** - Sin él, se formateará como un capítulo, sin serie ni volumen
 2. **collection-title-short** - Es lo que aparecerá en las citas posteriores (PL, PG, etc.). Si no existe, usa Collection Title
 3. **Volume = número de serie** - El número del volumen dentro de la colección
 4. **Pages** - El rango de páginas/columnas de la edición: sale solo en la bibliografía. En las citas van las páginas que escribas después del locator
@@ -115,11 +117,11 @@ Dentro de una nota con texto propio: `@rufino [{I, 6}, 473-475]`. No se escribe 
 
 ## Solución de problemas
 
-**P: ¿Por qué aparece como un libro normal?**
-R: Falta `type: classic` en el campo Extra (sale como un capítulo, sin serie ni volumen).
+**P: ¿Por qué aparece como un capítulo normal?**
+R: Falta `type: classic` en el campo Extra / Adicional (sale como un capítulo, sin serie ni volumen).
 
 **P: ¿Las siglas PL no aparecen?**
-R: Rellena explícitamente en el campo extra lo siguiente: "collection-title-short: PL". Solo salen en las citas posteriores.
+R: Rellena explícitamente en el campo Extra / Adicional lo siguiente: "collection-title-short: PL". Solo salen en las citas posteriores.
 
 **P: ¿El editor no aparece en bibliografía?**
 R: Verifica que esté en "Creator" con rol "Editor".
