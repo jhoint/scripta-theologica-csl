@@ -1,6 +1,6 @@
 # Cambios a realizar
 
-Estado a 2026-11-10. Los tipos de documento y los casos que figuraban aquí como pendientes (febrero de 2026) se han comprobado con `pruebas-tipos.json` (ver `readme.md`, apartado Pruebas).
+Estado a 2026-11-11. Los tipos de documento y los casos que figuraban aquí como pendientes (febrero de 2026) se han comprobado con `pruebas-tipos.json` (ver `readme.md`, apartado Pruebas).
 
 ## Resuelto
 
@@ -98,7 +98,7 @@ Fuentes normativas: qué significa cada variable, la especificación de CSL 1.0.
 Ya anotadas más arriba: serie y número, número de volúmenes, editor o traductor junto al autor, obras en prensa y fecha original.
 
 **Con campo propio en Zotero** (prioritarias: puede haber datos ya rellenados que se pierden):
-* **Accedido** (`accessed`, casi todos los tipos): fecha de consulta de una web o documento en línea (p. ej. documentos del magisterio en vatican.va). Relacionado con las fechas de las webs.
+* **Accedido** (`accessed`, casi todos los tipos): fecha de consulta de una web o documento en línea. Ya decidido: no se añade (ver «Otros puntos», en Resuelto). Revisar solo si cambia el criterio.
 * **Fecha original, Editor original, Lugar original** (`original-date`, `original-publisher`, `original-publisher-place`; libro y sección de un libro): datos de la edición original en traducciones y reediciones. «Editor original» es la editorial.
 * **Número de volúmenes** (`number-of-volumes`) y **Número de la serie** (`collection-number`): ya anotados más arriba.
 * **Editor de la serie** (creador; `collection-editor`): director de la serie.
@@ -114,11 +114,44 @@ Ya anotadas más arriba: serie y número, número de volúmenes, editor o traduc
 * **Menos frecuentes:** suplemento de revista (`supplement-number`), fecha de un congreso o acto (`event-date`) y fecha de publicación anticipada en línea (`available-date`).
 * **Editor y traductor a la vez** (`editor-translator`): no se escribe; según la especificación lo genera el procesador cuando editor y traductor son la misma persona. El estilo ya define el término «ed. y trad.»: comprobar si sale.
 
-**Posibles ampliaciones futuras para otras disciplinas** (hoy no salen y `CAMPOS.md` lo indica; útiles para un estilo compartido): Compositor (`composer`, música litúrgica o sacra), Comisario (`curator`, catálogos de exposición de arte sacro; sin campo en Zotero), Ilustrador (`illustrator`; sin campo en Zotero), Productor, Productor ejecutivo, Guionista, Creador de la serie, Miembro del reparto, Invitado y Narrador (`producer`, `executive-producer`, `script-writer`, `series-creator`, `performer`, `guest`, `narrator`: cine, televisión y pódcast), Organizador y Moderador (`organizer`, `chair`: congresos), Duración y Tamaño de la obra (`dimensions`) y Escala (`scale`).
+**Otras disciplinas** (hoy no salen y `CAMPOS.md` lo indica; objetivo: que el estilo sea completo): Compositor (`composer`, música litúrgica o sacra), Comisario (`curator`, catálogos de exposición de arte sacro; sin campo en Zotero), Ilustrador (`illustrator`; sin campo en Zotero), Productor, Productor ejecutivo, Guionista, Creador de la serie, Miembro del reparto, Invitado y Narrador (`producer`, `executive-producer`, `script-writer`, `series-creator`, `performer`, `guest`, `narrator`: cine, televisión y pódcast), Organizador y Moderador (`organizer`, `chair`: congresos), Duración y Tamaño de la obra (`dimensions`) y Escala (`scale`).
 
 **Descartadas** (no aplican a un estilo de notas teológico): `references` y `submitted` (Chicago las usa en tipos jurídicos y patentes), `page-first` (la calcula el procesador; Chicago solo la usa en macros jurídicas), `year-suffix` (para estilos autor-fecha), `event` (variante obsoleta de `event-title`, que el estilo ya usa) y `original-author` (Creador original; en Zotero solo en grabaciones de sonido).
 
-**Prueba sobre una biblioteca real:** contar, en una exportación Better CSL JSON, cuántas obras tienen rellenados campos que el estilo ignora, para fijar prioridades.
+### Prueba sobre la biblioteca exportada (2026-11-11)
+Objetivo: que el estilo sea completo, no solo para la tesis. Exportación Better CSL JSON de la biblioteca de Zotero (455 obras: 206 de la tesis, 230 de la colección «CMOS18 test» y 19 de las pruebas del estilo). Para cada obra y cada campo relleno se quita el campo y se vuelve a generar con citeproc-js la primera cita, una posterior y la bibliografía; si nada cambia, el estilo ignora ese campo en esa obra. Informe completo, con las claves de cada obra, fuera del repositorio (`Claude outputs/campos-ignorados-2026-11-11.md`, porque incluye la bibliografía de la tesis); el CMOS18 test sirve de batería de pruebas para cada cambio.
+
+**Obras afectadas por pendientes ya anotados** (tesis / CMOS18 test):
+* Serie del libro (`collection-title`) y su número (`collection-number`): 35 libros y 3 capítulos / 21 libros y 4 capítulos. Es lo que más afecta a la tesis.
+* Contribuidor (`contributor`): 13 / 12. Antes de decidir, revisar en la tesis si son traductores o prologuistas mal clasificados.
+* Editorial en obras clásicas: 6 de 8 / 3.
+* Editor de un libro que también tiene autor: 1 / 15.
+* Número de volúmenes: 1 / 14 (incluye un clásico).
+* Traductor: 0 / 10 (7 libros, 2 clásicos y 1 artículo de revista).
+* Editor de la serie: 0 / 12. Estado (obras en prensa): 0 / 11. Título del volumen: 0 / 11. Fecha del acto: 0 / 10. Publicación anticipada en línea: 0 / 6. Fecha original: 0 / 4. Reseñas (autor y título reseñados): 0 / 4 y 3.
+
+**Nuevos, detectados solo con el CMOS18 test:**
+* **Obra completa dentro de un volumen recopilatorio** (Libro con Título del libro y Páginas: una novela en *Later novels*, una obra en *The complete works* de Shakespeare): se pierden el volumen y las páginas. Es el mismo caso que una obra patrística dentro de un volumen; resolverlo junto con «Obras patrísticas y ediciones críticas».
+* **Cartas publicadas en una colección** (`personal_communication` con Título del libro, Editor, Editorial, Volumen y Páginas: *Letters of Henry Adams*, *Letters of E. B. White*): se pierden todos los datos de la edición. Relevante para epistolarios.
+* **Capítulo en un libro de varios volúmenes** (Volumen en un capítulo): se pierde el volumen. Número de capítulo (`chapter-number`): se pierde.
+* **Prólogos, epílogos y similares** (Género, `genre`, en un capítulo: «foreword»): se pierde; Chicago escribe «foreword to». También en una carta al director («letter to the editor») y en un fragmento clásico («frag. 115 Diels-Kranz»).
+* **Soporte** (`medium`): libro electrónico (EPUB, Kindle), microfilme, vídeo, «exhibition catalog». Se pierde.
+* **Número de artículo en revistas electrónicas** (Número, `number`, p. ej. «e0263069»): se pierde; en revistas sin páginas es el único localizador.
+* **Editor de un número de revista** (Editor en un artículo de revista): se pierde.
+* **Serie de una revista** («n.s.», «2nd ser.», Serie en un artículo): se pierde.
+* **Sección de periódicos y revistas** (`section`: «Sports», «Arts»): se pierde. **Volumen en revistas no académicas** (`article-magazine`): se pierde (también 4 de la tesis).
+* **Edición de un capítulo** (Edición en un capítulo de un libro en 2.ª ed.): se pierde. Edición de un periódico («late city») y de una ley: menor.
+* **Base de datos y número de tesis** (Archivo «ProQuest», «EBSCOhost», «LexisNexis»; Número de la tesis en ProQuest): se pierden (los de ProQuest ya estaban como «detalle menor»).
+* **Folio en un manuscrito** (Páginas «fol. 466r»): se pierde. Relevante para documentos de archivo.
+* **Entrevistas:** emisora (Editorial: «PBS», «NPR»), lugar, páginas y sección cuando la entrevista está publicada: se pierden. Entrevistador en una entrevista publicada en una revista: se pierde.
+* **Mapas en un atlas** (Volumen y Páginas «fig. 51.3»), **número suelto de una revista** (Volumen en `periodical`), **partitura en una edición crítica** (Serie y Editor), **país en una película** (Lugar), **editorial de un discurso** (sitio que lo publica), **autor del libro contenedor** (`container-author`) y **plataforma en una reseña de televisión** (`event-title`): se pierden.
+
+**Datos que conviene limpiar en la biblioteca de la tesis** (no es cosa del estilo):
+* Páginas con el total o con texto en un libro: IsastiElizaran («P»), Ormaetxea («26 p»), Whyte1991 («x+317–x+317»).
+* Sección con el subtítulo de la revista: ReteguiAyastuy2017, Sinde2022.
+* Archivo con nombres de catálogo: CruzFreyre2013 («WorldCat.org»), Oyarzabal1989 (catálogo de Mondragon Unibertsitatea), RufinodeAquileya1849 («Patrologia Latina»).
+* Obras clásicas con Título del libro relleno: HilariodePoitiers1916, HilariodePoitiers2019, PascasioRadberto1969 y 1969a (ver «Del repositorio»).
+* Contribuidores: revisar los 13 (p. ej. Borne1944).
 
 ### Del repositorio
 * `zotero-outputs.md` es de febrero de 2026 y no refleja el estilo actual: regenerarlo con `pruebas-scripta.json` o retirarlo.
