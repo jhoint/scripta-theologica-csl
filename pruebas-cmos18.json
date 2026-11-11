@@ -1,0 +1,8125 @@
+[
+  {
+    "id": "1318",
+    "archive": "BL",
+    "archive_location": "Add. MS 36684",
+    "citation-key": "1318",
+    "genre": "Book of Hours, use of St. Omer",
+    "issued": {
+      "circa": true,
+      "date-parts": [
+        [
+          "1318"
+        ],
+        [
+          "1325"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.205",
+    "type": "manuscript"
+  },
+  {
+    "id": "1616",
+    "archive": "TNA",
+    "archive_location": "PROB 11/127/771",
+    "citation-key": "1616",
+    "genre": "Will of William Shakespeare, Gentleman of Stratford upon Avon, Warwickshire",
+    "issued": {
+      "date-parts": [
+        [
+          "1616",
+          6,
+          22
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.205",
+    "page": "fol. 466r",
+    "status": "after",
+    "type": "manuscript"
+  },
+  {
+    "id": "1701",
+    "citation-key": "1701",
+    "issued": {
+      "date-parts": [
+        [
+          "1701"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.202",
+    "title": "Act of Settlement",
+    "type": "legislation"
+  },
+  {
+    "id": "1803",
+    "citation-key": "1803",
+    "collection-title": "1st series",
+    "issued": {
+      "date-parts": [
+        [
+          "1803"
+        ],
+        [
+          "1820"
+        ]
+      ]
+    },
+    "language": "la",
+    "license": "CMOS18 14.203",
+    "title": "Hansard parliamentary debates",
+    "type": "book"
+  },
+  {
+    "id": "1849",
+    "archive": "National Archives",
+    "archive_collection": "Records of the US Senate, RG 46",
+    "archive_location": "NAID 7741397",
+    "archive-place": "Washington, DC",
+    "citation-key": "1849",
+    "issued": {
+      "date-parts": [
+        [
+          "1849",
+          2,
+          27
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.193",
+    "title": "Anti-slavery petition from Women of America",
+    "type": "manuscript"
+  },
+  {
+    "id": "1856",
+    "authority": "34th Cong.",
+    "chapter-number": "3d Sess.",
+    "citation-key": "1856",
+    "issued": {
+      "date-parts": [
+        [
+          "1856"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.188",
+    "number": "Cong. Globe",
+    "page": "149",
+    "type": "bill"
+  },
+  {
+    "id": "1884",
+    "citation-key": "1884",
+    "issued": {
+      "date-parts": [
+        [
+          "1884"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.200",
+    "title": "R v. Dudley and Stephens",
+    "type": "legal_case"
+  },
+  {
+    "id": "1995",
+    "citation-key": "1995",
+    "container-title": "S.C.R.",
+    "issued": {
+      "date-parts": [
+        [
+          "1995"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.195",
+    "note": "Display Title: Egan v. Canada (S.C.R.)",
+    "page": "513",
+    "title": "Egan v. Canada",
+    "type": "legal_case",
+    "volume": "2"
+  },
+  {
+    "id": "1996",
+    "citation-key": "1996",
+    "collection-title": "Library series",
+    "issued": {
+      "date-parts": [
+        [
+          "1996"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.117",
+    "publisher": "TIAA-CREF",
+    "publisher-place": "New York",
+    "title": "Lifestyles in retirement",
+    "type": "report"
+  },
+  {
+    "id": "2000",
+    "chapter-number": "9",
+    "citation-key": "2000",
+    "container-title": "S.C.",
+    "issued": {
+      "date-parts": [
+        [
+          "2000"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.196",
+    "title": "Canada Elections Act",
+    "type": "legislation"
+  },
+  {
+    "id": "2000a",
+    "citation-key": "2000a",
+    "container-title": "Gourmet",
+    "issued": {
+      "date-parts": [
+        [
+          "2000",
+          9
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.88",
+    "section": "Kitchen notebook",
+    "type": "article-magazine"
+  },
+  {
+    "id": "2001",
+    "citation-key": "2001",
+    "container-title": "Cong. Rec.",
+    "issued": {
+      "date-parts": [
+        [
+          "2001"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.187",
+    "page": "19000",
+    "type": "bill",
+    "volume": "147"
+  },
+  {
+    "id": "2003",
+    "citation-key": "2003",
+    "compiler": [
+      {
+        "family": "Austin",
+        "given": "Tim"
+      }
+    ],
+    "ISBN": "978-0-00-714505-8",
+    "issued": {
+      "date-parts": [
+        [
+          "2003"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.130",
+    "publisher": "Times Books",
+    "publisher-place": "London",
+    "source": "Open WorldCat",
+    "title": "The Times style and usage guide",
+    "type": "book"
+  },
+  {
+    "id": "2007",
+    "citation-key": "2007",
+    "container-title": "Fed. Reg.",
+    "issued": {
+      "date-parts": [
+        [
+          "2007",
+          1,
+          11
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.190",
+    "page": "1907",
+    "title": "Proclamation No. 8099",
+    "type": "legislation",
+    "volume": "72"
+  },
+  {
+    "id": "2017",
+    "citation-key": "2017",
+    "compiler": [
+      {
+        "family": "Gray",
+        "given": "Rosemary"
+      }
+    ],
+    "ISBN": "978-1-5098-2768-8",
+    "issued": {
+      "date-parts": [
+        [
+          "2017"
+        ]
+      ]
+    },
+    "language": "la",
+    "license": "CMOS18 14.5",
+    "number-of-pages": "384",
+    "publisher": "Macmillan Collector's Library",
+    "publisher-place": "London",
+    "source": "K10plus ISBN",
+    "title": "London: an illustrated literary companion",
+    "title-short": "London",
+    "type": "book"
+  },
+  {
+    "id": "2021",
+    "citation-key": "2021",
+    "container-title": "C.F.R.",
+    "issued": {
+      "date-parts": [
+        [
+          "2021"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.190",
+    "page": "556",
+    "title": "Exec. Order No. 14028",
+    "type": "regulation",
+    "URL": "https://www.govinfo.gov/content/pkg/DCPD-202100401/pdf/DCPD-202100401.pdf",
+    "volume": "2943"
+  },
+  {
+    "id": "2022",
+    "citation-key": "2022",
+    "container-title": "Ohio Rev. Code Ann.",
+    "edition": "West",
+    "issued": {
+      "date-parts": [
+        [
+          "2022"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.189",
+    "section": "2913.44",
+    "type": "legislation"
+  },
+  {
+    "id": "2023a",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          8,
+          31
+        ]
+      ]
+    },
+    "citation-key": "2023a",
+    "issued": {
+      "date-parts": [
+        [
+          "2023",
+          10,
+          19
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.104",
+    "publisher": "Howard University",
+    "status": "archived",
+    "title": "Academics",
+    "type": "webpage",
+    "URL": "https://web.archive.org/web/20231019175606/https://howard.edu/academics"
+  },
+  {
+    "id": "2025",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          13
+        ]
+      ]
+    },
+    "citation-key": "2025",
+    "container-title": "Wikipedia",
+    "issued": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          7
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.131",
+    "note": "Page Version ID: 1279222290",
+    "status": "last modified",
+    "title": "Stevie Nicks",
+    "type": "entry-encyclopedia",
+    "URL": "https://en.wikipedia.org/w/index.php?title=Stevie_Nicks&oldid=1279222290"
+  },
+  {
+    "id": "2025a",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          4,
+          29
+        ]
+      ]
+    },
+    "citation-key": "2025a",
+    "container-title": "Oxford English Dictionary",
+    "DOI": "10.1093/OED/7402752672",
+    "issued": {
+      "date-parts": [
+        [
+          "2025",
+          6
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.131",
+    "source": "DOI.org (Crossref)",
+    "status": "last modified",
+    "title": "hootenanny, n.",
+    "type": "entry-dictionary",
+    "URL": "https://oed.com/dictionary/hootenanny_n"
+  },
+  {
+    "id": "Acharya2022",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          31
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Acharya",
+        "given": "Yubraj"
+      },
+      {
+        "family": "Kim",
+        "given": "Jiyoon"
+      }
+    ],
+    "citation-key": "Acharya2022",
+    "container-title": "Economic Development and Cultural Change",
+    "container-title-short": "Econ. Dev. Cult. Change",
+    "DOI": "10.1086/713883",
+    "ISSN": "0013-0079, 1539-2988",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          1,
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.84",
+    "page": "763–790",
+    "source": "DOI.org (Crossref)",
+    "title": "Targeting using differential incentives: evidence from a field experiment",
+    "title-short": "Targeting",
+    "type": "article-journal",
+    "URL": "https://www.journals.uchicago.edu/doi/10.1086/713883",
+    "volume": "70"
+  },
+  {
+    "id": "Adams1930",
+    "author": [
+      {
+        "family": "Adams",
+        "given": "Henry"
+      }
+    ],
+    "citation-key": "Adams1930",
+    "editor": [
+      {
+        "family": "Ford",
+        "given": "Worthington Chauncey"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1930"
+        ],
+        [
+          "1938"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.13",
+    "number-of-volumes": "2",
+    "publisher": "Houghton Mifflin",
+    "publisher-place": "Boston",
+    "title": "Letters of Henry Adams (1858–1918)",
+    "type": "book"
+  },
+  {
+    "id": "Adams1930a",
+    "author": [
+      {
+        "family": "Adams",
+        "given": "Henry"
+      }
+    ],
+    "available-date": {
+      "date-parts": [
+        [
+          "1930"
+        ],
+        [
+          "1938"
+        ]
+      ]
+    },
+    "citation-key": "Adams1930a",
+    "collection-editor": [
+      {
+        "family": "Ford",
+        "given": "Worthington Chauncey"
+      }
+    ],
+    "container-title": "Letters of Henry Adams (1858–1918)",
+    "event-date": {
+      "date-parts": [
+        [
+          "1867",
+          9,
+          22
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "1930"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.13",
+    "note": "Display Title: [Letter to Gaskell]\nRecipients: _:n673",
+    "number-of-volumes": "2",
+    "page": "133–134",
+    "publisher": "Houghton Mifflin",
+    "publisher-place": "Boston",
+    "recipient": [
+      {
+        "family": "Gaskell",
+        "given": "Charles Milnes"
+      }
+    ],
+    "type": "personal_communication",
+    "volume": "1",
+    "volume-title": "1858–1891"
+  },
+  {
+    "id": "Adams2008",
+    "author": [
+      {
+        "family": "Adams",
+        "given": "Henry"
+      }
+    ],
+    "citation-key": "Adams2008",
+    "editor": [
+      {
+        "family": "Chalfant",
+        "given": "Edward"
+      },
+      {
+        "family": "Wright",
+        "given": "Conrad Edick"
+      }
+    ],
+    "ISBN": "978-0-934909-93-8",
+    "issued": {
+      "date-parts": [
+        [
+          "2008"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.40",
+    "note": "OCLC: 1465714602",
+    "publisher": "Massachusetts Historical Society",
+    "references": "Distributed by the University of Virginia Press",
+    "source": "Open WorldCat",
+    "title": "The education of Henry Adams: a centennial version",
+    "title-short": "Education",
+    "type": "book"
+  },
+  {
+    "id": "Adorno1999",
+    "author": [
+      {
+        "family": "Adorno",
+        "given": "Theodor W."
+      },
+      {
+        "family": "Benjamin",
+        "given": "Walter"
+      }
+    ],
+    "citation-key": "Adorno1999",
+    "editor": [
+      {
+        "family": "Lonitz",
+        "given": "Henri"
+      }
+    ],
+    "ISBN": "978-0-674-00689-8 978-0-674-15427-8",
+    "issued": {
+      "date-parts": [
+        [
+          "1999"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.6",
+    "note": "Translators: _:n445",
+    "number-of-pages": "383",
+    "publisher": "Harvard University Press",
+    "publisher-place": "Cambridge, MA",
+    "source": "K10plus ISBN",
+    "title": "The complete correspondence, 1928–1940",
+    "translator": [
+      {
+        "family": "Walker",
+        "given": "Nicholas"
+      }
+    ],
+    "type": "book"
+  },
+  {
+    "id": "Agassiz1859",
+    "archive": "Harvard University Archives",
+    "archive_collection": "Overseers Reports, Professional Series, vol. 2",
+    "author": [
+      {
+        "family": "Agassiz",
+        "given": "Louis"
+      }
+    ],
+    "citation-key": "Agassiz1859",
+    "genre": "report to the Committee of Overseers",
+    "issued": {
+      "circa": true,
+      "date-parts": [
+        [
+          "1859",
+          12,
+          28
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.127",
+    "type": "document"
+  },
+  {
+    "id": "Ahmad2022",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          17
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Ahmad",
+        "given": "Talat"
+      },
+      {
+        "family": "Bhat",
+        "given": "Irfan Maqbool"
+      },
+      {
+        "family": "Tanaka",
+        "given": "Tsuyoshi"
+      },
+      {
+        "family": "Bickle",
+        "given": "Mike"
+      },
+      {
+        "family": "Asahara",
+        "given": "Yoshihiro"
+      },
+      {
+        "family": "Chapman",
+        "given": "Hazel"
+      },
+      {
+        "family": "Sachan",
+        "given": "Himanshu K."
+      }
+    ],
+    "citation-key": "Ahmad2022",
+    "container-title": "Journal of Geology",
+    "container-title-short": "J. Geol.",
+    "DOI": "10.1086/719333",
+    "ISSN": "0022-1376, 1537-5269",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          5,
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.85",
+    "page": "231–252",
+    "source": "DOI.org (Crossref)",
+    "title": "Tso Morari eclogites, eastern Ladakh: isotopic and elemental constraints on their protolith, genesis, and tectonic setting",
+    "title-short": "Tso morari eclogites, eastern ladakh",
+    "type": "article-journal",
+    "URL": "https://www.journals.uchicago.edu/doi/10.1086/719333",
+    "volume": "130"
+  },
+  {
+    "id": "Allen2009",
+    "author": [
+      {
+        "family": "Allen",
+        "given": "Judith A."
+      }
+    ],
+    "citation-key": "Allen2009",
+    "collection-editor": [
+      {
+        "family": "Stimpson",
+        "given": "Catharine R."
+      }
+    ],
+    "collection-title": "Women in culture and society",
+    "ISBN": "978-0-226-01462-3",
+    "issued": {
+      "date-parts": [
+        [
+          "2009"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.25",
+    "note": "Series Editors: _:n605",
+    "publisher": "University of Chicago Press",
+    "publisher-place": "Chicago",
+    "source": "BnF ISBN",
+    "title": "The feminism of Charlotte Perkins Gilman: sexualities, histories, progressivism",
+    "title-short": "Feminism of Charlotte Perkins Gilman",
+    "type": "book"
+  },
+  {
+    "id": "Angle1968",
+    "author": [
+      {
+        "family": "Angle",
+        "given": "Paul M."
+      },
+      {
+        "family": "Bryan",
+        "given": "Mary Lynn McCree"
+      }
+    ],
+    "citation-key": "Angle1968",
+    "contributor": [
+      {
+        "family": "Burnett",
+        "given": "Virgil"
+      },
+      {
+        "family": "Long",
+        "given": "Barbara"
+      }
+    ],
+    "ISBN": "978-0-226-02088-4",
+    "issued": {
+      "date-parts": [
+        [
+          "1968"
+        ]
+      ]
+    },
+    "language": "en",
+    "note": "OCLC: 429217",
+    "publisher": "University of Chicago Press",
+    "publisher-place": "Chicago",
+    "source": "Open WorldCat",
+    "title": "Prairie State: impressions of Illinois, 1673–1967, by travelers and other observers",
+    "title-short": "Prairie State",
+    "type": "book"
+  },
+  {
+    "id": "Apple1974",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          14
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Apple",
+        "given": "R. W.",
+        "suffix": "Jr."
+      }
+    ],
+    "citation-key": "Apple1974",
+    "container-title": "New York Times",
+    "edition": "late city",
+    "ISSN": "0362-4331",
+    "issued": {
+      "date-parts": [
+        [
+          "1974",
+          9,
+          9
+        ]
+      ]
+    },
+    "language": "en-US",
+    "license": "CMOS18 14.89",
+    "source": "NYTimes.com",
+    "title": "Nixon tapes must be kept 3 years for use in court",
+    "type": "article-newspaper",
+    "URL": "https://www.nytimes.com/1974/09/09/archives/nixon-tapes-must-be-kept-3-years-for-use-in-court-nixon-tapes-will.html"
+  },
+  {
+    "id": "Aristotle1984",
+    "author": [
+      {
+        "literal": "Aristotle"
+      }
+    ],
+    "citation-key": "Aristotle1984",
+    "collection-number": "192",
+    "collection-title": "Bollingen Series",
+    "DOI": "10.1515/9781400835843",
+    "editor": [
+      {
+        "family": "Barnes",
+        "given": "Jonathan"
+      }
+    ],
+    "ISBN": "978-0-691-01650-4 978-1-4008-3584-3",
+    "issued": {
+      "date-parts": [
+        [
+          "1984"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.19",
+    "number-of-pages": "1",
+    "number-of-volumes": "2",
+    "publisher": "Princeton University Press",
+    "publisher-place": "Princeton, NJ",
+    "source": "K10plus ISBN",
+    "title": "The complete works of Aristotle: the revised Oxford translation",
+    "type": "book"
+  },
+  {
+    "id": "Armstrong2014",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          6
+        ]
+      ]
+    },
+    "available-date": {
+      "literal": "1992/.."
+    },
+    "citation-key": "Armstrong2014",
+    "collection-editor": [
+      {
+        "family": "Carson",
+        "given": "Clayborne"
+      }
+    ],
+    "editor": [
+      {
+        "family": "Armstrong",
+        "given": "Tenisha"
+      }
+    ],
+    "ISBN": "978-0-520-28269-8",
+    "issued": {
+      "date-parts": [
+        [
+          "2014"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.21",
+    "note": "Series Editors: _:n435",
+    "publisher": "University of California Press",
+    "publisher-place": "Berkeley",
+    "source": "JSTOR",
+    "title": "The Papers of Martin Luther King, Jr.",
+    "title-short": "Papers of Martin Luther King, Jr.",
+    "type": "book",
+    "URL": "https://www.jstor.org/stable/jj.8501141",
+    "volume": "7",
+    "volume-title": "To Save the Soul of America, January 1961–August 1962"
+  },
+  {
+    "id": "Arterburn2022",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          31
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Arterburn",
+        "given": "Heather M."
+      },
+      {
+        "family": "McMahon",
+        "given": "Robert F."
+      }
+    ],
+    "citation-key": "Arterburn2022",
+    "container-title": "Biological Bulletin",
+    "container-title-short": "Biol. Bull.",
+    "DOI": "10.1086/720151",
+    "ISSN": "0006-3185, 1939-8697",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          6,
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.73",
+    "page": "207–221",
+    "source": "DOI.org (Crossref)",
+    "title": "Population and reproductive dynamics of zebra mussels (<i>dreissena polymorpha</i>) in warm, low-latitude North American waters",
+    "type": "article-journal",
+    "URL": "https://www.journals.uchicago.edu/doi/10.1086/720151",
+    "volume": "242"
+  },
+  {
+    "id": "AtlantaSymphonyOrchestraandChamberChorus1988",
+    "author": [
+      {
+        "literal": "Atlanta Symphony Orchestra and Chamber Chorus"
+      },
+      {
+        "family": "Shaw",
+        "given": "Robert"
+      }
+    ],
+    "citation-key": "AtlantaSymphonyOrchestraandChamberChorus1988",
+    "composer": [
+      {
+        "family": "Handel",
+        "given": "George Frideric"
+      }
+    ],
+    "dimensions": "141 min",
+    "event-date": {
+      "date-parts": [
+        [
+          "1987",
+          12,
+          19
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "1988"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.165",
+    "medium": "videocassette (VHS)",
+    "note": "Composers: _:n661\nPerformers: _:n663",
+    "publisher": "Video Artists International",
+    "source": "IMDb",
+    "title": "Messiah",
+    "type": "song"
+  },
+  {
+    "id": "Aubrecht2020",
+    "call-number": "HV3021.A35 A37 2020",
+    "citation-key": "Aubrecht2020",
+    "collection-title": "Disability culture and politics",
+    "editor": [
+      {
+        "family": "Aubrecht",
+        "given": "Katie"
+      },
+      {
+        "family": "Kelly",
+        "given": "Christine"
+      },
+      {
+        "family": "Rice",
+        "given": "Carla"
+      }
+    ],
+    "ISBN": "978-0-7748-6367-4",
+    "issued": {
+      "date-parts": [
+        [
+          "2020"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 13.23",
+    "number-of-pages": "286",
+    "publisher": "UBC Press",
+    "publisher-place": "Vancouver",
+    "source": "Library of Congress ISBN",
+    "title": "The aging–disability nexus",
+    "title-short": "Aging–disability nexus",
+    "type": "book"
+  },
+  {
+    "id": "Aucejo2022",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          7
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Aucejo",
+        "given": "Esteban M."
+      },
+      {
+        "family": "Fruehwirth",
+        "given": "Jane Cooley"
+      },
+      {
+        "family": "Kelly",
+        "given": "Sean"
+      },
+      {
+        "family": "Mozenter",
+        "given": "Zachary"
+      }
+    ],
+    "citation-key": "Aucejo2022",
+    "container-title": "Journal of Human Capital",
+    "container-title-short": "J. Hum. Cap.",
+    "DOI": "10.1086/719731",
+    "ISSN": "1932-8575, 1932-8664",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          9,
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.71",
+    "page": "372–403",
+    "source": "DOI.org (Crossref)",
+    "title": "Teachers and the gender gap in reading achievement",
+    "title-short": "Teachers",
+    "type": "article-journal",
+    "URL": "https://www.journals.uchicago.edu/doi/10.1086/719731",
+    "volume": "16"
+  },
+  {
+    "id": "Augustine1931",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          7,
+          1
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Augustine"
+      }
+    ],
+    "citation-key": "Augustine1931",
+    "issued": {
+      "date-parts": [
+        [
+          "1931"
+        ]
+      ]
+    },
+    "language": "la",
+    "license": "CMOS18 14.152",
+    "note": "Translators: _:n10",
+    "number-of-pages": "458",
+    "publisher": "Dutton",
+    "publisher-place": "New York",
+    "source": "Internet Archive",
+    "title": "De civitate Dei",
+    "translator": [
+      {
+        "family": "Healey",
+        "given": "John"
+      }
+    ],
+    "type": "classic",
+    "URL": "http://archive.org/details/saintaugustineci0000john"
+  },
+  {
+    "id": "Austen1811",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          4,
+          24
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Austen",
+        "given": "Jane"
+      }
+    ],
+    "citation-key": "Austen1811",
+    "issued": {
+      "date-parts": [
+        [
+          "1811"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.31",
+    "number-of-volumes": "3",
+    "publisher": "T. Egerton",
+    "publisher-place": "London",
+    "source": "HathiTrust",
+    "title": "Sense and sensibility",
+    "type": "book",
+    "URL": "https://catalog.hathitrust.org/Record/011698047"
+  },
+  {
+    "id": "Austen2012",
+    "author": [
+      {
+        "family": "Austen",
+        "given": "Jane"
+      }
+    ],
+    "call-number": "PR4034 .E5 2012b",
+    "citation-key": "Austen2012",
+    "edition": "annotated ed.",
+    "editor": [
+      {
+        "family": "Tandon",
+        "given": "Bharat"
+      }
+    ],
+    "ISBN": "978-0-674-04884-3",
+    "issued": {
+      "date-parts": [
+        [
+          "2012"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.15",
+    "number-of-pages": "560",
+    "publisher": "Belknap Press of Harvard University Press",
+    "publisher-place": "Cambridge, MA",
+    "source": "Library of Congress ISBN",
+    "title": "Emma",
+    "type": "book"
+  },
+  {
+    "id": "Author",
+    "author": [
+      {
+        "family": "Author",
+        "given": "Jane Q."
+      }
+    ],
+    "citation-key": "Author",
+    "language": "en",
+    "license": "CMOS18 14.45",
+    "publisher": "Publisher",
+    "status": "forthcoming",
+    "title": "Book Title",
+    "type": "book"
+  },
+  {
+    "id": "Author2023",
+    "author": [
+      {
+        "family": "Author",
+        "given": "A. A."
+      }
+    ],
+    "citation-key": "Author2023",
+    "container-title": "Journal Title",
+    "container-title-short": "J. Title",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          "2023"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.80",
+    "page": "345–362",
+    "title": "Article title",
+    "type": "article-journal",
+    "volume": "20"
+  },
+  {
+    "id": "Baldwin2015",
+    "author": [
+      {
+        "family": "Baldwin",
+        "given": "James"
+      }
+    ],
+    "call-number": "PS3552.A45 A6 2015",
+    "citation-key": "Baldwin2015",
+    "container-title": "James Baldwin: Later novels",
+    "editor": [
+      {
+        "family": "Pinckney",
+        "given": "Darryl"
+      }
+    ],
+    "ISBN": "978-1-59853-454-2",
+    "issued": {
+      "date-parts": [
+        [
+          "2015"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.11",
+    "page": "445–506",
+    "publisher": "Library of America",
+    "publisher-place": "New York",
+    "source": "Library of Congress ISBN",
+    "title": "If Beale Street could talk",
+    "type": "book"
+  },
+  {
+    "id": "Bashford2022",
+    "author": [
+      {
+        "family": "Bashford",
+        "given": "Alison"
+      }
+    ],
+    "call-number": "570.922",
+    "citation-key": "Bashford2022",
+    "ISBN": "978-0-226-72011-1",
+    "issued": {
+      "date-parts": [
+        [
+          "2022"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.58",
+    "medium": "EPUB",
+    "publisher": "University of Chicago Press",
+    "publisher-place": "Chicago",
+    "source": "BnF ISBN",
+    "title": "The Huxleys: an intimate history of evolution",
+    "title-short": "The Huxleys",
+    "type": "book"
+  },
+  {
+    "id": "Beattie1974",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          2,
+          5
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Beattie",
+        "given": "J. M."
+      }
+    ],
+    "citation-key": "Beattie1974",
+    "container-title": "Past and Present",
+    "container-title-short": "Past Present",
+    "DOI": "10.1093/past/62.1.47",
+    "ISSN": "0031-2746",
+    "issue": "62",
+    "issued": {
+      "date-parts": [
+        [
+          "1974",
+          2,
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.70",
+    "page": "47–95",
+    "source": "JSTOR",
+    "title": "The pattern of crime in England, 1660–1800",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/650463"
+  },
+  {
+    "id": "Belson2022",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          31
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Belson",
+        "given": "Ken"
+      }
+    ],
+    "citation-key": "Belson2022",
+    "container-title": "New York Times",
+    "ISSN": "0362-4331",
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          8,
+          12
+        ]
+      ]
+    },
+    "language": "en-US",
+    "license": "CMOS18 14.96",
+    "section": "Sports",
+    "source": "NYTimes.com",
+    "title": "How much do N.F.L. teams make? Packers fans paid to find out",
+    "title-short": "How much do N.F.L. teams make?",
+    "type": "article-newspaper",
+    "URL": "https://www.nytimes.com/2022/08/12/sports/football/green-bay-packers-shareholders-fans.html"
+  },
+  {
+    "id": "Bergner2022",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          18
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Bergner",
+        "given": "Daniel"
+      }
+    ],
+    "citation-key": "Bergner2022",
+    "container-title": "New York Times",
+    "ISSN": "0362-4331",
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          9,
+          6
+        ]
+      ]
+    },
+    "language": "en-US",
+    "license": "CMOS18 14.94",
+    "section": "Magazine",
+    "source": "NYTimes.com",
+    "title": "Daring to speak up about race in a divided school district",
+    "type": "article-newspaper",
+    "URL": "https://www.nytimes.com/2022/09/06/magazine/leland-michigan-race-school.html"
+  },
+  {
+    "id": "Bernhard1990",
+    "author": [
+      {
+        "family": "Bernhard",
+        "given": "Thomas"
+      }
+    ],
+    "call-number": "PT2662.E7 A25 1990",
+    "citation-key": "Bernhard1990",
+    "container-title": "Histrionics: three plays",
+    "ISBN": "978-0-226-04394-4 978-0-226-04395-1",
+    "issued": {
+      "date-parts": [
+        [
+          "1990"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.11",
+    "note": "Translators: _:n498",
+    "number-of-pages": "282",
+    "publisher": "University of Chicago Press",
+    "publisher-place": "Chicago",
+    "source": "Library of Congress ISBN",
+    "title": "A party for Boris",
+    "translator": [
+      {
+        "family": "Jansen",
+        "given": "Peter"
+      },
+      {
+        "family": "Northcott",
+        "given": "Kenneth J."
+      }
+    ],
+    "type": "book"
+  },
+  {
+    "id": "Binder2022",
+    "author": [
+      {
+        "family": "Binder",
+        "given": "Amy J."
+      },
+      {
+        "family": "Kidder",
+        "given": "Jeffrey L."
+      }
+    ],
+    "call-number": "378.198 0973",
+    "citation-key": "Binder2022",
+    "ISBN": "978-0-226-68427-7",
+    "issued": {
+      "date-parts": [
+        [
+          "2022"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 13.21 (quick)",
+    "publisher": "University of Chicago Press",
+    "publisher-place": "Chicago",
+    "source": "BnF ISBN",
+    "title": "The channels of student activism: how the left and right are winning (and losing) in campus politics today",
+    "title-short": "Channels of student activism",
+    "type": "book"
+  },
+  {
+    "id": "BlajerdelaGarza2019",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          2,
+          24
+        ]
+      ]
+    },
+    "archive": "ProQuest",
+    "author": [
+      {
+        "family": "Blajer de la Garza",
+        "given": "Yuna"
+      }
+    ],
+    "citation-key": "BlajerdelaGarza2019",
+    "genre": "PhD diss.",
+    "issued": {
+      "date-parts": [
+        [
+          "2019",
+          6
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.113 (quick)",
+    "number": "13865986",
+    "publisher": "University of Chicago",
+    "publisher-place": "Chicago, IL",
+    "title": "A house is not a home: citizenship and belonging in contemporary democracies",
+    "title-short": "A house is not a home",
+    "type": "thesis",
+    "URL": "https://proquest.com/docview/2275186069"
+  },
+  {
+    "id": "Blower2021",
+    "citation-key": "Blower2021",
+    "collection-editor": [
+      {
+        "family": "Bradley",
+        "given": "Mark Philip"
+      }
+    ],
+    "DOI": "10.1017/9781108297530",
+    "editor": [
+      {
+        "family": "Blower",
+        "given": "Brooke L."
+      },
+      {
+        "family": "Preston",
+        "given": "Andrew"
+      }
+    ],
+    "ISBN": "978-1-108-29753-0",
+    "issued": {
+      "date-parts": [
+        [
+          "2021"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.24",
+    "note": "Series Editors: _:n635",
+    "number-of-volumes": "4",
+    "publisher": "Cambridge University Press",
+    "publisher-place": "Cambridge",
+    "title": "The Cambridge history of America and the world",
+    "type": "book",
+    "volume": "3",
+    "volume-title": "1900–1945"
+  },
+  {
+    "id": "Blum2023",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          2,
+          24
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Blum",
+        "given": "Dani"
+      }
+    ],
+    "citation-key": "Blum2023",
+    "container-title": "New York Times",
+    "ISSN": "0362-4331",
+    "issued": {
+      "date-parts": [
+        [
+          "2023",
+          12,
+          13
+        ]
+      ]
+    },
+    "language": "en-US",
+    "license": "CMOS18 14.89 (quick)",
+    "source": "NYTimes.com",
+    "title": "Are flaxseeds all that?",
+    "title-short": "Flaxseeds",
+    "type": "article-newspaper",
+    "URL": "https://www.nytimes.com/2023/12/13/well/eat/flax-seeds-benefits.html"
+  },
+  {
+    "id": "Bodish2022",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          2,
+          25
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Bodish",
+        "given": "Holt"
+      },
+      {
+        "family": "DeYeso",
+        "given": "Robert",
+        "suffix": "III"
+      }
+    ],
+    "citation-key": "Bodish2022",
+    "DOI": "10.48550/ARXIV.2209.01672",
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          9,
+          4
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.76",
+    "publisher": "arXiv",
+    "source": "DOI.org (Datacite)",
+    "title": "Obstructing reducible surgeries: slice genus and thickness bounds",
+    "title-short": "Obstructing reducible surgeries",
+    "type": "article",
+    "URL": "https://arxiv.org/abs/2209.01672",
+    "version": "1"
+  },
+  {
+    "id": "Borel2023",
+    "author": [
+      {
+        "family": "Borel",
+        "given": "Brooke"
+      }
+    ],
+    "call-number": "ZA3075 .B67 2023",
+    "citation-key": "Borel2023",
+    "DOI": "10.7208/chicago/9780226817903",
+    "edition": "2",
+    "ISBN": "978-0-226-81789-7 978-0-226-81790-3",
+    "issued": {
+      "date-parts": [
+        [
+          "2023"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.58 (quick)",
+    "number-of-pages": "239",
+    "publisher": "University of Chicago Press",
+    "publisher-place": "Chicago",
+    "source": "K10plus ISBN",
+    "title": "The Chicago guide to fact-checking",
+    "type": "book"
+  },
+  {
+    "id": "Boxer1953",
+    "call-number": "Z 286",
+    "citation-key": "Boxer1953",
+    "collection-number": "2nd ser., vol. 106",
+    "collection-title": "Hakluyt Society Publications",
+    "editor": [
+      {
+        "family": "Boxer",
+        "given": "C. R."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1953"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.28",
+    "number-of-pages": "xci+388",
+    "publisher": "Hakluyt",
+    "publisher-place": "London",
+    "source": "solo.bodleian.ox.ac.uk",
+    "title": "South China in the sixteenth century",
+    "type": "book"
+  },
+  {
+    "id": "Braun2016",
+    "author": [
+      {
+        "family": "Braun",
+        "given": "Caroline"
+      }
+    ],
+    "citation-key": "Braun2016",
+    "container-title": "Quora",
+    "genre": "reply to \"How did the 'cool kids' from high school turn out?\"",
+    "issued": {
+      "date-parts": [
+        [
+          "2016",
+          8,
+          9
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.107",
+    "type": "post",
+    "URL": "https://www.electriceditors.net/grapevine/archives.php"
+  },
+  {
+    "id": "Braverman2020",
+    "call-number": "KZA1145 .B58 2020",
+    "citation-key": "Braverman2020",
+    "editor": [
+      {
+        "family": "Braverman",
+        "given": "Irus"
+      },
+      {
+        "family": "Johnson",
+        "given": "Elizabeth R."
+      }
+    ],
+    "ISBN": "978-1-4780-0592-6 978-1-4780-0654-1",
+    "issued": {
+      "date-parts": [
+        [
+          "2020"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 13.116",
+    "number-of-pages": "342",
+    "publisher": "Duke University Press",
+    "publisher-place": "Durham",
+    "source": "Library of Congress ISBN",
+    "title": "Blue legalities: the life and laws of the sea",
+    "title-short": "Blue legalities",
+    "type": "book"
+  },
+  {
+    "id": "Bray2006",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          4,
+          11
+        ]
+      ]
+    },
+    "authority": "World Wide Web Consortium",
+    "citation-key": "Bray2006",
+    "edition": "2",
+    "editor": [
+      {
+        "family": "Bray",
+        "given": "Tim"
+      },
+      {
+        "family": "Paoli",
+        "given": "Jean"
+      },
+      {
+        "family": "Sperberg-McQueen",
+        "given": "C. M."
+      },
+      {
+        "family": "Maler",
+        "given": "Eve"
+      },
+      {
+        "family": "Yergeau",
+        "given": "François"
+      },
+      {
+        "family": "Cowan",
+        "given": "John"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2006",
+          8,
+          16
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.159",
+    "publisher": "W3C",
+    "title": "Extensible Markup Language (XML)",
+    "type": "standard",
+    "URL": "https://www.w3.org/TR/xml11/",
+    "version": "2"
+  },
+  {
+    "id": "Brown1978",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          16
+        ]
+      ]
+    },
+    "citation-key": "Brown1978",
+    "container-title": "Wisconsin Magazine of History",
+    "container-title-short": "Wis. Mag. Hist.",
+    "editor": [
+      {
+        "family": "Brown",
+        "given": "George C."
+      }
+    ],
+    "ISSN": "0043-6534",
+    "issue": "4",
+    "issued": {
+      "season": 2,
+      "date-parts": [
+        [
+          1978
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.79",
+    "page": "300–318",
+    "publisher": "Wisconsin Historical Society",
+    "source": "JSTOR",
+    "title": "A Swedish traveler in early Wisconsin: the observations of Fredrika Bremer",
+    "title-short": "Swedish traveler in early Wisconsin",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/4635269",
+    "volume": "61"
+  },
+  {
+    "id": "Brown1978a",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          16
+        ]
+      ]
+    },
+    "citation-key": "Brown1978a",
+    "container-title": "Wisconsin Magazine of History",
+    "container-title-short": "Wis. Mag. Hist.",
+    "editor": [
+      {
+        "family": "Brown",
+        "given": "George C."
+      }
+    ],
+    "ISSN": "0043-6534",
+    "issue": "1",
+    "issued": {
+      "season": 3,
+      "date-parts": [
+        [
+          1978
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.79",
+    "page": "41–56",
+    "publisher": "Wisconsin Historical Society",
+    "source": "JSTOR",
+    "title": "A Swedish traveler in early Wisconsin: the observations of Fredrika Bremer",
+    "title-short": "Swedish traveler in early Wisconsin",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/4635286",
+    "volume": "62"
+  },
+  {
+    "id": "Brown2014",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          5,
+          25
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Brown",
+        "given": "Evan"
+      }
+    ],
+    "citation-key": "Brown2014",
+    "container-title": "DesignMantic",
+    "genre": "infographic",
+    "issued": {
+      "date-parts": [
+        [
+          "2014",
+          4,
+          17
+        ]
+      ]
+    },
+    "language": "en-US",
+    "license": "CMOS18 14.167",
+    "title": "The 10 commandments of typography",
+    "type": "webpage",
+    "URL": "https://www.designmantic.com/blog/infographics/ten-commandments-of-typography/"
+  },
+  {
+    "id": "Bundy1990",
+    "author": [
+      {
+        "family": "Bundy",
+        "given": "McGeorge"
+      }
+    ],
+    "citation-key": "Bundy1990",
+    "container-title": "MacNeil/Lehrer NewsHour",
+    "interviewer": [
+      {
+        "family": "MacNeil",
+        "given": "Robert"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1990",
+          2,
+          7
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.110",
+    "note": "Display Title: [Interview of MacNeil]\nInterviewees: _:n16\nInterviewers: _:n18",
+    "publisher": "PBS",
+    "type": "interview"
+  },
+  {
+    "id": "Buolamwini2023",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          2,
+          24
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Buolamwini",
+        "given": "Joy"
+      }
+    ],
+    "citation-key": "Buolamwini2023",
+    "container-title": "Fresh Air",
+    "dimensions": "37:58",
+    "interviewer": [
+      {
+        "family": "Mosley",
+        "given": "Tonya"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2023",
+          11,
+          28
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.110 (quick)",
+    "medium": "audio",
+    "note": "Interviewees: _:n557\nInterviewers: _:n559",
+    "publisher": "NPR",
+    "source": "NPR",
+    "title": "'If you have a face, you have a place in the conversation about AI,' expert says",
+    "type": "interview",
+    "URL": "https://www.npr.org/2023/11/28/1215529902/unmasking-ai-facial-recognition-technology-joy-buolamwini"
+  },
+  {
+    "id": "Burton1923",
+    "archive": "Special Collections Research Center, University of Chicago Library",
+    "archive_collection": "Charles E. Merriam Papers",
+    "archive_location": "box 26, folder 17",
+    "author": [
+      {
+        "literal": "Burton"
+      }
+    ],
+    "citation-key": "Burton1923",
+    "genre": "telegram",
+    "issued": {
+      "date-parts": [
+        [
+          "1923",
+          1,
+          26
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.127",
+    "note": "Display Title: [Letter to Merriam]\nRecipients: _:n93",
+    "recipient": [
+      {
+        "literal": "Merriam"
+      }
+    ],
+    "type": "personal_communication"
+  },
+  {
+    "id": "Byrne1981",
+    "call-number": "DA335.L5 L57",
+    "citation-key": "Byrne1981",
+    "collection-editor": [
+      {
+        "family": "Byrne",
+        "given": "Muriel St. Clare"
+      }
+    ],
+    "ISBN": "978-0-226-08801-3",
+    "issued": {
+      "date-parts": [
+        [
+          "1981"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.20",
+    "note": "Series Editors: _:n2558",
+    "number-of-volumes": "6",
+    "publisher": "University of Chicago Press",
+    "publisher-place": "Chicago",
+    "source": "Library of Congress ISBN",
+    "title": "The Lisle letters",
+    "title-short": "Lisle letters",
+    "type": "book",
+    "volume": "2"
+  },
+  {
+    "id": "Cacchione2017",
+    "author": [
+      {
+        "family": "Cacchione",
+        "given": "Orianna"
+      }
+    ],
+    "citation-key": "Cacchione2017",
+    "contributor": [
+      {
+        "family": "Li",
+        "given": "Pi"
+      },
+      {
+        "family": "Farrell",
+        "given": "Robyn"
+      },
+      {
+        "family": "Grube",
+        "given": "Katherine"
+      }
+    ],
+    "ISBN": "978-0-300-22622-5",
+    "issued": {
+      "date-parts": [
+        [
+          "2017"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.134",
+    "publisher": "The Art Institute of Chicago",
+    "publisher-place": "Chicago",
+    "references": "Distributed by Yale University Press. Published in conjunction with an exhibition of the same title, organized by and presented at the Art Institute of Chicago, March 31–July 9, 2017.",
+    "source": "BnF ISBN",
+    "title": "Zhang Peili: record, repeat",
+    "title-short": "Zhang Peili",
+    "type": "book"
+  },
+  {
+    "id": "Cain2022",
+    "author": [
+      {
+        "family": "Cain",
+        "given": "Matt"
+      }
+    ],
+    "citation-key": "Cain2022",
+    "ISBN": "978-1-4722-7508-0",
+    "issued": {
+      "date-parts": [
+        [
+          "2022"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.58",
+    "narrator": [
+      {
+        "family": "Vance",
+        "given": "Simon"
+      }
+    ],
+    "publisher": "Recorded Books",
+    "publisher-place": "London",
+    "source": "K10plus ISBN",
+    "title": "The secret life of Albert Entwistle",
+    "type": "book"
+  },
+  {
+    "id": "Carson1962",
+    "author": [
+      {
+        "family": "Carson",
+        "given": "Rachel"
+      }
+    ],
+    "call-number": "Economic (ECON.CAR)",
+    "citation-key": "Carson1962",
+    "illustrator": [
+      {
+        "family": "Darling",
+        "given": "Lois"
+      },
+      {
+        "family": "Darling",
+        "given": "Louis"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1962"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 13.37",
+    "number-of-pages": "x+368",
+    "publisher": "Houghton Mifflin",
+    "publisher-place": "Boston",
+    "source": "solo.bodleian.ox.ac.uk",
+    "title": "Silent spring",
+    "type": "book"
+  },
+  {
+    "id": "Chan2025",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          7
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Chan",
+        "given": "Marc K."
+      },
+      {
+        "family": "Hérault",
+        "given": "Nicolas"
+      },
+      {
+        "family": "Vu",
+        "given": "Ha"
+      },
+      {
+        "family": "Wilkins",
+        "given": "Roger"
+      }
+    ],
+    "available-date": {
+      "date-parts": [
+        [
+          "2023",
+          1,
+          6
+        ]
+      ]
+    },
+    "citation-key": "Chan2025",
+    "container-title": "Journal of Labor Economics",
+    "container-title-short": "J. Labor Econ.",
+    "DOI": "10.1086/724157",
+    "ISSN": "0734-306X, 1537-5307",
+    "issued": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          7
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.75",
+    "source": "DOI.org (Crossref)",
+    "title": "The effect of job search requirements on family welfare receipt",
+    "type": "article-journal",
+    "URL": "https://www.journals.uchicago.edu/doi/10.1086/724157"
+  },
+  {
+    "id": "Chang2022",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          18
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Chang",
+        "given": "Elizabeth"
+      }
+    ],
+    "citation-key": "Chang2022",
+    "container-title": "The New York Times",
+    "ISSN": "0362-4331",
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          8,
+          12
+        ]
+      ]
+    },
+    "language": "en-US",
+    "license": "CMOS18 14.93",
+    "section": "Modern love",
+    "source": "NYTimes.com",
+    "title": "Was this a meet-cute or meet creep?",
+    "type": "article-newspaper",
+    "URL": "https://www.nytimes.com/2022/08/12/style/modern-love-meet-cute-living-in-library-basement.html"
+  },
+  {
+    "id": "Chaucer",
+    "author": [
+      {
+        "literal": "Chaucer"
+      }
+    ],
+    "citation-key": "Chaucer",
+    "container-title": "Canterbury Tales",
+    "language": "en",
+    "license": "CMOS18 14.153",
+    "title": "Wife of Bath’s Prologue",
+    "type": "classic"
+  },
+  {
+    "id": "ChicagoManualofStyle2015",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          2,
+          24
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Chicago Manual of Style"
+      }
+    ],
+    "citation-key": "ChicagoManualofStyle2015",
+    "container-title": "Facebook",
+    "issued": {
+      "date-parts": [
+        [
+          "2015",
+          4,
+          17
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.106 (quick)",
+    "title": "Is the world ready for singular they? We thought so back in 1993",
+    "type": "post",
+    "URL": "https://www.facebook.com/ChicagoManual/posts/10152906193679151"
+  },
+  {
+    "id": "Child2020",
+    "author": [
+      {
+        "family": "Child",
+        "given": "Lee"
+      },
+      {
+        "family": "Child",
+        "given": "Andrew"
+      }
+    ],
+    "call-number": "PS3553.H4838 S46 2020",
+    "citation-key": "Child2020",
+    "ISBN": "978-1-9848-1846-1",
+    "issued": {
+      "date-parts": [
+        [
+          "2020"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 13.79",
+    "number-of-pages": "351",
+    "publisher": "Delacorte Press",
+    "publisher-place": "New York",
+    "source": "Library of Congress ISBN",
+    "title": "The sentinel",
+    "type": "book"
+  },
+  {
+    "id": "Chumley2017",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          16
+        ]
+      ]
+    },
+    "citation-key": "Chumley2017",
+    "container-title": "Signs and Society",
+    "container-title-short": "Signs Soc.",
+    "editor": [
+      {
+        "family": "Chumley",
+        "given": "Lily"
+      }
+    ],
+    "ISSN": "2326-4489, 2326-4497",
+    "issued": {
+      "date-parts": [
+        [
+          "2017"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.78",
+    "source": "DOI.org (Crossref)",
+    "supplement-number": "S1",
+    "title": "Qualia and ontology: language, semiotics, and materiality",
+    "type": "periodical",
+    "URL": "https://www.cambridge.org/core/journals/signs-and-society/issue/D98EB5DF593EC8F2AABA25779E323DA1",
+    "volume": "5"
+  },
+  {
+    "id": "Clark1957",
+    "author": [
+      {
+        "family": "Clark",
+        "given": "Hazel V."
+      }
+    ],
+    "citation-key": "Clark1957",
+    "issued": {
+      "date-parts": [
+        [
+          "1957"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.117",
+    "publisher": "Trumbull County [Ohio] Historical Society",
+    "title": "Mesopotamia: between two rivers",
+    "type": "pamphlet"
+  },
+  {
+    "id": "Coates2019",
+    "author": [
+      {
+        "family": "Coates",
+        "given": "Ta-Nehisi"
+      }
+    ],
+    "call-number": "813.6 (oeuvre)",
+    "citation-key": "Coates2019",
+    "ISBN": "978-0-399-59059-7",
+    "issued": {
+      "date-parts": [
+        [
+          "2019"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.29",
+    "publisher": "One World",
+    "publisher-place": "New York",
+    "source": "BnF ISBN",
+    "title": "The water dancer",
+    "type": "book"
+  },
+  {
+    "id": "Cochrane1987",
+    "citation-key": "Cochrane1987",
+    "collection-editor": [
+      {
+        "family": "Kirshner",
+        "given": "Julius"
+      },
+      {
+        "family": "Boyer",
+        "given": "John W."
+      }
+    ],
+    "collection-number": "6",
+    "collection-title": "Readings in Western civilization",
+    "editor": [
+      {
+        "family": "Cochrane",
+        "given": "Eric W."
+      },
+      {
+        "family": "Gray",
+        "given": "Charles M."
+      },
+      {
+        "family": "Kishlansky",
+        "given": "Mark A."
+      }
+    ],
+    "ISBN": "978-0-226-06948-7 978-0-226-06947-0",
+    "issued": {
+      "date-parts": [
+        [
+          "1987"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.26",
+    "note": "Series Editors: _:n420",
+    "number-of-pages": "608",
+    "publisher": "University of Chicago Press",
+    "publisher-place": "Chicago",
+    "source": "K10plus ISBN",
+    "title": "Early modern Europe: crisis of authority",
+    "title-short": "Early modern Europe",
+    "type": "book"
+  },
+  {
+    "id": "Contributor",
+    "author": [
+      {
+        "family": "Contributor",
+        "given": "Anna"
+      }
+    ],
+    "citation-key": "Contributor",
+    "container-title": "Edited volume",
+    "editor": [
+      {
+        "family": "Editor",
+        "given": "Ellen"
+      }
+    ],
+    "language": "es",
+    "license": "CMOS18 14.45",
+    "publisher": "Publisher",
+    "status": "forthcoming",
+    "title": "Contribution",
+    "type": "chapter"
+  },
+  {
+    "id": "Conway2013",
+    "author": [
+      {
+        "family": "Conway",
+        "given": "Tim"
+      }
+    ],
+    "citation-key": "Conway2013",
+    "contributor": [
+      {
+        "family": "Scovell",
+        "given": "Jane"
+      },
+      {
+        "family": "Burnett",
+        "given": "Carol"
+      }
+    ],
+    "ISBN": "978-1-4767-2650-2 978-1-4767-2651-9",
+    "issued": {
+      "date-parts": [
+        [
+          "2013"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.7",
+    "number-of-pages": "1",
+    "publisher": "Howard Books",
+    "publisher-place": "New York",
+    "source": "K10plus ISBN",
+    "title": "What's so funny? my hilarious life",
+    "title-short": "What's so funny?",
+    "type": "book"
+  },
+  {
+    "id": "Coolidge",
+    "author": [
+      {
+        "family": "Coolidge",
+        "given": "Calvin"
+      }
+    ],
+    "citation-key": "Coolidge",
+    "dimensions": "4 min., 40 sec.",
+    "event-date": {
+      "date-parts": [
+        [
+          "1920",
+          3,
+          2
+        ]
+      ]
+    },
+    "event-place": "New York",
+    "language": "en",
+    "license": "CMOS18 14.164",
+    "medium": "in American Leaders Speak: Recordings from World War I, Library of Congress, copy of a 78 rpm disc",
+    "note": "Presenters: _:n128",
+    "status": "recorded",
+    "title": "Law and order",
+    "type": "speech",
+    "URL": "https://lccn.loc.gov/2004650650"
+  },
+  {
+    "id": "Correspondent2024",
+    "author": [
+      {
+        "family": "Correspondent",
+        "given": "Jane E."
+      }
+    ],
+    "citation-key": "Correspondent2024",
+    "genre": "email message",
+    "issued": {
+      "date-parts": [
+        [
+          "2024",
+          4,
+          23
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.111",
+    "note": "Recipients: _:n669",
+    "recipient": [
+      {
+        "literal": "author"
+      }
+    ],
+    "type": "personal_communication"
+  },
+  {
+    "id": "Costello1981",
+    "author": [
+      {
+        "family": "Costello",
+        "given": "Bonnie"
+      }
+    ],
+    "citation-key": "Costello1981",
+    "ISBN": "978-0-674-54848-0",
+    "issued": {
+      "date-parts": [
+        [
+          "1981"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.160",
+    "number-of-pages": "281",
+    "publisher": "Harvard University Press",
+    "publisher-place": "Cambridge, MA",
+    "source": "K10plus ISBN",
+    "title": "Marianne Moore: imaginary possessions",
+    "title-short": "Marianne Moore",
+    "type": "book"
+  },
+  {
+    "id": "Cowan2022",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          2,
+          24
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Cowan",
+        "given": "Vaitea"
+      }
+    ],
+    "citation-key": "Cowan2022",
+    "dimensions": "9 min., 15 sec.",
+    "event-place": "Vancouver, BC",
+    "event-title": "TED Talk",
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          4
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.167 (quick)",
+    "note": "Presenters: _:n654",
+    "title": "How green hydrogen could end the fossil fuel era",
+    "title-short": "Green hydrogen",
+    "type": "speech",
+    "URL": "https://www.ted.com/talks/vaitea_cowan_how_green_hydrogen_could_end_the_fossil_fuel_era"
+  },
+  {
+    "id": "Creel1918",
+    "archive": "Yale University Library",
+    "archive_collection": "Edward M. House Papers",
+    "author": [
+      {
+        "family": "Creel",
+        "given": "George"
+      }
+    ],
+    "citation-key": "Creel1918",
+    "issued": {
+      "date-parts": [
+        [
+          "1918",
+          9,
+          25
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.127",
+    "note": "Display Title: [Letter to House]\nRecipients: _:n97",
+    "recipient": [
+      {
+        "family": "House",
+        "given": "Edward M."
+      }
+    ],
+    "type": "personal_communication"
+  },
+  {
+    "id": "Cuaron2014",
+    "citation-key": "Cuaron2014",
+    "dimensions": "1h31m",
+    "director": [
+      {
+        "family": "Cuarón",
+        "given": "Alfonso"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2014"
+        ]
+      ]
+    },
+    "language": "la",
+    "license": "CMOS18 14.165",
+    "medium": "Blu-ray Disc, 1080p HD",
+    "note": "Directors: _:n642\nScriptwriters: _:n644\nIMDb ID: tt1454468",
+    "original-date": {
+      "date-parts": [
+        [
+          "2013"
+        ]
+      ]
+    },
+    "publisher": "Warner Bros. Pictures",
+    "source": "IMDb",
+    "title": "Gravity",
+    "type": "motion_picture"
+  },
+  {
+    "id": "Dali1931",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          2,
+          26
+        ]
+      ]
+    },
+    "archive": "Museum of Modern Art",
+    "archive_location": "object no. 162.1934",
+    "archive-place": "New York",
+    "author": [
+      {
+        "family": "Dalí",
+        "given": "Salvador"
+      }
+    ],
+    "citation-key": "Dali1931",
+    "dimensions": "9½ × 13 in. (24.1 × 33 cm)",
+    "issued": {
+      "date-parts": [
+        [
+          "1931"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.133",
+    "medium": "oil on canvas",
+    "note": "Artists: _:n657",
+    "title": "The persistence of memory",
+    "type": "graphic",
+    "URL": "https://www.moma.org/collection/works/79018"
+  },
+  {
+    "id": "Davis2015",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          18
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Davis",
+        "given": "Lydia"
+      }
+    ],
+    "citation-key": "Davis2015",
+    "container-title": "Paris Review",
+    "interviewer": [
+      {
+        "family": "Aguilar",
+        "given": "Andrea"
+      },
+      {
+        "family": "Fronth-Nygren",
+        "given": "Johanne"
+      }
+    ],
+    "ISSN": "0031-2037",
+    "issue": "212",
+    "issued": {
+      "season": 1,
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.110",
+    "note": "Interviewees: _:n32\nInterviewers: _:n34",
+    "page": "172",
+    "section": "Interviews",
+    "source": "www.theparisreview.org",
+    "title": "The art of fiction no. 227",
+    "type": "interview",
+    "URL": "https://www.theparisreview.org/interviews/6366/the-art-of-fiction-no-227-lydia-davis"
+  },
+  {
+    "id": "Davis2015a",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          18
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Davis",
+        "given": "Lydia"
+      }
+    ],
+    "citation-key": "Davis2015a",
+    "container-title": "Paris Review",
+    "interviewer": [
+      {
+        "family": "Aguilar",
+        "given": "Andrea"
+      },
+      {
+        "family": "Fronth-Nygren",
+        "given": "Johanne"
+      }
+    ],
+    "ISSN": "0031-2037",
+    "issue": "212",
+    "issued": {
+      "season": 1,
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.110",
+    "page": "172",
+    "publisher": "The Paris Review Writing and Editing",
+    "section": "Interviews",
+    "source": "www.theparisreview.org",
+    "title": "The art of fiction no. 227",
+    "type": "article-magazine",
+    "URL": "https://www.theparisreview.org/interviews/6366/the-art-of-fiction-no-227-lydia-davis"
+  },
+  {
+    "id": "Derrida2016",
+    "author": [
+      {
+        "family": "Derrida",
+        "given": "Jacques"
+      }
+    ],
+    "citation-key": "Derrida2016",
+    "collection-title": "The Seminars of Jacques Derrida",
+    "contributor": [
+      {
+        "family": "Derrida",
+        "given": "Marguerite"
+      }
+    ],
+    "editor": [
+      {
+        "family": "Dutoit",
+        "given": "Thomas"
+      }
+    ],
+    "ISBN": "978-0-226-35525-2 978-0-226-35511-5",
+    "issued": {
+      "date-parts": [
+        [
+          "2016"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.7",
+    "note": "Translators: _:n690",
+    "number-of-pages": "1",
+    "publisher": "University of Chicago Press",
+    "publisher-place": "Chicago, IL",
+    "source": "K10plus ISBN",
+    "title": "Heidegger: the question of being and history",
+    "title-short": "Heidegger",
+    "translator": [
+      {
+        "family": "Bennington",
+        "given": "Geoffrey"
+      }
+    ],
+    "type": "book"
+  },
+  {
+    "id": "Devesa2022",
+    "citation-key": "Devesa2022",
+    "collection-title": "L'un et l'autre en français",
+    "editor": [
+      {
+        "family": "Devésa",
+        "given": "Jean-Michel"
+      }
+    ],
+    "ISBN": "978-2-84287-846-7",
+    "issued": {
+      "date-parts": [
+        [
+          "2022"
+        ]
+      ]
+    },
+    "language": "fr",
+    "license": "CMOS18 14.25",
+    "number-of-pages": "188",
+    "publisher": "Presses universitaires de Limoges",
+    "publisher-place": "Limoges",
+    "source": "K10plus ISBN",
+    "title": "L'édition africaine et la fabrique de la littérature",
+    "type": "book"
+  },
+  {
+    "id": "Dindorf1962",
+    "call-number": "N.i.272m",
+    "citation-key": "Dindorf1962",
+    "editor": [
+      {
+        "family": "Dindorf",
+        "given": "Wilhelm"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1962"
+        ]
+      ]
+    },
+    "language": "la",
+    "license": "CMOS18 14.147",
+    "number-of-volumes": "2",
+    "source": "solo.bodleian.ox.ac.uk",
+    "title": "Scholia græca in Homeri Odysseam",
+    "type": "classic"
+  },
+  {
+    "id": "Dinkel",
+    "archive": "Houghton Library, Harvard University",
+    "archive_collection": "Louis Agassiz Papers",
+    "author": [
+      {
+        "family": "Dinkel",
+        "given": "Joseph"
+      }
+    ],
+    "citation-key": "Dinkel",
+    "genre": "description of Louis Agassiz written at the request of Elizabeth Cary Agassiz",
+    "language": "en",
+    "license": "CMOS18 14.128",
+    "type": "manuscript"
+  },
+  {
+    "id": "Dittmar2023",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          2,
+          24
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Dittmar",
+        "given": "Emily L."
+      },
+      {
+        "family": "Schemske",
+        "given": "Douglas W."
+      }
+    ],
+    "citation-key": "Dittmar2023",
+    "container-title": "American Naturalist",
+    "container-title-short": "Am. Nat.",
+    "DOI": "10.1086/725865",
+    "ISSN": "0003-0147, 1537-5323",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          "2023",
+          10,
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.64 (quick)",
+    "page": "471–485",
+    "source": "DOI.org (Crossref)",
+    "title": "Temporal variation in selection influences microgeographic local adaptation",
+    "type": "article-journal",
+    "URL": "https://www.journals.uchicago.edu/doi/10.1086/725865",
+    "volume": "202"
+  },
+  {
+    "id": "Dong2022",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          18
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Dong",
+        "given": "Feng"
+      }
+    ],
+    "citation-key": "Dong2022",
+    "container-title": "Critical Inquiry",
+    "container-title-short": "Crit. Inq.",
+    "DOI": "10.1086/719895",
+    "ISSN": "0093-1896, 1539-7858",
+    "issue": "4",
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          6,
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.100",
+    "note": "Reviewed Authors: _:n245",
+    "page": "810–811",
+    "reviewed-author": [
+      {
+        "family": "Hamacher",
+        "given": "Werner"
+      }
+    ],
+    "source": "DOI.org (Crossref)",
+    "title": "Two studies of Friedrich Hölderlin",
+    "type": "article-journal",
+    "URL": "https://www.journals.uchicago.edu/doi/10.1086/719895",
+    "volume": "48"
+  },
+  {
+    "id": "Donne1995",
+    "author": [
+      {
+        "family": "Donne",
+        "given": "John"
+      }
+    ],
+    "available-date": {
+      "date-parts": [
+        [
+          "1995"
+        ],
+        [
+          "2022"
+        ]
+      ]
+    },
+    "citation-key": "Donne1995",
+    "collection-editor": [
+      {
+        "family": "Stringer",
+        "given": "Gary A."
+      },
+      {
+        "family": "Johnson",
+        "given": "Jeffrey S."
+      }
+    ],
+    "editor": [
+      {
+        "family": "Stringer",
+        "given": "Gary A."
+      },
+      {
+        "family": "Pebworth",
+        "given": "Ted-Larry"
+      }
+    ],
+    "ISBN": "978-0-253-31811-4",
+    "issued": {
+      "date-parts": [
+        [
+          "1995"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.24",
+    "note": "Series Editors: _:n706",
+    "publisher": "Indiana University Press",
+    "publisher-place": "Bloomington, IN",
+    "source": "K10plus ISBN",
+    "title": "The Variorum edition of the poetry of John Donne",
+    "type": "book",
+    "volume": "6",
+    "volume-title": "The \"Anniversaries\" and the \"Epicedes and obsequies\""
+  },
+  {
+    "id": "Doyle2023",
+    "author": [
+      {
+        "family": "Doyle",
+        "given": "Kathleen"
+      }
+    ],
+    "call-number": "Z4 .B6444 2023",
+    "citation-key": "Doyle2023",
+    "container-title": "The book by design: the remarkable story of the world's greatest invention",
+    "DOI": "10.7208/chicago/9780226824109-010",
+    "editor": [
+      {
+        "family": "Marks",
+        "given": "P. J. M."
+      },
+      {
+        "family": "Parkin",
+        "given": "Stephen"
+      }
+    ],
+    "ISBN": "978-0-226-82409-3",
+    "issued": {
+      "date-parts": [
+        [
+          "2023"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.8 (quick)",
+    "page": "60–69",
+    "publisher": "University of Chicago Press",
+    "publisher-place": "Chicago",
+    "source": "Library of Congress ISBN",
+    "title": "The Queen Mary Psalter",
+    "type": "chapter"
+  },
+  {
+    "id": "Dror2022",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          4,
+          17
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Dror",
+        "given": "Amiel A."
+      },
+      {
+        "family": "Morozov",
+        "given": "Nicole"
+      },
+      {
+        "family": "Daoud",
+        "given": "Amani"
+      },
+      {
+        "family": "Namir",
+        "given": "Yoav"
+      },
+      {
+        "family": "Yakir",
+        "given": "Orly"
+      },
+      {
+        "family": "Shachar",
+        "given": "Yair"
+      },
+      {
+        "family": "Lifshitz",
+        "given": "Mark"
+      },
+      {
+        "family": "Segal",
+        "given": "Ella"
+      },
+      {
+        "family": "Fisher",
+        "given": "Lior"
+      },
+      {
+        "family": "Mizrachi",
+        "given": "Matti"
+      },
+      {
+        "family": "Eisenbach",
+        "given": "Netanel"
+      },
+      {
+        "family": "Rayan",
+        "given": "Doaa"
+      },
+      {
+        "family": "Gruber",
+        "given": "Maayan"
+      },
+      {
+        "family": "Bashkin",
+        "given": "Amir"
+      },
+      {
+        "family": "Kaykov",
+        "given": "Edward"
+      },
+      {
+        "family": "Barhoum",
+        "given": "Masad"
+      },
+      {
+        "family": "Edelstein",
+        "given": "Michael"
+      },
+      {
+        "family": "Sela",
+        "given": "Eyal"
+      }
+    ],
+    "citation-key": "Dror2022",
+    "container-title": "PLOS ONE",
+    "container-title-short": "PLOS One",
+    "DOI": "10.1371/journal.pone.0263069",
+    "editor": [
+      {
+        "family": "Jin",
+        "given": "Dong-Yan"
+      }
+    ],
+    "ISSN": "1932-6203",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          2,
+          3
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.71 (quick)",
+    "number": "e0263069",
+    "source": "DOI.org (Crossref)",
+    "title": "Pre-infection 25-hydroxyvitamin D3 levels and association with severity of COVID-19 illness",
+    "type": "article-journal",
+    "URL": "https://dx.plos.org/10.1371/journal.pone.0263069",
+    "volume": "17"
+  },
+  {
+    "id": "Duan2022",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          2
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Duan",
+        "given": "Baihui"
+      },
+      {
+        "family": "Clements",
+        "given": "Rebekah"
+      }
+    ],
+    "citation-key": "Duan2022",
+    "container-title": "Environmental History",
+    "container-title-short": "Environ. Hist.",
+    "DOI": "10.1086/719781",
+    "ISSN": "1084-5453, 1930-8892",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          7
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 13.20",
+    "page": "415–440",
+    "source": "DOI.org (Crossref)",
+    "title": "Fighting for forests: protection and exploitation of Kŏje island timber during the east asian war of 1592–1598",
+    "title-short": "Fighting for forests",
+    "type": "article-journal",
+    "URL": "https://www.journals.uchicago.edu/doi/10.1086/719781",
+    "volume": "27"
+  },
+  {
+    "id": "Einsohn2019",
+    "author": [
+      {
+        "family": "Einsohn",
+        "given": "Amy"
+      },
+      {
+        "family": "Schwartz",
+        "given": "Marilyn"
+      }
+    ],
+    "call-number": "PN4784.C75 E37 2019",
+    "citation-key": "Einsohn2019",
+    "edition": "4",
+    "ISBN": "978-0-520-28672-6",
+    "issued": {
+      "date-parts": [
+        [
+          "2019"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.15",
+    "number-of-pages": "545",
+    "publisher": "University of California Press",
+    "publisher-place": "Oakland",
+    "source": "Library of Congress ISBN",
+    "title": "The copyeditor's handbook: a guide for book publishing and corporate communications",
+    "title-short": "The copyeditor's handbook",
+    "type": "book"
+  },
+  {
+    "id": "Ekbladh2021",
+    "author": [
+      {
+        "family": "Ekbladh",
+        "given": "David"
+      }
+    ],
+    "chapter-number": "26",
+    "citation-key": "Ekbladh2021",
+    "collection-editor": [
+      {
+        "family": "Bradley",
+        "given": "Mark Philip"
+      }
+    ],
+    "container-title": "The Cambridge history of America and the world",
+    "DOI": "10.1017/9781108297530.028",
+    "editor": [
+      {
+        "family": "Blower",
+        "given": "Brooke L."
+      },
+      {
+        "family": "Preston",
+        "given": "Andrew"
+      }
+    ],
+    "ISBN": "978-1-108-29753-0",
+    "issued": {
+      "date-parts": [
+        [
+          "2021"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.24",
+    "note": "Series Editors: _:n626",
+    "number-of-volumes": "4",
+    "page": "617–638",
+    "publisher": "Cambridge University Press",
+    "publisher-place": "Cambridge",
+    "title": "Worlds of international development",
+    "type": "chapter",
+    "volume": "3",
+    "volume-title": "1900–1945"
+  },
+  {
+    "id": "Eliot1968",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          3
+        ]
+      ]
+    },
+    "call-number": "6964450",
+    "citation-key": "Eliot1968",
+    "container-author": [
+      {
+        "family": "Pound",
+        "given": "Ezra"
+      }
+    ],
+    "editor": [
+      {
+        "family": "Eliot",
+        "given": "T. S."
+      }
+    ],
+    "ISBN": "978-0-8112-0157-5",
+    "issued": {
+      "date-parts": [
+        [
+          "1968"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.6",
+    "number-of-pages": "490",
+    "publisher": "New Directions",
+    "publisher-place": "New York",
+    "source": "Internet Archive",
+    "title": "Literary essays",
+    "type": "book"
+  },
+  {
+    "id": "Ellet1968",
+    "author": [
+      {
+        "family": "Ellet",
+        "given": "Elizabeth F. L."
+      }
+    ],
+    "citation-key": "Ellet1968",
+    "container-title": "Prairie state: impressions of Illinois, 1673–1967, by travelers and other observers",
+    "editor": [
+      {
+        "family": "Angle",
+        "given": "Paul M."
+      }
+    ],
+    "ISBN": "978-0-226-02088-4",
+    "issued": {
+      "date-parts": [
+        [
+          "1968"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.9",
+    "page": "123–234",
+    "publisher": "University of Chicago Press",
+    "publisher-place": "Chicago",
+    "source": "Google Books",
+    "title": "By rail and stage to Galena",
+    "type": "chapter"
+  },
+  {
+    "id": "Ellison1995",
+    "author": [
+      {
+        "family": "Ellison",
+        "given": "Ralph"
+      }
+    ],
+    "citation-key": "Ellison1995",
+    "ISBN": "978-0-679-73276-1",
+    "issued": {
+      "date-parts": [
+        [
+          "1995"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.16",
+    "number-of-pages": "581",
+    "publisher": "Vintage Books",
+    "publisher-place": "New York",
+    "source": "K10plus ISBN",
+    "title": "Invisible man",
+    "type": "book"
+  },
+  {
+    "id": "Emerson1985",
+    "author": [
+      {
+        "family": "Emerson",
+        "given": "Ralph Waldo"
+      }
+    ],
+    "citation-key": "Emerson1985",
+    "edition": "facsimile of the first edition, with an introduction by Jaroslav Pelikan",
+    "ISBN": "978-0-8070-1556-8",
+    "issued": {
+      "date-parts": [
+        [
+          "1985"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.16",
+    "number-of-pages": "66",
+    "publisher": "Beacon Press",
+    "publisher-place": "Boston",
+    "source": "K10plus ISBN",
+    "title": "Nature",
+    "type": "book"
+  },
+  {
+    "id": "Empedocles",
+    "author": [
+      {
+        "literal": "Empedocles"
+      }
+    ],
+    "citation-key": "Empedocles",
+    "genre": "frag. 115 Diels-Kranz",
+    "language": "en",
+    "license": "CMOS18 14.150",
+    "type": "classic"
+  },
+  {
+    "id": "Epictetus1916",
+    "author": [
+      {
+        "literal": "Epictetus"
+      }
+    ],
+    "citation-key": "Epictetus1916",
+    "editor": [
+      {
+        "family": "Schenkl",
+        "given": "Heinrich"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1916"
+        ]
+      ]
+    },
+    "language": "it",
+    "license": "CMOS18 14.146",
+    "publisher": "Teubner",
+    "title": "Dissertationes",
+    "type": "classic"
+  },
+  {
+    "id": "Errington2002",
+    "author": [
+      {
+        "family": "Errington",
+        "given": "R. M."
+      },
+      {
+        "family": "Hallof",
+        "given": "Klaus"
+      },
+      {
+        "literal": "Berlin-Brandenburgische Akademie der Wissenschaften"
+      }
+    ],
+    "call-number": "M.ii. pamph",
+    "citation-key": "Errington2002",
+    "issued": {
+      "date-parts": [
+        [
+          "2002"
+        ]
+      ]
+    },
+    "language": "la",
+    "license": "CMOS18 14.149",
+    "number-of-pages": "32",
+    "publisher": "Brandenburgische Akademie der Wissenschaften",
+    "publisher-place": "Berlin",
+    "source": "solo.bodleian.ox.ac.uk",
+    "title": "Inscriptiones Graecae",
+    "type": "book"
+  },
+  {
+    "id": "Euripides2013",
+    "author": [
+      {
+        "literal": "Euripides"
+      }
+    ],
+    "call-number": "PA3975 .A1 2013",
+    "citation-key": "Euripides2013",
+    "collection-editor": [
+      {
+        "family": "Griffith",
+        "given": "Mark"
+      },
+      {
+        "family": "Most",
+        "given": "Glenn W."
+      }
+    ],
+    "collection-title": "The complete Greek tragedies",
+    "container-title": "Euripides IV",
+    "edition": "3",
+    "editor": [
+      {
+        "family": "Grene",
+        "given": "David"
+      },
+      {
+        "family": "Lattimore",
+        "given": "Richmond"
+      }
+    ],
+    "ISBN": "978-0-226-30879-1 978-0-226-30880-7 978-0-226-30877-7 978-0-226-30878-4 978-0-226-30935-4 978-0-226-30881-4 978-0-226-30882-1 978-0-226-30895-1 978-0-226-30896-8 978-0-226-30897-5 978-0-226-30898-2 978-0-226-30933-0",
+    "issued": {
+      "date-parts": [
+        [
+          "2013"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.26",
+    "note": "Series Editors: _:n405\nTranslators: _:n400",
+    "number-of-pages": "5",
+    "publisher": "The University of Chicago Press",
+    "publisher-place": "Chicago",
+    "source": "Library of Congress ISBN",
+    "title": "Orestes",
+    "translator": [
+      {
+        "family": "Arrowsmith",
+        "given": "William"
+      }
+    ],
+    "type": "book"
+  },
+  {
+    "id": "Faraday",
+    "author": [
+      {
+        "family": "Faraday",
+        "given": "Carry"
+      }
+    ],
+    "citation-key": "Faraday",
+    "container-title": "Seven Trips Beyond the Asteroid Belt",
+    "editor": [
+      {
+        "family": "Oring",
+        "given": "James"
+      }
+    ],
+    "language": "la",
+    "license": "CMOS18 14.45",
+    "publisher": "Launch Press",
+    "status": "forthcoming",
+    "title": "Protean photography",
+    "type": "chapter"
+  },
+  {
+    "id": "Ferrer2022",
+    "author": [
+      {
+        "family": "Ferrer",
+        "given": "Ada"
+      }
+    ],
+    "citation-key": "Ferrer2022",
+    "ISBN": "978-1-5011-5455-3 978-1-5011-5456-0",
+    "issued": {
+      "date-parts": [
+        [
+          "2022"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.3",
+    "number-of-pages": "560",
+    "publisher": "Scribner",
+    "publisher-place": "New York",
+    "source": "K10plus ISBN",
+    "title": "Cuba: an American history",
+    "title-short": "Cuba",
+    "type": "book"
+  },
+  {
+    "id": "FerrerBenimeli1976",
+    "author": [
+      {
+        "family": "Ferrer Benimeli",
+        "given": "José Antonio"
+      }
+    ],
+    "citation-key": "FerrerBenimeli1976",
+    "collection-number": "Monografías 17",
+    "collection-title": "Publicaciones de la Fundación universitaria española",
+    "ISBN": "978-84-7392-087-2",
+    "issued": {
+      "date-parts": [
+        [
+          "1976"
+        ]
+      ]
+    },
+    "language": "es",
+    "license": "CMOS18 14.27",
+    "number-of-volumes": "4",
+    "publisher": "Fundación universitaria española, Seminario Cisneros",
+    "publisher-place": "Madrid",
+    "source": "BnF ISBN",
+    "title": "Masonería, iglesia e ilustración",
+    "type": "book",
+    "volume": "1",
+    "volume-title": "Las bases de un conflicto (1700–1739)"
+  },
+  {
+    "id": "Ferreras2022",
+    "archive": "EBSCOhost",
+    "call-number": "HD6971 .M327513 2022",
+    "citation-key": "Ferreras2022",
+    "editor": [
+      {
+        "family": "Ferreras",
+        "given": "Isabelle"
+      },
+      {
+        "family": "Battilana",
+        "given": "Julie"
+      },
+      {
+        "family": "Méda",
+        "given": "Dominique"
+      }
+    ],
+    "ISBN": "978-0-226-81962-4 978-0-226-81963-1",
+    "issued": {
+      "date-parts": [
+        [
+          "2022"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.60",
+    "note": "Translators: _:n66",
+    "number-of-pages": "133",
+    "publisher": "University of Chicago Press",
+    "publisher-place": "Chicago",
+    "source": "Library of Congress ISBN",
+    "title": "Democratize work: the case for reorganizing the economy",
+    "title-short": "Democratize work",
+    "translator": [
+      {
+        "family": "Richmond Mouillot",
+        "given": "Miranda"
+      }
+    ],
+    "type": "book"
+  },
+  {
+    "id": "Fiallo2022",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          4,
+          25
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Fiallo",
+        "given": "Kathy"
+      },
+      {
+        "family": "Galati",
+        "given": "Alexia"
+      }
+    ],
+    "citation-key": "Fiallo2022",
+    "DOI": "10.31234/osf.io/p723u",
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          9,
+          4
+        ]
+      ]
+    },
+    "language": "en-us",
+    "license": "CMOS18 14.76",
+    "publisher": "PsyArXiv",
+    "source": "OSF Preprints",
+    "title": "The influence of auditory processing difficulties on perceptual learning",
+    "type": "article",
+    "URL": "https://osf.io/p723u_v1"
+  },
+  {
+    "id": "Fitzgerald1992",
+    "author": [
+      {
+        "family": "Fitzgerald",
+        "given": "F. Scott"
+      }
+    ],
+    "citation-key": "Fitzgerald1992",
+    "edition": "reprinted with preface and notes by Matthew J. Bruccoli",
+    "ISBN": "978-0-02-019881-9",
+    "issued": {
+      "date-parts": [
+        [
+          "1992"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.16",
+    "number-of-pages": "216",
+    "publisher": "Collier Books",
+    "publisher-place": "New York",
+    "source": "K10plus ISBN",
+    "title": "The great Gatsby",
+    "type": "book"
+  },
+  {
+    "id": "Fogel2004",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          3
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Fogel",
+        "given": "Robert William"
+      }
+    ],
+    "citation-key": "Fogel2004",
+    "collection-title": "Cambridge Studies in Population, Economy and Society in Past Time",
+    "DOI": "10.1017/CBO9780511817649",
+    "ISBN": "978-0-521-80878-1",
+    "issued": {
+      "date-parts": [
+        [
+          "2004"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 13.114",
+    "publisher": "Cambridge University Press",
+    "publisher-place": "Cambridge",
+    "source": "Cambridge Core",
+    "title": "The escape from hunger and premature death, 1700–2100: Europe, America, and the third world",
+    "title-short": "Escape from hunger and premature death",
+    "type": "book",
+    "URL": "https://www.cambridge.org/core/books/escape-from-hunger-and-premature-death-17002100/384C6032DE4E73C90EF6C9D1E55009CA"
+  },
+  {
+    "id": "Fogel2004a",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          3
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Fogel",
+        "given": "Robert William"
+      }
+    ],
+    "citation-key": "Fogel2004a",
+    "container-title": "Journal of Evolutionary Economics",
+    "container-title-short": "J. Evol. Econ.",
+    "DOI": "10.1007/s00191-004-0188-x",
+    "ISSN": "1432-1386",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          "2004",
+          6,
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 13.114",
+    "page": "217–221",
+    "source": "Springer Link",
+    "title": "Technophysio evolution and the measurement of economic growth",
+    "type": "article-journal",
+    "URL": "https://doi.org/10.1007/s00191-004-0188-x",
+    "volume": "14"
+  },
+  {
+    "id": "Friedkin2025",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          31
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Friedkin",
+        "given": "Noah E."
+      }
+    ],
+    "citation-key": "Friedkin2025",
+    "container-title": "Social Networks",
+    "container-title-short": "Soc. Networks",
+    "DOI": "10.1016/0378-8733(92)90002-O",
+    "editor": [
+      {
+        "family": "Willer",
+        "given": "David"
+      }
+    ],
+    "ISSN": "0378-8733",
+    "issue": "3–4",
+    "issued": {
+      "date-parts": [
+        [
+          "1992",
+          9
+        ],
+        [
+          "1992",
+          12
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.74",
+    "page": "213–229",
+    "source": "DOI.org (Crossref)",
+    "title": "An expected value model of social power: predictions for selected exchange networks",
+    "title-short": "Expected value model of social power",
+    "type": "article-journal",
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/037887339290002O",
+    "volume": "14",
+    "volume-title": "Location of power in exchange networks"
+  },
+  {
+    "id": "G.A.Res.217IIIA1948",
+    "author": [
+      {
+        "literal": "G.A. Res. 217 (III) A"
+      }
+    ],
+    "citation-key": "G.A.Res.217IIIA1948",
+    "issued": {
+      "date-parts": [
+        [
+          "1948",
+          12,
+          10
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.207",
+    "note": "Sponsors: _:n29",
+    "title": "Universal Declaration of Human Rights",
+    "type": "treaty",
+    "URL": "https://undocs.org/en/A/RES/217(III)"
+  },
+  {
+    "id": "Garaud1967",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          3
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Garaud",
+        "given": "Marcel"
+      }
+    ],
+    "citation-key": "Garaud1967",
+    "collection-title": "4th ser.",
+    "container-title": "Bulletin de la Société des antiquaires de l’Ouest",
+    "container-title-short": "Bull. Soc. antiq. Ouest",
+    "issued": {
+      "date-parts": [
+        [
+          "1967"
+        ]
+      ]
+    },
+    "language": "fr",
+    "license": "CMOS18 13.100",
+    "page": "11–28",
+    "title": "Recherches sur les défrichements dans la Gâtine poitevine aux XIᵉ et XIIᵉ siècles",
+    "type": "article-journal",
+    "volume": "9"
+  },
+  {
+    "id": "GarciaMarquez1988",
+    "author": [
+      {
+        "family": "García Márquez",
+        "given": "Gabriel"
+      }
+    ],
+    "citation-key": "GarciaMarquez1988",
+    "ISBN": "978-0-394-57108-9 978-0-394-56161-5",
+    "issued": {
+      "date-parts": [
+        [
+          "1988"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 13.24",
+    "note": "Translators: _:n598",
+    "number-of-pages": "348",
+    "publisher": "Alfred A. Knopf",
+    "publisher-place": "New York",
+    "source": "K10plus ISBN",
+    "title": "Love in the time of cholera",
+    "title-short": "Cholera",
+    "translator": [
+      {
+        "family": "Grossman",
+        "given": "Edith"
+      }
+    ],
+    "type": "book"
+  },
+  {
+    "id": "Garrett1975",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          16
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Garrett",
+        "given": "Marvin P."
+      }
+    ],
+    "citation-key": "Garrett1975",
+    "container-title": "Victorian Poetry",
+    "container-title-short": "Vic. Poet.",
+    "ISSN": "0042-5206",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          "1975"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.81",
+    "page": "47–60",
+    "publisher": "West Virginia University Press",
+    "publisher-place": "West Virginia University",
+    "source": "JSTOR",
+    "title": "Language and design in <i>Pippa passes</i>",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/40001792",
+    "volume": "13"
+  },
+  {
+    "id": "Goldman2008",
+    "author": [
+      {
+        "family": "Goldman",
+        "given": "Lawrence"
+      }
+    ],
+    "citation-key": "Goldman2008",
+    "collection-title": "Oxford world's classics",
+    "ISBN": "978-0-19-280592-8 978-0-19-153959-6",
+    "issued": {
+      "date-parts": [
+        [
+          "2008"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.192",
+    "number-of-pages": "470",
+    "publisher": "Oxford University Press",
+    "publisher-place": "Oxford",
+    "source": "K10plus ISBN",
+    "title": "The Federalist papers",
+    "type": "book"
+  },
+  {
+    "id": "HMTreasury1968",
+    "author": [
+      {
+        "literal": "HM Treasury"
+      }
+    ],
+    "citation-key": "HMTreasury1968",
+    "issued": {
+      "date-parts": [
+        [
+          "1968"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.204",
+    "medium": "Cmnd. 3787",
+    "title": "The Basle Facility and the Sterling Area",
+    "type": "document"
+  },
+  {
+    "id": "Hebrewsa",
+    "author": [
+      {
+        "literal": "Hebrews"
+      }
+    ],
+    "citation-key": "Hebrewsa",
+    "language": "en",
+    "license": "CMOS18 14.139",
+    "title-short": "Heb.",
+    "type": "classic"
+  },
+  {
+    "id": "Hitchcock2000a",
+    "citation-key": "Hitchcock2000a",
+    "container-title": "North by Northwest",
+    "director": [
+      {
+        "family": "Hitchcock",
+        "given": "Alfred"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2000"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.165",
+    "medium": "DVD",
+    "note": "Directors: _:n817\nScriptwriters: _:n819\nIMDb ID: tt0053125",
+    "original-date": {
+      "date-parts": [
+        [
+          "1959",
+          11,
+          20
+        ]
+      ]
+    },
+    "publisher": "Warner Home Video",
+    "publisher-place": "United States",
+    "source": "IMDb",
+    "title": "Crop duster attack",
+    "type": "motion_picture"
+  },
+  {
+    "id": "Holiday1997",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          5,
+          1
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Holiday",
+        "given": "Billie"
+      }
+    ],
+    "chapter-number": "1",
+    "citation-key": "Holiday1997",
+    "container-title": "Lady in satin",
+    "contributor": [
+      {
+        "family": "Herron",
+        "given": "Joel"
+      },
+      {
+        "family": "Sinatra",
+        "given": "Frank"
+      },
+      {
+        "family": "Wolf",
+        "given": "Jack"
+      }
+    ],
+    "event-date": {
+      "date-parts": [
+        [
+          "1958",
+          2,
+          20
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "1997",
+          10
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.163",
+    "medium": "33⅓ rpm",
+    "note": "Performers: _:n746",
+    "number": "CL 1157",
+    "publisher": "Columbia",
+    "source": "www.discogs.com",
+    "title": "I’m a fool to want you",
+    "type": "song"
+  },
+  {
+    "id": "Johnson1916",
+    "archive": "Harvard College Library",
+    "archive_collection": "Theodore Roosevelt Collection",
+    "archive_location": "O’Laughlin Papers",
+    "author": [
+      {
+        "family": "Johnson",
+        "given": "Hiram"
+      }
+    ],
+    "citation-key": "Johnson1916",
+    "issued": {
+      "date-parts": [
+        [
+          "1916",
+          7,
+          13
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.127",
+    "note": "Display Title: [Letter to O’Laughlin]\nRecipients: _:n779",
+    "recipient": [
+      {
+        "family": "O’Laughlin",
+        "given": "John Callan"
+      }
+    ],
+    "type": "personal_communication"
+  },
+  {
+    "id": "Jovin2022a",
+    "author": [
+      {
+        "family": "Jovin",
+        "given": "Ellen"
+      }
+    ],
+    "call-number": "PE1460 .J65 2022",
+    "citation-key": "Jovin2022a",
+    "ISBN": "978-0-358-27815-3",
+    "issued": {
+      "date-parts": [
+        [
+          "2022"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.59",
+    "medium": "Kindle",
+    "note": "OCLC: on1335033276",
+    "number-of-pages": "374",
+    "publisher": "Mariner Books",
+    "publisher-place": "Boston",
+    "source": "Library of Congress ISBN",
+    "title": "Rebel with a clause: tales and tips from a roving grammarian",
+    "title-short": "Rebel with a clause",
+    "type": "book"
+  },
+  {
+    "id": "Kallen",
+    "archive": "YIVO Institute for Jewish Research",
+    "archive-place": "New York",
+    "author": [
+      {
+        "family": "Kallen",
+        "given": "Horace"
+      }
+    ],
+    "citation-key": "Kallen",
+    "language": "en",
+    "license": "CMOS18 14.120",
+    "title": "Papers",
+    "type": "collection"
+  },
+  {
+    "id": "Kosambi1945a",
+    "author": [
+      {
+        "family": "Kosambi",
+        "given": "D. D."
+      }
+    ],
+    "citation-key": "Kosambi1945a",
+    "collection-title": "n.s.",
+    "container-title": "Journal of the Bombay Branch of the Royal Asiatic Society",
+    "container-title-short": "J. Bombay Branch R. Asiat. Soc.",
+    "issued": {
+      "date-parts": [
+        [
+          "1945"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.83",
+    "page": "17–32",
+    "title": "Some extant versions of Bhartṛhari’s Śatakas",
+    "type": "article-journal",
+    "volume": "21"
+  },
+  {
+    "id": "Lach1977a",
+    "author": [
+      {
+        "family": "Lach",
+        "given": "Donald F."
+      }
+    ],
+    "available-date": {
+      "date-parts": [
+        [
+          "1965"
+        ],
+        [
+          "1993"
+        ]
+      ]
+    },
+    "citation-key": "Lach1977a",
+    "ISBN": "978-0-226-46713-9 978-0-226-46734-4",
+    "issued": {
+      "date-parts": [
+        [
+          "1977"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.23",
+    "number-of-pages": "442",
+    "number-of-volumes": "3 vols. in 9 bks.",
+    "part-number": "bk. 3",
+    "part-title": "The scholarly disciplines",
+    "publisher": "University of Chicago Press",
+    "publisher-place": "Chicago",
+    "source": "K10plus ISBN",
+    "title": "Asia in the making of Europe",
+    "type": "book",
+    "volume": "2",
+    "volume-title": "A century of wonder"
+  },
+  {
+    "id": "Laffin2022",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          2,
+          26
+        ]
+      ]
+    },
+    "citation-key": "Laffin2022",
+    "container-title": "New York Times",
+    "dimensions": "4 min., 15 sec.",
+    "editor": [
+      {
+        "family": "Laffin",
+        "given": "Ben"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          8,
+          21
+        ]
+      ]
+    },
+    "language": "en-US",
+    "license": "CMOS18 14.167",
+    "medium": "video",
+    "producer": [
+      {
+        "family": "Cott",
+        "given": "Emma"
+      },
+      {
+        "family": "Laffin",
+        "given": "Ben"
+      }
+    ],
+    "source": "NYTimes.com",
+    "title": "(Re)defining the American dream",
+    "type": "article-newspaper",
+    "URL": "https://www.nytimes.com/video/us/politics/100000008465172/-re-defining-the-american-dream.html"
+  },
+  {
+    "id": "Lee1896",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          17
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Lee",
+        "given": "Henry"
+      }
+    ],
+    "citation-key": "Lee1896",
+    "collection-title": "2nd ser.",
+    "container-title": "Proceedings of the Massachusetts Historical Society",
+    "container-title-short": "Proc. Mass. Hist. Soc.",
+    "ISSN": "0076-4981",
+    "issued": {
+      "date-parts": [
+        [
+          "1896",
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.83",
+    "page": "407–427",
+    "publisher": "Massachusetts Historical Society",
+    "source": "JSTOR",
+    "title": "Letters of Jonathan Sewall",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/25079785",
+    "volume": "10"
+  },
+  {
+    "id": "MITElectionDataandScienceLab2022",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          4,
+          30
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "MIT Election Data and Science Lab"
+      }
+    ],
+    "citation-key": "MITElectionDataandScienceLab2022",
+    "contributor": [
+      {
+        "family": "Baltz",
+        "given": "Samuel"
+      },
+      {
+        "family": "Chin",
+        "given": "Declan"
+      },
+      {
+        "family": "Zarate",
+        "given": "Marcos"
+      },
+      {
+        "family": "DeLuca",
+        "given": "Kevin"
+      },
+      {
+        "family": "Miranda",
+        "given": "Jennifer"
+      },
+      {
+        "family": "Uhlman",
+        "given": "Annabel"
+      },
+      {
+        "family": "Fei",
+        "given": "Jonathan"
+      },
+      {
+        "family": "Grewal",
+        "given": "Darsh"
+      },
+      {
+        "family": "Jaffe",
+        "given": "Jacob"
+      },
+      {
+        "family": "Pauley",
+        "given": "Sam"
+      },
+      {
+        "family": "Zheng",
+        "given": "Sophia"
+      },
+      {
+        "family": "Williams",
+        "given": "Jack"
+      },
+      {
+        "family": "Curiel",
+        "given": "John"
+      },
+      {
+        "family": "III",
+        "given": "Charles Stewart"
+      }
+    ],
+    "DOI": "10.7910/DVN/ER9XTV",
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          3,
+          17
+        ]
+      ]
+    },
+    "language": "la",
+    "license": "CMOS18 14.157",
+    "publisher": "Harvard Dataverse",
+    "source": "DOI.org (Datacite)",
+    "title": "U.S. senate precinct-level returns 2020",
+    "type": "dataset",
+    "URL": "https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/ER9XTV",
+    "version": "1.2"
+  },
+  {
+    "id": "Ma2022a",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          4,
+          13
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Ma",
+        "given": "Shaoling"
+      }
+    ],
+    "citation-key": "Ma2022a",
+    "container-title": "Critical Inquiry",
+    "container-title-short": "Crit. Inq.",
+    "DOI": "10.1086/721173",
+    "ISSN": "0093-1896",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          9
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 13.116",
+    "page": "77–101",
+    "publisher": "The University of Chicago Press",
+    "source": "journals.uchicago.edu (Atypon)",
+    "title": "Big earths of China: remotely sensing Xinjiang along the belt and road",
+    "title-short": "Big earths of china",
+    "type": "article-journal",
+    "URL": "https://www.journals.uchicago.edu/doi/10.1086/721173",
+    "volume": "49"
+  },
+  {
+    "id": "Mayberry1971",
+    "citation-key": "Mayberry1971",
+    "contributor": [
+      {
+        "family": "Reed",
+        "given": "Robert"
+      },
+      {
+        "family": "Henderson",
+        "given": "Florence"
+      },
+      {
+        "family": "Davis",
+        "given": "Ann B."
+      }
+    ],
+    "dimensions": "26m",
+    "director": [
+      {
+        "family": "Mayberry",
+        "given": "Russ"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1971",
+          11,
+          19
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.165",
+    "note": "Directors: _:n713\nScriptwriters: _:n715\nIMDb ID: tt0531099\nevent-location: United States",
+    "number": "season 3, episode 10",
+    "publisher": "Redwood Productions, Paramount Television",
+    "source": "IMDb",
+    "title": "Her sister's shadow",
+    "type": "broadcast"
+  },
+  {
+    "id": "McCurry1984",
+    "author": [
+      {
+        "family": "McCurry",
+        "given": "Steve"
+      }
+    ],
+    "citation-key": "McCurry1984",
+    "issued": {
+      "date-parts": [
+        [
+          "1984",
+          12
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.133",
+    "medium": "photograph, <i>National Geographic</i>, cover, June 1985",
+    "note": "Artists: _:n774",
+    "title": "Afghan Girl",
+    "type": "graphic",
+    "URL": "https://www.nationalgeographic.com/magazine/national-geographic-magazine-50-years-of-covers/#/ngm-1985-jun-714.jpg"
+  },
+  {
+    "id": "Mead2023a",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          4,
+          25
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Mead",
+        "given": "Rebecca"
+      }
+    ],
+    "citation-key": "Mead2023a",
+    "container-title": "New Yorker",
+    "ISSN": "0028-792X",
+    "issued": {
+      "date-parts": [
+        [
+          "2023",
+          12,
+          8
+        ]
+      ]
+    },
+    "language": "en-US",
+    "license": "CMOS18 14.87 (quick)",
+    "page": "21–24",
+    "source": "www.newyorker.com",
+    "title": "Terms of aggrievement",
+    "type": "article-magazine",
+    "URL": "https://www.newyorker.com/magazine/2023/12/18/a-gen-z-comedian-strafes-his-elders-and-himself"
+  },
+  {
+    "id": "Migne1844",
+    "citation-key": "Migne1844",
+    "collection-editor": [
+      {
+        "family": "Migne",
+        "given": "Jacques-Paul"
+      }
+    ],
+    "container-title": "Patrologiae Cursus Completus, sive bibliotheca universalis ... omnium S.S. Patrum, Doctorum, Scriptorumque ecclesiasticorum qui ab aevo apostolico ad Innocentii III tempora floruerunt ... SERIES PRIMA,. XXXVI.",
+    "issued": {
+      "date-parts": [
+        [
+          "1844"
+        ]
+      ]
+    },
+    "language": "lat",
+    "publisher": "J. P. Migne",
+    "publisher-place": "Parisiis",
+    "source": "unika.unav.edu",
+    "type": "chapter",
+    "volume": "36"
+  },
+  {
+    "id": "Miller2022",
+    "author": [
+      {
+        "family": "Miller",
+        "given": "Daniel"
+      }
+    ],
+    "citation-key": "Miller2022",
+    "issued": {
+      "date-parts": [
+        [
+          "2022"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 13.116",
+    "type": "article-journal"
+  },
+  {
+    "id": "O2022",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          18
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "O",
+        "given": "Karen",
+        "suffix": "[Karen Lee Orzolek]"
+      }
+    ],
+    "citation-key": "O2022",
+    "container-title": "New Yorker",
+    "interviewer": [
+      {
+        "family": "Tolentino",
+        "given": "Jia"
+      }
+    ],
+    "ISSN": "0028-792X",
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          9,
+          11
+        ]
+      ]
+    },
+    "language": "en-US",
+    "license": "CMOS18 14.110",
+    "note": "Interviewees: _:n735\nInterviewers: _:n737",
+    "source": "www.newyorker.com",
+    "title": "Karen O has found a more joyful kind of wildness",
+    "type": "interview",
+    "URL": "https://www.newyorker.com/culture/the-new-yorker-interview/karen-o-has-found-a-more-joyful-kind-of-wildness"
+  },
+  {
+    "id": "Oliver2022",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          2,
+          24
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Oliver",
+        "given": "Eric"
+      }
+    ],
+    "chair": [
+      {
+        "family": "McCall",
+        "given": "Andrew"
+      }
+    ],
+    "citation-key": "Oliver2022",
+    "dimensions": "1:01:45",
+    "event-date": {
+      "date-parts": [
+        [
+          "2022",
+          2,
+          23
+        ]
+      ]
+    },
+    "event-place": "University of Chicago",
+    "genre": "virtual lecture",
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          3,
+          21
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.167 (quick)",
+    "medium": "YouTube",
+    "note": "Chairs: _:n2521\nPresenters: _:n2519",
+    "status": "posted",
+    "title": "Why so many Americans believe in so many “crazy” things",
+    "type": "speech",
+    "URL": "https://youtu.be/hfq7AnCF5bg"
+  },
+  {
+    "id": "OrchestraandChorusoftheRoyalOperaHouseCoventGarden1991",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          4,
+          14
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Orchestra and Chorus of the Royal Opera House, Covent Garden"
+      },
+      {
+        "literal": "Sir Colin Davis"
+      }
+    ],
+    "citation-key": "OrchestraandChorusoftheRoyalOperaHouseCoventGarden1991",
+    "composer": [
+      {
+        "family": "Mozart",
+        "given": "Wolfgang Amadeus"
+      }
+    ],
+    "contributor": [
+      {
+        "family": "Wixell",
+        "given": "Ingvar"
+      },
+      {
+        "family": "Roni",
+        "given": "Luigi"
+      },
+      {
+        "family": "Arroyo",
+        "given": "Martina"
+      },
+      {
+        "family": "Burrows",
+        "given": "Stuart"
+      },
+      {
+        "family": "Kanawa",
+        "given": "Kiri Te"
+      },
+      {
+        "family": "Ganzarolli",
+        "given": "Wladimiro"
+      },
+      {
+        "family": "Allan",
+        "given": "Richard Van"
+      },
+      {
+        "family": "Freni",
+        "given": "Mirella"
+      }
+    ],
+    "event-date": {
+      "date-parts": [
+        [
+          "1973",
+          5
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "1991"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.163",
+    "medium": "3 compact discs",
+    "note": "Composers: _:n2114\nPerformers: _:n2116",
+    "number": "422 541-2",
+    "publisher": "Philips",
+    "source": "www.discogs.com",
+    "title": "Don Giovanni",
+    "type": "song"
+  },
+  {
+    "id": "Ovid",
+    "author": [
+      {
+        "literal": "Ovid"
+      }
+    ],
+    "citation-key": "Ovid",
+    "language": "la",
+    "license": "CMOS18 14.143",
+    "title": "Amores",
+    "type": "classic"
+  },
+  {
+    "id": "Palmatary1949",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          4,
+          14
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Palmatary",
+        "given": "Helen C."
+      }
+    ],
+    "citation-key": "Palmatary1949",
+    "collection-title": "n.s.",
+    "container-title": "Transactions of the American Philosophical Society",
+    "container-title-short": "Trans. Amer. Philos. Soc.",
+    "DOI": "10.2307/1005648",
+    "ISSN": "0065-9746",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          "1949"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.28",
+    "page": "261–470",
+    "publisher": "American Philosophical Society",
+    "source": "JSTOR",
+    "title": "The pottery of Marajó Island, Brazil",
+    "type": "article-journal",
+    "URL": "https://www.jstor.org/stable/1005648",
+    "volume": "39"
+  },
+  {
+    "id": "Palmatary1950",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          4,
+          14
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Palmatary",
+        "given": "Helen C."
+      }
+    ],
+    "citation-key": "Palmatary1950",
+    "collection-number": "n.s., vol. 39, pt. 3 (1949)",
+    "collection-title": "Transactions of the American Philosophical Society",
+    "DOI": "10.2307/1005648",
+    "issued": {
+      "date-parts": [
+        [
+          "1950"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.28",
+    "publisher": "American Philosophical Society",
+    "source": "JSTOR",
+    "title": "The pottery of Marajó Island, Brazil",
+    "type": "book",
+    "URL": "https://www.jstor.org/stable/1005648"
+  },
+  {
+    "id": "Pegoraro2007",
+    "archive": "LexisNexis Academic",
+    "author": [
+      {
+        "family": "Pegoraro",
+        "given": "Rob"
+      }
+    ],
+    "citation-key": "Pegoraro2007",
+    "container-title": "Washington Post",
+    "issued": {
+      "date-parts": [
+        [
+          "2007",
+          7,
+          5
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.89 (quick)",
+    "title": "Apple's iPhone is sleek, smart and simple",
+    "type": "article-newspaper",
+    "URL": "https://proquest.com/docview/2830854125"
+  },
+  {
+    "id": "Pevney1967",
+    "citation-key": "Pevney1967",
+    "contributor": [
+      {
+        "family": "Shatner",
+        "given": "William"
+      },
+      {
+        "family": "Nimoy",
+        "given": "Leonard"
+      },
+      {
+        "family": "Kelley",
+        "given": "DeForest"
+      }
+    ],
+    "dimensions": "50m",
+    "director": [
+      {
+        "family": "Pevney",
+        "given": "Joseph"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1967",
+          12,
+          29
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.165",
+    "note": "Directors: _:n2456\nScriptwriters: _:n2458\nevent-location: United States\nIMDb ID: tt0708480",
+    "number": "season 2, episode 15",
+    "publisher": "Desilu Productions, Norway Corporation",
+    "source": "IMDb",
+    "title": "The trouble with tribbles",
+    "type": "broadcast"
+  },
+  {
+    "id": "Picasso1942",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          4,
+          30
+        ]
+      ]
+    },
+    "archive": "Musée Picasso Paris",
+    "author": [
+      {
+        "family": "Picasso",
+        "given": "Pablo"
+      }
+    ],
+    "citation-key": "Picasso1942",
+    "dimensions": "33.5 × 43.5 × 19 cm",
+    "issued": {
+      "season": 1,
+      "date-parts": [
+        [
+          1942
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.133",
+    "medium": "Bicycle saddle and handlebars",
+    "note": "Artists: _:n2062",
+    "title": "Bull’s head",
+    "type": "graphic",
+    "URL": "https://www.artchive.com/artwork/bull-s-head-on-the-table-pablo-picasso-1942/"
+  },
+  {
+    "id": "Pindar",
+    "author": [
+      {
+        "literal": "Pindar"
+      }
+    ],
+    "citation-key": "Pindar",
+    "language": "la",
+    "license": "CMOS18 14.144",
+    "title": "Isthm.",
+    "type": "classic"
+  },
+  {
+    "id": "Piras2013",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          13
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Piras",
+        "given": "Marcello"
+      }
+    ],
+    "citation-key": "Piras2013",
+    "container-title": "Grove Music Online",
+    "DOI": "10.1093/gmo/9781561592630.article.A2249397",
+    "ISBN": "978-1-56159-263-0",
+    "issued": {
+      "date-parts": [
+        [
+          "2013",
+          10,
+          16
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.131",
+    "publisher": "Oxford University Press",
+    "source": "DOI.org (Crossref)",
+    "title": "Ellington, Duke [Edward Kennedy]",
+    "type": "entry-encyclopedia",
+    "URL": "https://www.oxfordmusiconline.com/grovemusic/documentID/omo-9781561592630-e-1002249397"
+  },
+  {
+    "id": "Pirumova1977",
+    "author": [
+      {
+        "family": "Pirumova",
+        "given": "N. M."
+      }
+    ],
+    "citation-key": "Pirumova1977",
+    "issued": {
+      "date-parts": [
+        [
+          "1977"
+        ]
+      ]
+    },
+    "language": "it",
+    "license": "CMOS18 13.101",
+    "note": "Translated title: The zemstvo liberal movement: Its social roots and evolution to the beginning of the twentieth century",
+    "number-of-pages": "285",
+    "publisher": "Izdatel’stvo \"Nauka\"",
+    "publisher-place": "Moskva",
+    "source": "Library Catalog (Blacklight)",
+    "title": "Zemskoe liberal’noe dvizhenie: Sotsial’nye korni i evoliutsiia do nachala XX veka",
+    "title-short": "Zemskoe liberal'noe dvizhenie",
+    "type": "book"
+  },
+  {
+    "id": "Powell1998",
+    "author": [
+      {
+        "family": "Powell",
+        "given": "John"
+      }
+    ],
+    "citation-key": "Powell1998",
+    "container-title": "Electric Editors",
+    "genre": "Grapevine digest mailing list archives",
+    "issued": {
+      "date-parts": [
+        [
+          "1998",
+          4,
+          23
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.107",
+    "title": "Pattern matching",
+    "type": "post",
+    "URL": "https://www.electriceditors.net/grapevine/archives.php"
+  },
+  {
+    "id": "Propertius1990",
+    "author": [
+      {
+        "literal": "Propertius"
+      }
+    ],
+    "citation-key": "Propertius1990",
+    "collection-number": "18",
+    "collection-title": "Loeb classical library",
+    "editor": [
+      {
+        "family": "Goold",
+        "given": "G. P."
+      }
+    ],
+    "ISBN": "978-0-674-99020-3",
+    "issued": {
+      "date-parts": [
+        [
+          "1990"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.151",
+    "note": "Translators: _:n2486",
+    "number-of-pages": "440",
+    "publisher": "Harvard University Press",
+    "publisher-place": "Cambridge, MA",
+    "source": "K10plus ISBN",
+    "title": "Elegies",
+    "translator": [
+      {
+        "family": "Goold",
+        "given": "G. P."
+      }
+    ],
+    "type": "classic"
+  },
+  {
+    "id": "Public2024",
+    "author": [
+      {
+        "family": "Public",
+        "given": "John Q."
+      }
+    ],
+    "citation-key": "Public2024",
+    "container-title": "Los Angeles Times",
+    "genre": "letter to the editor",
+    "issued": {
+      "date-parts": [
+        [
+          "2024",
+          9,
+          2
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.94",
+    "type": "article-newspaper"
+  },
+  {
+    "id": "Pulak2008",
+    "author": [
+      {
+        "family": "Pulak",
+        "given": "Cemal"
+      }
+    ],
+    "citation-key": "Pulak2008",
+    "container-title": "Beyond Babylon: art, trade, and diplomacy in the second millennium B.C.",
+    "editor": [
+      {
+        "family": "Aruz",
+        "given": "Joan"
+      },
+      {
+        "family": "Benzel",
+        "given": "Kim"
+      },
+      {
+        "family": "Evans",
+        "given": "Jean M."
+      }
+    ],
+    "ISBN": "978-1-58839-295-4 978-1-58839-296-1 978-0-300-14143-6",
+    "issued": {
+      "date-parts": [
+        [
+          "2008"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.134",
+    "medium": "exhibition catalog",
+    "page": "290–386",
+    "publisher": "Metropolitan Museum of Art Yale University Press",
+    "publisher-place": "New York",
+    "source": "BnF ISBN",
+    "title": "The Uluburun shipwreck and late bronze age trade",
+    "type": "chapter"
+  },
+  {
+    "id": "Purcell1772",
+    "archive": "Newberry Library",
+    "archive_collection": "Ayer Collection",
+    "archive_location": "MS 228",
+    "archive-place": "Chicago",
+    "author": [
+      {
+        "family": "Purcell",
+        "given": "Joseph"
+      }
+    ],
+    "citation-key": "Purcell1772",
+    "issued": {
+      "circa": true,
+      "date-parts": [
+        [
+          "1772"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.127",
+    "title": "A map of the Southern Indian District of North America",
+    "type": "document"
+  },
+  {
+    "id": "Ratliff1999",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          18
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Ratliff",
+        "given": "Ben"
+      }
+    ],
+    "citation-key": "Ratliff1999",
+    "container-title": "Lingua Franca",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          "1999",
+          4
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.100",
+    "note": "Reviewed Authors: _:n2271",
+    "page": "B13–B14",
+    "reviewed-author": [
+      {
+        "family": "Vianna",
+        "given": "Hermano"
+      }
+    ],
+    "reviewed-title": "The Mystery of Samba: Popular Music and National Identity in Brazil",
+    "title": "Samba nation",
+    "type": "article-magazine",
+    "URL": "http://linguafranca.mirror.theinfo.org/br/9904/ratliff.html",
+    "volume": "9"
+  },
+  {
+    "id": "Ratliff1999a",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          18
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Ratliff",
+        "given": "Ben"
+      }
+    ],
+    "citation-key": "Ratliff1999a",
+    "container-title": "Lingua Franca",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          "1999",
+          4
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.100",
+    "note": "Reviewed Authors: _:n2247",
+    "page": "B13–B14",
+    "reviewed-author": [
+      {
+        "family": "Vianna",
+        "given": "Hermano"
+      }
+    ],
+    "title": "The mystery of samba: popular music and national identity in Brazil",
+    "type": "article-magazine",
+    "URL": "http://linguafranca.mirror.theinfo.org/br/9904/ratliff.html",
+    "volume": "9"
+  },
+  {
+    "id": "Riedener2022",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          7
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Riedener",
+        "given": "Stefan"
+      },
+      {
+        "family": "Schwind",
+        "given": "Philipp"
+      }
+    ],
+    "citation-key": "Riedener2022",
+    "container-title": "Ethics",
+    "container-title-short": "Ethics",
+    "DOI": "10.1086/718080",
+    "ISSN": "0014-1704, 1539-297X",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          4,
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.70",
+    "page": "621–643",
+    "source": "DOI.org (Crossref)",
+    "title": "The point of promises",
+    "title-short": "Promises",
+    "type": "article-journal",
+    "URL": "https://www.journals.uchicago.edu/doi/10.1086/718080",
+    "volume": "132"
+  },
+  {
+    "id": "Rihanna2007",
+    "author": [
+      {
+        "literal": "Rihanna"
+      }
+    ],
+    "chapter-number": "1",
+    "citation-key": "Rihanna2007",
+    "container-title": "Good Girl Gone Bad",
+    "contributor": [
+      {
+        "literal": "Jay-Z"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2007"
+        ]
+      ]
+    },
+    "language": "es",
+    "license": "CMOS18 14.163",
+    "medium": "MP3 audio",
+    "note": "Performers: _:n2049",
+    "publisher": "Island Def Jam",
+    "title": "Umbrella",
+    "type": "song"
+  },
+  {
+    "id": "Roosevelt1959",
+    "author": [
+      {
+        "family": "Roosevelt",
+        "given": "Eleanor"
+      }
+    ],
+    "citation-key": "Roosevelt1959",
+    "dimensions": "1:12:49",
+    "event-place": "Ball State Teachers College",
+    "genre": "convocation speech",
+    "issued": {
+      "date-parts": [
+        [
+          "1959",
+          5,
+          6
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.164",
+    "medium": "Muncie, IN, radio broadcast, reel-to-reel tape, MPEG copy",
+    "note": "Presenters: _:n2130",
+    "title": "Is America facing world leadership?",
+    "type": "speech",
+    "URL": "https://dmr.bsu.edu/digital/collection/ElRoos/id/1"
+  },
+  {
+    "id": "Roy2008",
+    "author": [
+      {
+        "family": "Roy",
+        "given": "Arundhati"
+      }
+    ],
+    "citation-key": "Roy2008",
+    "ISBN": "978-1-58836-783-9",
+    "issued": {
+      "date-parts": [
+        [
+          "2008"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.58",
+    "medium": "Kindle",
+    "number-of-pages": "333",
+    "publisher": "Random House Trade Paperbacks",
+    "publisher-place": "New York",
+    "source": "Library of Congress ISBN",
+    "title": "The god of small things",
+    "type": "book"
+  },
+  {
+    "id": "Saller2020",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          2,
+          26
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Saller",
+        "given": "Carol"
+      }
+    ],
+    "citation-key": "Saller2020",
+    "container-title": "CMOS Shop Talk",
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          3,
+          10
+        ]
+      ]
+    },
+    "language": "en-US",
+    "license": "CMOS18 14.105",
+    "title": "Formatting text messages in fiction",
+    "type": "post-weblog",
+    "URL": "https://cmosshoptalk.com/2020/03/10/formatting-text-messages-in-fiction/"
+  },
+  {
+    "id": "Samenow2016",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          14
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Samenow",
+        "given": "Jason"
+      }
+    ],
+    "citation-key": "Samenow2016",
+    "container-title": "The Washington Post",
+    "ISSN": "0190-8286",
+    "issued": {
+      "date-parts": [
+        [
+          "2016",
+          1,
+          21
+        ]
+      ]
+    },
+    "language": "en-US",
+    "license": "CMOS18 14.89",
+    "source": "www.washingtonpost.com",
+    "title": "Blizzard warning: high winds, about two feet of snow forecast for D.C. area",
+    "title-short": "Blizzard warning",
+    "type": "article-newspaper",
+    "URL": "https://www.washingtonpost.com/news/capital-weather-gang/wp/2016/01/21/blizzard-warning-high-winds-around-two-feet-of-snow-forecast-for-d-c-area/"
+  },
+  {
+    "id": "SamueldeChamplain2007",
+    "author": [
+      {
+        "literal": "Samuel de Champlain"
+      }
+    ],
+    "call-number": "912.09",
+    "citation-key": "SamueldeChamplain2007",
+    "collection-editor": [
+      {
+        "family": "Woodward",
+        "given": "David"
+      }
+    ],
+    "container-title": "The History of Cartography",
+    "dimensions": "43 × 76 cm",
+    "ISBN": "978-0-226-90732-1 978-0-226-90733-8 978-0-226-90734-5",
+    "issued": {
+      "date-parts": [
+        [
+          "2007"
+        ]
+      ]
+    },
+    "language": "fr",
+    "license": "CMOS18 14.135",
+    "note": "Cartographers: _:n2181\nSeries Editors: _:n2183",
+    "original-date": {
+      "date-parts": [
+        [
+          "1612"
+        ]
+      ]
+    },
+    "page": "fig. 51.3",
+    "publisher": "University of Chicago Press",
+    "publisher-place": "Chicago",
+    "source": "BnF ISBN",
+    "title": "<span class=\"nocase\">Carte geographique de la Nouvelle Franse</span>",
+    "type": "map",
+    "volume": "3",
+    "volume-title": "Cartography in the European Renaissance"
+  },
+  {
+    "id": "Sanders2019",
+    "author": [
+      {
+        "family": "Sanders",
+        "given": "Bernie"
+      }
+    ],
+    "citation-key": "Sanders2019",
+    "event-date": {
+      "date-parts": [
+        [
+          "2019",
+          7,
+          29
+        ]
+      ]
+    },
+    "event-place": "TEN Nail Bar, Detroit, MI",
+    "interviewer": [
+      {
+        "literal": "Cardi B"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2019",
+          8,
+          15
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.110",
+    "medium": "YouTube",
+    "note": "Display Title: [Interview of Cardi B]\nInterviewees: _:n2022\nInterviewers: _:n2024",
+    "status": "posted",
+    "type": "interview",
+    "URL": "https://youtu.be/p1ubTsrZFBU"
+  },
+  {
+    "id": "Sanneh2021",
+    "author": [
+      {
+        "family": "Sanneh",
+        "given": "Kelefa"
+      }
+    ],
+    "chapter-number": "5",
+    "citation-key": "Sanneh2021",
+    "container-title": "Major labels: a history of popular music in seven genres",
+    "ISBN": "978-0-525-55959-7 978-0-525-55960-3",
+    "issued": {
+      "date-parts": [
+        [
+          "2021"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.8",
+    "publisher": "Penguin Books",
+    "publisher-place": "New York",
+    "source": "K10plus ISBN",
+    "title": "Hip-hop",
+    "type": "chapter"
+  },
+  {
+    "id": "Schweitzer1966",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          2,
+          26
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Schweitzer",
+        "given": "Albert"
+      }
+    ],
+    "citation-key": "Schweitzer1966",
+    "contributor": [
+      {
+        "family": "Widor",
+        "given": "C. M."
+      }
+    ],
+    "ISBN": "978-0-87666-612-8 978-0-87666-613-5",
+    "issued": {
+      "date-parts": [
+        [
+          "1966"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.16",
+    "note": "Translators: _:n2539",
+    "number-of-pages": "554",
+    "number-of-volumes": "2",
+    "publisher": "Dover",
+    "publisher-place": "New York",
+    "source": "Internet Archive",
+    "title": "J. S. Bach",
+    "translator": [
+      {
+        "family": "Newman",
+        "given": "Ernest"
+      }
+    ],
+    "type": "book",
+    "URL": "http://archive.org/details/jsbachtranslated0000schw"
+  },
+  {
+    "id": "Shakespeare1988",
+    "author": [
+      {
+        "family": "Shakespeare",
+        "given": "William"
+      }
+    ],
+    "call-number": "PR2819.A2 B4 1988",
+    "citation-key": "Shakespeare1988",
+    "editor": [
+      {
+        "family": "Bevington",
+        "given": "David M."
+      }
+    ],
+    "ISBN": "978-0-553-21297-6",
+    "issued": {
+      "date-parts": [
+        [
+          "1988"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.153",
+    "number-of-pages": "182",
+    "publisher": "Bantam Books",
+    "publisher-place": "Toronto",
+    "source": "Library of Congress ISBN",
+    "title": "King Lear",
+    "type": "book"
+  },
+  {
+    "id": "Shakespeare2005",
+    "author": [
+      {
+        "family": "Shakespeare",
+        "given": "William"
+      }
+    ],
+    "call-number": "PR2755 .W45 2005",
+    "citation-key": "Shakespeare2005",
+    "edition": "2",
+    "editor": [
+      {
+        "family": "Wells",
+        "given": "Stanley"
+      },
+      {
+        "family": "Taylor",
+        "given": "Gary"
+      },
+      {
+        "family": "Jowett",
+        "given": "John"
+      },
+      {
+        "family": "Montgomery",
+        "given": "William"
+      }
+    ],
+    "ISBN": "978-0-19-926717-0 978-0-19-926718-7",
+    "issued": {
+      "date-parts": [
+        [
+          "2005"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.15",
+    "number-of-pages": "1344",
+    "publisher": "Clarendon Press",
+    "publisher-place": "Oxford",
+    "source": "Library of Congress ISBN",
+    "title": "The complete works",
+    "type": "book"
+  },
+  {
+    "id": "Shakespeare2005a",
+    "author": [
+      {
+        "family": "Shakespeare",
+        "given": "William"
+      }
+    ],
+    "call-number": "PR2755 .W45 2005",
+    "citation-key": "Shakespeare2005a",
+    "container-title": "The complete works",
+    "edition": "2",
+    "editor": [
+      {
+        "family": "Wells",
+        "given": "Stanley"
+      },
+      {
+        "family": "Taylor",
+        "given": "Gary"
+      },
+      {
+        "family": "Jowett",
+        "given": "John"
+      },
+      {
+        "family": "Montgomery",
+        "given": "William"
+      }
+    ],
+    "ISBN": "978-0-19-926717-0 978-0-19-926718-7",
+    "issued": {
+      "date-parts": [
+        [
+          "2005"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.15",
+    "number-of-pages": "1344",
+    "page": "873–1058",
+    "publisher": "Clarendon Press",
+    "publisher-place": "Oxford",
+    "source": "Library of Congress ISBN",
+    "title": "Othello",
+    "type": "book"
+  },
+  {
+    "id": "Shapey1966",
+    "archive": "Joseph Regenstein Library, University of Chicago",
+    "archive_collection": "Special Collections",
+    "author": [
+      {
+        "family": "Shapey",
+        "given": "Ralph"
+      }
+    ],
+    "citation-key": "Shapey1966",
+    "genre": "score",
+    "issued": {
+      "date-parts": [
+        [
+          "1966"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.156",
+    "title": "Partita for Violin and Thirteen Players",
+    "type": "manuscript"
+  },
+  {
+    "id": "Silverstein1974",
+    "citation-key": "Silverstein1974",
+    "ISBN": "978-0-226-75763-6",
+    "issued": {
+      "date-parts": [
+        [
+          "1974"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.5",
+    "note": "Translators: _:n2571",
+    "number-of-pages": "121",
+    "publisher": "University of Chicago Press",
+    "publisher-place": "Chicago",
+    "source": "K10plus ISBN",
+    "title": "Sir Gawain and the Green Knight: a comedy for Christmas",
+    "title-short": "Sir Gawain",
+    "translator": [
+      {
+        "family": "Silverstein",
+        "given": "Theodore"
+      }
+    ],
+    "type": "book"
+  },
+  {
+    "id": "Singer1973",
+    "author": [
+      {
+        "family": "Singer",
+        "given": "Isaac Bashevis"
+      }
+    ],
+    "citation-key": "Singer1973",
+    "container-title": "New Yorker",
+    "ISSN": "0028-792X",
+    "issued": {
+      "date-parts": [
+        [
+          "1973",
+          12,
+          3
+        ]
+      ]
+    },
+    "language": "en-US",
+    "license": "CMOS18 14.87",
+    "note": "Translators: _:n2191",
+    "page": "48–51",
+    "section": "fiction",
+    "source": "www.newyorker.com",
+    "title": "A pair",
+    "translator": [
+      {
+        "family": "Nevel",
+        "given": "Blanche"
+      },
+      {
+        "family": "Nevel",
+        "given": "Joseph"
+      }
+    ],
+    "type": "article-magazine",
+    "URL": "https://www.newyorker.com/magazine/1973/12/03/a-pair"
+  },
+  {
+    "id": "Smith",
+    "author": [
+      {
+        "family": "Smith",
+        "given": "John"
+      }
+    ],
+    "citation-key": "Smith",
+    "language": "en",
+    "license": "CMOS18 14.111",
+    "note": "Display Title: [Letter]",
+    "type": "personal_communication"
+  },
+  {
+    "id": "Smith1750",
+    "author": [
+      {
+        "family": "Smith",
+        "given": "John"
+      }
+    ],
+    "citation-key": "Smith1750",
+    "issued": {
+      "circa": true,
+      "date-parts": [
+        [
+          "1750"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.44",
+    "title": "Title of first work",
+    "type": "book"
+  },
+  {
+    "id": "Smith1995",
+    "author": [
+      {
+        "family": "Smith",
+        "given": "John"
+      }
+    ],
+    "citation-key": "Smith1995",
+    "edition": "reissued",
+    "issued": {
+      "date-parts": [
+        [
+          "1995"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.44",
+    "title": "Title of first work",
+    "type": "book"
+  },
+  {
+    "id": "Smith2024",
+    "author": [
+      {
+        "family": "Smith",
+        "given": "Jess"
+      }
+    ],
+    "citation-key": "Smith2024",
+    "issued": {
+      "date-parts": [
+        [
+          "2024",
+          5,
+          5
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.114",
+    "title": "Analyzing the unknowable",
+    "type": "manuscript"
+  },
+  {
+    "id": "Smith2024a",
+    "author": [
+      {
+        "family": "Smith",
+        "given": "Rudy"
+      }
+    ],
+    "citation-key": "Smith2024a",
+    "genre": "text message",
+    "issued": {
+      "date-parts": [
+        [
+          "2024",
+          8,
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.111",
+    "note": "Recipients: _:n2436",
+    "recipient": [
+      {
+        "literal": "author"
+      }
+    ],
+    "type": "personal_communication"
+  },
+  {
+    "id": "Smitha",
+    "author": [
+      {
+        "family": "Smith",
+        "given": "Margaret"
+      }
+    ],
+    "citation-key": "Smitha",
+    "container-title": "Journal Title",
+    "container-title-short": "J. Title",
+    "language": "en",
+    "license": "CMOS18 14.75",
+    "status": "forthcoming",
+    "title": "Article title",
+    "type": "article-journal",
+    "volume": "98"
+  },
+  {
+    "id": "Smithb",
+    "author": [
+      {
+        "family": "Smith",
+        "given": "John"
+      }
+    ],
+    "citation-key": "Smithb",
+    "language": "en",
+    "license": "CMOS18 14.44",
+    "publisher-place": "Boston",
+    "title": "Title of second work",
+    "type": "book"
+  },
+  {
+    "id": "Snyder2025",
+    "accessed": {
+      "date-parts": [
+        [
+          "2026",
+          1,
+          28
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Snyder",
+        "given": "Carl D."
+      },
+      {
+        "family": "Bedrossian",
+        "given": "Manuel"
+      },
+      {
+        "family": "Barr",
+        "given": "Casey"
+      },
+      {
+        "family": "Deming",
+        "given": "Jody W."
+      },
+      {
+        "family": "Lindensmith",
+        "given": "Chris A."
+      },
+      {
+        "family": "Stenner",
+        "given": "Christian"
+      },
+      {
+        "family": "Nadeau",
+        "given": "Jay L."
+      }
+    ],
+    "citation-key": "Snyder2025",
+    "container-title": "PLOS ONE",
+    "container-title-short": "PLOS One",
+    "DOI": "10.1371/journal.pone.0318239",
+    "editor": [
+      {
+        "family": "Schubert",
+        "given": "Michael"
+      }
+    ],
+    "ISSN": "1932-6203",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          12
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.71 (quick)",
+    "number": "e0318239",
+    "source": "DOI.org (Crossref)",
+    "title": "Extant life detection using label-free video microscopy in analog aquatic environments",
+    "type": "article-journal",
+    "URL": "https://dx.plos.org/10.1371/journal.pone.0318239",
+    "volume": "20"
+  },
+  {
+    "id": "Solinger2019",
+    "author": [
+      {
+        "family": "Solinger",
+        "given": "Rickie"
+      }
+    ],
+    "citation-key": "Solinger2019",
+    "edition": "rev. ed.",
+    "ISBN": "978-1-4798-4745-7 978-1-4798-6170-5",
+    "issued": {
+      "date-parts": [
+        [
+          "2019"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.15",
+    "number-of-pages": "1",
+    "publisher": "New York University Press",
+    "publisher-place": "New York",
+    "source": "K10plus ISBN",
+    "title": "Pregnancy and power: a history of reproductive politics in the United States",
+    "title-short": "Pregnancy and power",
+    "type": "book"
+  },
+  {
+    "id": "Souza2022",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          2,
+          25
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Souza",
+        "given": "Pete",
+        "suffix": "(@petesouza)"
+      }
+    ],
+    "citation-key": "Souza2022",
+    "container-title": "Instagram",
+    "genre": "series of seven photos",
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          9,
+          11
+        ]
+      ]
+    },
+    "language": "en-gb",
+    "license": "CMOS18 14.106",
+    "title": "9/11 anniversaries from the past",
+    "type": "post",
+    "URL": "https://www.instagram.com/p/CiXjR5junw6/"
+  },
+  {
+    "id": "Soyinka2021",
+    "author": [
+      {
+        "family": "Soyinka",
+        "given": "Wole"
+      }
+    ],
+    "citation-key": "Soyinka2021",
+    "ISBN": "978-0-593-46722-0 978-0-593-46721-3",
+    "issued": {
+      "date-parts": [
+        [
+          "2021"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.37",
+    "number-of-pages": "321",
+    "publisher": "Vintage International",
+    "publisher-place": "New York",
+    "source": "K10plus ISBN",
+    "title": "The interpreters",
+    "type": "book"
+  },
+  {
+    "id": "Spock1974",
+    "archive": "National Library of Medicine",
+    "archive_collection": "Senn Oral History Collection",
+    "archive_location": "interview 67A, transcript",
+    "archive-place": "Bethesda, MD",
+    "author": [
+      {
+        "family": "Spock",
+        "given": "Benjamin"
+      }
+    ],
+    "citation-key": "Spock1974",
+    "interviewer": [
+      {
+        "family": "Senn",
+        "given": "Milton J. E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1974",
+          11,
+          20
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.108",
+    "note": "Display Title: [Interview of Senn]\nInterviewees: _:n2236\nInterviewers: _:n2238",
+    "type": "interview"
+  },
+  {
+    "id": "St.Felix2022",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          18
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "St. Félix",
+        "given": "Doreen"
+      }
+    ],
+    "citation-key": "St.Felix2022",
+    "container-title": "New Yorker",
+    "event-title": "HBO Max",
+    "ISSN": "0028-792X",
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          9,
+          5
+        ]
+      ]
+    },
+    "language": "en-US",
+    "license": "CMOS18 14.101",
+    "reviewed-title": "Katrina Babies",
+    "section": "on television",
+    "source": "www.newyorker.com",
+    "title": "How many generations of “Katrina babies” are there?",
+    "type": "article-magazine",
+    "URL": "https://www.newyorker.com/magazine/2022/09/12/how-many-generations-of-katrina-babies-are-there-untold"
+  },
+  {
+    "id": "Stein2019",
+    "call-number": "306.766 0973",
+    "citation-key": "Stein2019",
+    "editor": [
+      {
+        "family": "Stein",
+        "given": "Marc"
+      }
+    ],
+    "ISBN": "978-1-4798-1685-9 978-1-4798-5828-6",
+    "issued": {
+      "date-parts": [
+        [
+          "2019"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.5",
+    "publisher": "New York University Press",
+    "publisher-place": "New York",
+    "source": "BnF ISBN",
+    "title": "The Stonewall Riots: a documentary history",
+    "title-short": "Stonewall Riots",
+    "type": "book"
+  },
+  {
+    "id": "StephanosC2017",
+    "author": [
+      {
+        "literal": "Stephanos C"
+      }
+    ],
+    "citation-key": "StephanosC2017",
+    "issued": {
+      "date-parts": [
+        [
+          "2017",
+          2,
+          21
+        ]
+      ]
+    },
+    "license": "CMOS18 14.105",
+    "medium": "reply to Jim on Germano, “Futurist Shock.”",
+    "type": "post-weblog"
+  },
+  {
+    "id": "Sterling2021",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          3
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Sterling",
+        "given": "Terry Greene"
+      },
+      {
+        "family": "Joffe-Block",
+        "given": "Jude"
+      }
+    ],
+    "citation-key": "Sterling2021",
+    "DOI": "10.2307/j.ctv1h9dkgt",
+    "ISBN": "978-0-520-96735-9 978-0-520-29408-0",
+    "issued": {
+      "date-parts": [
+        [
+          "2021",
+          4,
+          20
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 13.23",
+    "publisher": "University of California Press",
+    "publisher-place": "Berkeley",
+    "source": "DOI.org (Crossref)",
+    "title": "Driving while brown: Sheriff Joe Arpaio versus the Latino Resistance",
+    "title-short": "Driving While Brown",
+    "type": "book",
+    "URL": "https://www.jstor.org/stable/10.2307/j.ctv1h9dkgt"
+  },
+  {
+    "id": "Stoffle2000",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          17
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Stoffle",
+        "given": "Richard W."
+      },
+      {
+        "family": "Loendorf",
+        "given": "Lawrence"
+      },
+      {
+        "family": "Austin",
+        "given": "Diane E."
+      },
+      {
+        "family": "Halmo",
+        "given": "David B."
+      },
+      {
+        "family": "Bulletts",
+        "given": "Angelita"
+      }
+    ],
+    "citation-key": "Stoffle2000",
+    "container-title": "Current Anthropology",
+    "container-title-short": "Curr. Anthropol.",
+    "DOI": "10.1086/300101",
+    "ISSN": "0011-3204, 1537-5382",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          "2000",
+          2
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.86",
+    "page": "11–38",
+    "source": "DOI.org (Crossref)",
+    "title": "Ghost dancing the Grand Canyon: Southern Paiute rock art, ceremony, and cultural landscapes",
+    "title-short": "Ghost dancing the grand canyon",
+    "type": "article-journal",
+    "URL": "http://www.journals.uchicago.edu/doi/10.1086/300101",
+    "volume": "41"
+  },
+  {
+    "id": "Stout2021",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          18
+        ]
+      ]
+    },
+    "archive": "ProQuest",
+    "author": [
+      {
+        "family": "Stout",
+        "given": "Alison E."
+      }
+    ],
+    "citation-key": "Stout2021",
+    "genre": "PhD diss.",
+    "issued": {
+      "date-parts": [
+        [
+          "2021"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.113",
+    "number": "28490261",
+    "publisher": "Cornell University",
+    "publisher-place": "New York, NY",
+    "title": "Cats and coronaviruses: One Health in the age of COVID-19",
+    "title-short": "Cats and coronaviruses",
+    "type": "thesis",
+    "URL": "https://proquest.com/docview/2550605226"
+  },
+  {
+    "id": "Sunya2022",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          30
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Sunya",
+        "given": "Samhita"
+      }
+    ],
+    "citation-key": "Sunya2022",
+    "DOI": "10.1525/luminos.130",
+    "ISBN": "978-0-520-37953-4",
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          7,
+          26
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.60",
+    "publisher": "University of California Press",
+    "publisher-place": "Berkeley",
+    "source": "DOI.org (Crossref)",
+    "title": "Sirens of modernity: world cinema via Bombay",
+    "title-short": "Sirens of modernity",
+    "type": "book",
+    "URL": "https://luminosoa.org/site/books/m/10.1525/luminos.130/"
+  },
+  {
+    "id": "Szalai2022",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          18
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Szalai",
+        "given": "Jennifer"
+      }
+    ],
+    "citation-key": "Szalai2022",
+    "container-title": "New York Times",
+    "ISSN": "0362-4331",
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          9,
+          7
+        ]
+      ]
+    },
+    "language": "en-US",
+    "license": "CMOS18 14.100",
+    "note": "Reviewed Authors: _:n2254",
+    "reviewed-author": [
+      {
+        "family": "Aviv",
+        "given": "Rachel"
+      }
+    ],
+    "reviewed-title": "Strangers to Ourselves: Unsettled Minds and the Stories That Make Us",
+    "section": "Books",
+    "source": "NYTimes.com",
+    "title": "In ‘Strangers to ourselves,’ a revelatory account of mental illness",
+    "type": "article-newspaper",
+    "URL": "https://www.nytimes.com/2022/09/07/books/rachel-aviv-strangers-to-ourselves.html"
+  },
+  {
+    "id": "Takimoto2022",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          17
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Takimoto",
+        "given": "Gaku"
+      },
+      {
+        "family": "Shirakawa",
+        "given": "Harumasa"
+      },
+      {
+        "family": "Sato",
+        "given": "Takuya"
+      }
+    ],
+    "citation-key": "Takimoto2022",
+    "container-title": "American Naturalist",
+    "container-title-short": "Am. Nat.",
+    "DOI": "10.1086/720403",
+    "ISSN": "0003-0147, 1537-5323",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          9,
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.86",
+    "page": "330–344",
+    "source": "DOI.org (Crossref)",
+    "title": "The relationship between vector species richness and the risk of vector-borne infectious diseases",
+    "type": "article-journal",
+    "URL": "https://www.journals.uchicago.edu/doi/10.1086/720403",
+    "volume": "200"
+  },
+  {
+    "id": "Tauber1958",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          5
+        ]
+      ]
+    },
+    "archive": "ProQuest Dissertations & Theses",
+    "author": [
+      {
+        "family": "Tauber",
+        "given": "Abraham"
+      }
+    ],
+    "citation-key": "Tauber1958",
+    "genre": "PhD diss.",
+    "issued": {
+      "date-parts": [
+        [
+          "1958"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.17",
+    "medium": "microfilm",
+    "number": "5802717",
+    "publisher": "Columbia University",
+    "publisher-place": "New York",
+    "title": "Spelling reform in the United States",
+    "type": "thesis",
+    "URL": "https://proquest.com/docview/301891090"
+  },
+  {
+    "id": "Tessler2014",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          4,
+          18
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Tessler",
+        "given": "Michael"
+      },
+      {
+        "family": "Truhn",
+        "given": "Kam M."
+      },
+      {
+        "family": "Bliss-Moreau",
+        "given": "Meghan"
+      },
+      {
+        "family": "Wehr",
+        "given": "John D."
+      }
+    ],
+    "citation-key": "Tessler2014",
+    "container-title": "Freshwater Science",
+    "container-title-short": "Freshwater Sci.",
+    "DOI": "10.1086/676996",
+    "ISSN": "2161-9549, 2161-9565",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          "2014",
+          9
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 13.98",
+    "page": "778–787",
+    "source": "DOI.org (Crossref)",
+    "title": "Diversity and distribution of stream bryophytes: does pH matter?",
+    "title-short": "Diversity and distribution",
+    "type": "article-journal",
+    "URL": "https://www.journals.uchicago.edu/doi/10.1086/676996",
+    "volume": "33"
+  },
+  {
+    "id": "Thomas1953",
+    "author": [
+      {
+        "family": "Thomas",
+        "given": "Dylan"
+      },
+      {
+        "family": "Allen",
+        "given": "Dion"
+      },
+      {
+        "family": "Poole",
+        "given": "Roy"
+      },
+      {
+        "family": "Wickwire",
+        "given": "Nancy"
+      },
+      {
+        "family": "Collins",
+        "given": "Allen F."
+      },
+      {
+        "family": "Thompson",
+        "given": "Sada"
+      }
+    ],
+    "citation-key": "Thomas1953",
+    "composer": [
+      {
+        "family": "Thomas",
+        "given": "Dylan"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "1953"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.164",
+    "medium": "33⅓ rpm, 2 LPs",
+    "note": "Composers: _:n2101\nPerformers: _:n2103",
+    "number": "TC-2005",
+    "publisher": "Caedmon",
+    "title": "Under milk wood",
+    "type": "song"
+  },
+  {
+    "id": "Thomas2022",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          11
+        ]
+      ]
+    },
+    "citation-key": "Thomas2022",
+    "host": [
+      {
+        "family": "Thomas",
+        "given": "Dexter",
+        "suffix": "Jr."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          3,
+          24
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.168",
+    "note": "Podcasters: _:n2145\nProducers: _:n2147",
+    "publisher": "VICE / iHeart Podcast Network",
+    "title": "Authentic: the story of Tablo",
+    "title-short": "Authentic",
+    "type": "broadcast",
+    "URL": "https://omny.fm/shows/authentic-the-story-of-tablo"
+  },
+  {
+    "id": "Tillich1961",
+    "author": [
+      {
+        "family": "Tillich",
+        "given": "Paul"
+      }
+    ],
+    "citation-key": "Tillich1961",
+    "ISBN": "978-0-226-80339-5",
+    "issued": {
+      "date-parts": [
+        [
+          "1961"
+        ],
+        [
+          "1963"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.43",
+    "number-of-volumes": "3",
+    "publisher": "University of Chicago Press",
+    "publisher-place": "Chicago, IL",
+    "source": "K10plus ISBN",
+    "title": "Systematic theology",
+    "type": "book"
+  },
+  {
+    "id": "Tommasini2021",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          30
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Tommasini",
+        "given": "Anthony"
+      }
+    ],
+    "citation-key": "Tommasini2021",
+    "container-title": "New York Times",
+    "event-place": "New York",
+    "event-title": "Zankel Hall",
+    "ISSN": "0362-4331",
+    "issued": {
+      "date-parts": [
+        [
+          "2021",
+          11,
+          12
+        ]
+      ]
+    },
+    "language": "en-US",
+    "license": "CMOS18 14.101",
+    "note": "Reviewed Authors: _:n2162",
+    "reviewed-author": [
+      {
+        "literal": "Zhu Wang (piano)"
+      }
+    ],
+    "reviewed-genre": "recital",
+    "section": "Arts",
+    "source": "NYTimes.com",
+    "title": "Young Concert Artists is back, with a superb pianist",
+    "type": "article-newspaper",
+    "URL": "https://www.nytimes.com/2021/11/12/arts/music/young-concert-artists-zhu-wang.html"
+  },
+  {
+    "id": "Truman2025",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          4,
+          11
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Truman",
+        "given": "Harry S."
+      }
+    ],
+    "citation-key": "Truman2025",
+    "dimensions": "18:13",
+    "event-date": {
+      "date-parts": [
+        [
+          "1945",
+          4,
+          16
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2025",
+          4,
+          11
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.164",
+    "medium": "transcript and audio",
+    "note": "Presenters: _:n2110",
+    "publisher": "Miller Center of Public Affairs, University of Virginia",
+    "title": "First speech to Congress",
+    "type": "speech",
+    "URL": "https://millercenter.org/the-presidency/presidential-speeches/april-16-1945-first-speech-congress"
+  },
+  {
+    "id": "Turabian2018",
+    "author": [
+      {
+        "family": "Turabian",
+        "given": "Kate L."
+      }
+    ],
+    "citation-key": "Turabian2018",
+    "edition": "9",
+    "editor": [
+      {
+        "family": "Booth",
+        "given": "Wayne C."
+      },
+      {
+        "family": "Colomb",
+        "given": "Gregory G."
+      },
+      {
+        "family": "Williams",
+        "given": "Joseph M."
+      },
+      {
+        "family": "Bizup",
+        "given": "Joseph"
+      },
+      {
+        "family": "Fitzgerald",
+        "given": "William T."
+      },
+      {
+        "literal": "the University of Chicago Press Editorial Staff"
+      }
+    ],
+    "ISBN": "978-0-226-43057-7 978-0-226-49442-5 978-0-226-71389-2",
+    "issued": {
+      "date-parts": [
+        [
+          "2018"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.41",
+    "number-of-pages": "462",
+    "publisher": "University of Chicago Press",
+    "publisher-place": "Chicago",
+    "source": "K10plus ISBN",
+    "title": "A manual for writers of research papers, theses, and dissertations",
+    "type": "book"
+  },
+  {
+    "id": "U.K.1963",
+    "author": [
+      {
+        "literal": "U.K."
+      },
+      {
+        "literal": "U.S."
+      },
+      {
+        "literal": "U.S.S.R."
+      }
+    ],
+    "citation-key": "U.K.1963",
+    "container-title": "U.S.T.",
+    "issued": {
+      "date-parts": [
+        [
+          "1963",
+          8,
+          5
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.191",
+    "note": "Sponsors: _:n2039",
+    "page": "1313",
+    "title": "Treaty Banning Nuclear Weapon Tests in the Atmosphere, in Outer Space and Under Water",
+    "type": "treaty",
+    "volume": "14"
+  },
+  {
+    "id": "USBureauofLaborStatistics2023",
+    "accessed": {
+      "date-parts": [
+        [
+          "2023",
+          6,
+          9
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "US Bureau of Labor Statistics"
+      }
+    ],
+    "citation-key": "USBureauofLaborStatistics2023",
+    "genre": "Dataset for 2020–22",
+    "issued": {
+      "date-parts": [
+        [
+          "2020"
+        ],
+        [
+          "2022"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.157",
+    "publisher": "BLS Data Labs",
+    "title": "Labor force statistics from the current population survey",
+    "type": "dataset",
+    "URL": "https://data.bls.gov/dataViewer/view/timeseries/LNS12000000"
+  },
+  {
+    "id": "USGeologicalSurvey1951",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          31
+        ]
+      ]
+    },
+    "archive": "National Map, Historic Topographic Map Collection",
+    "author": [
+      {
+        "literal": "US Geological Survey"
+      }
+    ],
+    "citation-key": "USGeologicalSurvey1951",
+    "edition": "reprint",
+    "issued": {
+      "date-parts": [
+        [
+          "1951"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.135",
+    "medium": "30-minute series quadrangle",
+    "note": "Cartographers: _:n2186",
+    "original-date": {
+      "date-parts": [
+        [
+          "1909"
+        ]
+      ]
+    },
+    "scale": "1:125,000 scale",
+    "title": "California: Yosemite Quadrangle",
+    "type": "map",
+    "URL": "https://www.usgs.gov/media/images/scan-1909-usgs-quadrangle-yosemite-california-area-include-el-capitan-usgs-historic"
+  },
+  {
+    "id": "USGovernmentPublishingOffice2022",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          18
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "US Government Publishing Office"
+      }
+    ],
+    "citation-key": "USGovernmentPublishingOffice2022",
+    "genre": "news release",
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          9,
+          8
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.98",
+    "title": "GPO director names Yale librarian as superintendent of documents",
+    "type": "webpage",
+    "URL": "https://www.gpo.gov/who-we-are/news-media/news-and-press-releases/gpo-director-names-yale-librarian-as-superintendent-of-documents"
+  },
+  {
+    "id": "Vallier2021",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          5
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Vallier",
+        "given": "Kevin"
+      }
+    ],
+    "citation-key": "Vallier2021",
+    "container-title": "Trust in a polarized age",
+    "DOI": "10.1093/oso/9780190887223.005.0002",
+    "editor": [
+      {
+        "family": "Vallier",
+        "given": "Kevin"
+      }
+    ],
+    "genre": "online appendix",
+    "ISBN": "978-0-19-088722-3 978-0-19-088724-7 978-0-19-088723-0 978-0-19-088725-4",
+    "issued": {
+      "date-parts": [
+        [
+          "2021",
+          1,
+          7
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.14",
+    "publisher": "Oxford University Press",
+    "publisher-place": "New York",
+    "source": "K10plus ISBN",
+    "title": "Accommodating radicals in a system of trust",
+    "type": "chapter",
+    "URL": "https://doi.org/10.1093/oso/9780190887223.005.0002"
+  },
+  {
+    "id": "Vedrashko2006",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          2,
+          25
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Vedrashko",
+        "given": "Ilya"
+      }
+    ],
+    "citation-key": "Vedrashko2006",
+    "genre": "master's thesis",
+    "issued": {
+      "date-parts": [
+        [
+          "2006",
+          9
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.113",
+    "publisher": "MIT",
+    "source": "dspace.mit.edu",
+    "title": "Advertising in computer games",
+    "type": "thesis",
+    "URL": "https://hdl.handle.net/1721.1/39144"
+  },
+  {
+    "id": "Verdi1998",
+    "author": [
+      {
+        "family": "Verdi",
+        "given": "Giuseppe"
+      }
+    ],
+    "citation-key": "Verdi1998",
+    "collection-number": "Series I: Operas",
+    "collection-title": "The Works of Giuseppe Verdi",
+    "contributor": [
+      {
+        "family": "Gossett",
+        "given": "Philip"
+      }
+    ],
+    "editor": [
+      {
+        "family": "Hudson",
+        "given": "Elizabeth"
+      }
+    ],
+    "genre": "<i>melodramma tragico</i> in three acts",
+    "ISBN": "978-0-226-85317-8",
+    "issued": {
+      "date-parts": [
+        [
+          "1998"
+        ]
+      ]
+    },
+    "language": "it",
+    "license": "CMOS18 14.155",
+    "number-of-volumes": "2",
+    "publisher": "University of Chicago Press",
+    "publisher-place": "Chicago",
+    "source": "K10plus ISBN",
+    "title": "Il corsaro",
+    "type": "musical_score"
+  },
+  {
+    "id": "Viren2022",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          18
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Viren",
+        "given": "Sarah"
+      }
+    ],
+    "citation-key": "Viren2022",
+    "container-title": "New York Times Magazine",
+    "ISSN": "0362-4331",
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          9,
+          7
+        ]
+      ]
+    },
+    "language": "en-US",
+    "license": "CMOS18 14.95",
+    "source": "NYTimes.com",
+    "title": "The safe space that became a viral nightmare",
+    "type": "article-newspaper",
+    "URL": "https://www.nytimes.com/2022/09/07/magazine/arizona-state-university-multicultural-center.html"
+  },
+  {
+    "id": "Wallraff2025",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          18
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Wallraff",
+        "given": "Barbara"
+      }
+    ],
+    "citation-key": "Wallraff2025",
+    "container-title": "Atlantic",
+    "ISSN": "2151-9463",
+    "issued": {
+      "date-parts": [
+        [
+          "2008",
+          7
+        ],
+        [
+          "2008",
+          8
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.88",
+    "section": "Word fugitives",
+    "source": "The Atlantic",
+    "type": "article-magazine",
+    "URL": "https://www.theatlantic.com/magazine/archive/2008/07/word-fugitives/306848/"
+  },
+  {
+    "id": "Wauchope1950",
+    "author": [
+      {
+        "family": "Wauchope",
+        "given": "Robert"
+      }
+    ],
+    "citation-key": "Wauchope1950",
+    "collection-number": "1",
+    "collection-title": "Middle American Research Records",
+    "issue": "14",
+    "issued": {
+      "date-parts": [
+        [
+          "1950"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.25",
+    "publisher": "Tulane University",
+    "publisher-place": "New Orleans, LA",
+    "title": "A tentative sequence of pre-classic ceramics in middle America",
+    "type": "book"
+  },
+  {
+    "id": "Weingartner1992",
+    "author": [
+      {
+        "family": "Weingartner",
+        "given": "Felix",
+        "dropping-particle": "von"
+      }
+    ],
+    "citation-key": "Weingartner1992",
+    "event-date": {
+      "date-parts": [
+        [
+          "1936"
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "1992"
+        ]
+      ]
+    },
+    "language": "de",
+    "license": "CMOS18 14.163",
+    "medium": "compact disc",
+    "note": "Performers: _:n2044",
+    "number": "PR90113 (mono)",
+    "publisher": "Preiser Records",
+    "references": "Includes Beethoven’s Symphony No. 3 in E-flat Major and Symphony No. 8 in F Major.",
+    "title": "150 Jahre Wiener Philharmoniker",
+    "type": "song"
+  },
+  {
+    "id": "Wereszycki2010",
+    "author": [
+      {
+        "family": "Wereszycki",
+        "given": "Henryk"
+      }
+    ],
+    "call-number": "2.413.658 A",
+    "citation-key": "Wereszycki2010",
+    "collection-title": "Klasyka Polskiej Historiografii",
+    "edition": "2",
+    "ISBN": "978-83-01-16253-5 978-83-01-16254-2",
+    "issued": {
+      "date-parts": [
+        [
+          "2010"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 13.101",
+    "note": "Translated title: The end of the Three Emperors’ League",
+    "number-of-pages": "1",
+    "publisher": "PWN",
+    "publisher-place": "Warszawa",
+    "source": "National Library of Poland ISBN",
+    "title": "Koniec sojuszu trzech cesarzy",
+    "type": "book"
+  },
+  {
+    "id": "White1975",
+    "author": [
+      {
+        "family": "White",
+        "given": "E. B."
+      }
+    ],
+    "citation-key": "White1975",
+    "container-title": "Letters of E. B. White",
+    "editor": [
+      {
+        "family": "Guth",
+        "given": "Dorothy Lobrano"
+      }
+    ],
+    "event-date": {
+      "date-parts": [
+        [
+          "1946",
+          5,
+          2
+        ]
+      ]
+    },
+    "genre": "memorandum",
+    "issued": {
+      "date-parts": [
+        [
+          "1975"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.13",
+    "note": "Display Title: [Letter to Ross]\nRecipients: _:n2526",
+    "page": "273",
+    "publisher": "Harper and Row",
+    "publisher-place": "New York",
+    "recipient": [
+      {
+        "family": "Ross",
+        "given": "Harold"
+      }
+    ],
+    "type": "personal_communication"
+  },
+  {
+    "id": "White1976",
+    "author": [
+      {
+        "family": "White",
+        "given": "E. B."
+      }
+    ],
+    "call-number": "92",
+    "citation-key": "White1976",
+    "editor": [
+      {
+        "family": "Guth",
+        "given": "Dorothy Lobrano"
+      }
+    ],
+    "ISBN": "978-0-06-014601-6",
+    "issued": {
+      "date-parts": [
+        [
+          "1976"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.13",
+    "publisher": "Harper and Row",
+    "publisher-place": "New York",
+    "source": "BnF ISBN",
+    "title": "Letters of E. B. White",
+    "type": "book"
+  },
+  {
+    "id": "Whitman1855",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          6
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Whitman",
+        "given": "Walt"
+      }
+    ],
+    "citation-key": "Whitman1855",
+    "issued": {
+      "date-parts": [
+        [
+          "1855"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.36",
+    "medium": "printed by the author",
+    "publisher-place": "Brooklyn",
+    "source": "Internet Archive",
+    "title": "Leaves of grass",
+    "type": "book",
+    "URL": "https://archive.org/details/whitmanleavesofgrass"
+  },
+  {
+    "id": "Wilde2022",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          7,
+          8
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Wilde",
+        "given": "Oscar"
+      }
+    ],
+    "citation-key": "Wilde2022",
+    "DOI": "10.2307/j.ctv310vj6p",
+    "editor": [
+      {
+        "family": "Frankel",
+        "given": "Nicholas"
+      }
+    ],
+    "ISBN": "978-0-674-28741-9 978-0-674-27182-1",
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          12,
+          13
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 13.80",
+    "publisher": "Harvard University Press",
+    "publisher-place": "Cambridge, MA",
+    "source": "Crossref",
+    "title": "The Critical Writings of Oscar Wilde: An Annotated Selection",
+    "title-short": "The Critical Writings of Oscar Wilde",
+    "type": "book",
+    "URL": "http://www.jstor.org/stable/10.2307/j.ctv310vj6p"
+  },
+  {
+    "id": "Wilder2013",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          7
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Wilder",
+        "given": "Lina Perkins"
+      }
+    ],
+    "citation-key": "Wilder2013",
+    "container-title": "Renaissance Drama",
+    "container-title-short": "Renaiss. Drama",
+    "DOI": "10.1086/673907",
+    "ISSN": "0486-3739, 2164-3415",
+    "issue": "1–2",
+    "issued": {
+      "date-parts": [
+        [
+          "2013",
+          9,
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.70",
+    "page": "57–84",
+    "source": "DOI.org (Crossref)",
+    "title": "“My exion is entered”: anatomy, costume, and theatrical knowledge in <i>2 Henry IV</i>",
+    "title-short": "“My exion is entered”",
+    "type": "article-journal",
+    "URL": "https://www.journals.uchicago.edu/doi/10.1086/673907",
+    "volume": "41"
+  },
+  {
+    "id": "Wilkerson2022",
+    "author": [
+      {
+        "family": "Wilkerson",
+        "given": "Isabel"
+      }
+    ],
+    "citation-key": "Wilkerson2022",
+    "container-author": [
+      {
+        "family": "Davis",
+        "given": "Allison"
+      },
+      {
+        "family": "Gardner",
+        "given": "Burleigh B."
+      },
+      {
+        "family": "Gardner",
+        "given": "Mary R."
+      }
+    ],
+    "container-title": "Deep south: a social anthropological study of caste and class",
+    "container-title-short": "Deep south",
+    "edition": "2",
+    "genre": "foreword",
+    "ISBN": "978-0-226-81798-9 978-0-226-81799-6",
+    "issued": {
+      "date-parts": [
+        [
+          "2022"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.12",
+    "note": "Book Authors: _:n2392",
+    "page": "xiii–xxiv",
+    "publisher": "University of Chicago Press",
+    "publisher-place": "Chicago",
+    "source": "K10plus ISBN",
+    "type": "chapter"
+  },
+  {
+    "id": "Wilson2019",
+    "author": [
+      {
+        "family": "Wilson",
+        "given": "Rainn"
+      }
+    ],
+    "citation-key": "Wilson2019",
+    "container-title": "Moving foreword: real introductions to totally made-up books",
+    "container-title-short": "Moving foreword",
+    "editor": [
+      {
+        "family": "Chattman",
+        "given": "Jon"
+      }
+    ],
+    "genre": "foreword",
+    "ISBN": "978-1-948836-19-7",
+    "issued": {
+      "date-parts": [
+        [
+          "2019"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.46",
+    "note": "OCLC: 1089276783",
+    "page": "xv–xvii",
+    "publisher": "BenBella",
+    "publisher-place": "Dallas, TX",
+    "source": "Open WorldCat",
+    "type": "chapter"
+  },
+  {
+    "id": "Winther2020",
+    "author": [
+      {
+        "family": "Winther",
+        "given": "Rasmus"
+      }
+    ],
+    "call-number": "GA102.3 .W56 2020",
+    "citation-key": "Winther2020",
+    "ISBN": "978-0-226-66967-0 978-0-226-67472-8",
+    "issued": {
+      "date-parts": [
+        [
+          "2020"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.57",
+    "number-of-pages": "318",
+    "publisher": "University of Chicago Press",
+    "publisher-place": "Chicago",
+    "source": "Library of Congress ISBN",
+    "title": "When maps become the world",
+    "title-short": "Maps",
+    "type": "book"
+  },
+  {
+    "id": "Woodward2007",
+    "available-date": {
+      "literal": "1987/.."
+    },
+    "citation-key": "Woodward2007",
+    "collection-editor": [
+      {
+        "family": "Harley",
+        "given": "J. B."
+      },
+      {
+        "family": "Woodward",
+        "given": "David"
+      }
+    ],
+    "editor": [
+      {
+        "family": "Woodward",
+        "given": "David"
+      }
+    ],
+    "ISBN": "978-0-226-90733-8",
+    "issued": {
+      "date-parts": [
+        [
+          "2007"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.23",
+    "note": "Series Editors: _:n2035",
+    "part-number": "1",
+    "publisher": "University of Chicago Press",
+    "publisher-place": "Chicago",
+    "source": "K10plus ISBN",
+    "title": "The history of cartography",
+    "type": "book",
+    "URL": "https://press.uchicago.edu/books/hoc/HOC_V3_Pt1/Volume3_Part1.html",
+    "volume": "3",
+    "volume-title": "Cartography in the European Renaissance"
+  },
+  {
+    "id": "Yeh2017",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          16
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Yeh",
+        "given": "Rihan"
+      }
+    ],
+    "citation-key": "Yeh2017",
+    "container-title": "Signs and Society",
+    "container-title-short": "Signs Soc.",
+    "DOI": "10.1086/690088",
+    "editor": [
+      {
+        "family": "Chumley",
+        "given": "Lily"
+      }
+    ],
+    "ISSN": "2326-4489, 2326-4497",
+    "issued": {
+      "date-parts": [
+        [
+          "2017"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.78",
+    "page": "S53-S76",
+    "source": "DOI.org (Crossref)",
+    "supplement-number": "S1",
+    "title": "<i>La racha</i>: speed and violence in Tijuana",
+    "title-short": "<i>La racha</i>",
+    "type": "article-journal",
+    "URL": "https://www.cambridge.org/core/product/identifier/S2326448900001021/type/journal_article",
+    "volume": "5",
+    "volume-title": "Qualia and ontology: language, semiotics, and materiality"
+  },
+  {
+    "id": "Yu2020",
+    "author": [
+      {
+        "family": "Yu",
+        "given": "Charles"
+      }
+    ],
+    "citation-key": "Yu2020",
+    "ISBN": "978-0-307-90719-6",
+    "issued": {
+      "date-parts": [
+        [
+          "2020"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 13.21 (quick)",
+    "publisher": "Pantheon Books",
+    "publisher-place": "New York",
+    "source": "BnF ISBN",
+    "title": "Interior Chinatown",
+    "type": "book"
+  },
+  {
+    "id": "Zhao2023",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          7
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Zhao",
+        "given": "Tan"
+      }
+    ],
+    "citation-key": "Zhao2023",
+    "container-title": "China Journal",
+    "container-title-short": "China J.",
+    "DOI": "10.1086/722215",
+    "ISSN": "1324-9347, 1835-8535",
+    "issued": {
+      "date-parts": [
+        [
+          "2023",
+          1
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.70",
+    "page": "45–69",
+    "source": "DOI.org (Crossref)",
+    "title": "Professionalizing China’s rural cadres",
+    "type": "article-journal",
+    "URL": "https://www.journals.uchicago.edu/doi/10.1086/722215",
+    "volume": "89"
+  },
+  {
+    "id": "Zou2023",
+    "accessed": {
+      "date-parts": [
+        [
+          "2025",
+          4,
+          30
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Zou",
+        "given": "Heng-Xing"
+      },
+      {
+        "family": "Rudolf",
+        "given": "Volker H. W."
+      }
+    ],
+    "citation-key": "Zou2023",
+    "dimensions": "562778999 bytes",
+    "DOI": "10.5061/DRYAD.SBCC2FRB4",
+    "issued": {
+      "date-parts": [
+        [
+          "2023",
+          2,
+          9
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.157",
+    "publisher": "Dryad",
+    "source": "DOI.org (Datacite)",
+    "title": "Priority effects determine how dispersal affects biodiversity in seasonal metacommunities",
+    "type": "dataset",
+    "URL": "https://datadryad.org/dataset/doi:10.5061/dryad.sbcc2frb4",
+    "version": "10"
+  },
+  {
+    "id": "Zukowsky1987",
+    "call-number": "72",
+    "citation-key": "Zukowsky1987",
+    "editor": [
+      {
+        "family": "Zukowsky",
+        "given": "John"
+      }
+    ],
+    "ISBN": "978-0-86559-077-9",
+    "issued": {
+      "date-parts": [
+        [
+          "1987"
+        ]
+      ]
+    },
+    "language": "en",
+    "license": "CMOS18 14.10",
+    "publisher": "Prestel-Verlag in association with the Art Institute of Chicago",
+    "publisher-place": "Munich",
+    "source": "BnF ISBN",
+    "title": "Chicago architecture, 1872–1922: birth of a metropolis",
+    "title-short": "Chicago architecture",
+    "type": "book"
+  },
+  {
+    "id": "deCervantesSaavedra1605",
+    "author": [
+      {
+        "family": "Cervantes Saavedra",
+        "given": "Miguel",
+        "non-dropping-particle": "de"
+      }
+    ],
+    "citation-key": "deCervantesSaavedra1605",
+    "issued": {
+      "date-parts": [
+        [
+          "1605"
+        ],
+        [
+          "1615"
+        ]
+      ]
+    },
+    "language": "es",
+    "license": "CMOS18 14.31",
+    "number-of-volumes": "2",
+    "publisher-place": "Madrid",
+    "title": "El ingenioso hidalgo Don Quixote de la Mancha",
+    "type": "book"
+  }
+]

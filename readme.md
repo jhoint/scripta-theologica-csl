@@ -15,6 +15,9 @@ Hoja de estilos CSL (*Citation Style Language*) adaptada a las normas de edició
 * `OBRAS-CLASICAS.md`: guía detallada para citar obras clásicas y patrísticas.
 * `pruebas-scripta.json`: colección de prueba con los ejemplos de las normas de la revista y algunos casos más (21 obras).
 * `pruebas-tipos.json` y `pruebas-tipos.md`: 51 casos con datos ficticios, uno por cada tipo de documento más casos límite (ver [Pruebas](#pruebas)).
+* `pruebas-cmos18.json`: 230 obras de la colección «CMOS18 test» de la [Zotero Test Items Library](https://www.zotero.org/groups/2205533/test_items_library), los ejemplos con que se prueban los estilos Chicago 18.ª ed. (el campo `license` indica el apartado del *Chicago Manual of Style*). Exportadas con Better BibTeX, sin los resúmenes.
+* `prueba-word.md`: documento de prueba con 75 citas de `pruebas-scripta.json` y `pruebas-cmos18.json`, para comprobar el estilo con el complemento de Zotero para Word y compararlo con Pandoc.
+* `pruebas-campos-ignorados.md`: qué campos ignora el estilo, obra por obra, en el CMOS18 test y en las pruebas del estilo (11-11-2026).
 * `chicago-notes-bibliography.csl`: copia del estilo Chicago 18.ª ed. (notas y bibliografía) tal como está en el [repositorio oficial de estilos CSL](https://github.com/citation-style-language/styles) (commit `205bf7b`, 2026-11-04), referencia para lo que las normas de la revista no regulan.
 * `chicago-notes-bibliography-copia-2026-02.csl`: la copia anterior (febrero de 2026, tomada del sitio de Zotero), conservada por si tenía cambios propios.
 * `zotero-outputs.md`: salidas de Zotero de febrero de 2026, con el estilo en su primera versión. Es histórico: no refleja el estilo actual.
@@ -151,6 +154,10 @@ pandoc pruebas-tipos.md --citeproc -M notes-after-punctuation=false \
 ```
 
 Con `pruebas-scripta.json` (ejemplos oficiales de la revista) se hace igual cambiando la bibliografía. Antes de publicar un cambio en el estilo conviene comparar el resultado antes y después sobre ambos archivos, y validar el `.csl` contra el esquema de CSL 1.0.2.
+
+Para comprobar que el estilo está completo, `pruebas-cmos18.json` reúne los ejemplos de Chicago 18.ª ed.; `pruebas-campos-ignorados.md` recoge qué campos se pierden en ellos.
+
+**En Word.** `prueba-word.md` se convierte en un .docx con citas vivas de Zotero con el filtro `zotero.lua` de [Better BibTeX](https://retorque.re/zotero-better-bibtex/exporting/pandoc/) y se refresca con el complemento; el mismo archivo, pasado por Pandoc, da la versión de referencia. Las instrucciones están al principio del archivo. Los dos motores (citeproc-js en Zotero, citeproc en Pandoc) no siempre coinciden, así que cada cambio se prueba en los dos.
 
 ---
 

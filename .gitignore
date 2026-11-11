@@ -19,3 +19,9 @@ actual.pdf
 
 # Ignore docx files
 *.docx
+
+# Exportaciones personales de Zotero, filtro de Better BibTeX y salidas de trabajo
+biblioteca.json
+CMOS18test.json
+zotero.lua
+Claude outputs/

@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - `CAMPOS.md`: guía de campos de Zotero por tipo de documento (qué campos llegan a la primera cita, a la cita posterior y a la bibliografía; usos del campo Extra), generada a partir del esquema de Zotero y comprobada con Pandoc.
+- `pruebas-campos-ignorados.md`: campos que el estilo ignora, obra por obra, en el CMOS18 test y en las pruebas del estilo (2026-11-11).
+- `pruebas-cmos18.json`: las 230 obras de la colección «CMOS18 test» de la Zotero Test Items Library, sin resúmenes (2026-11-11).
+- `prueba-word.md`: documento de prueba para el complemento de Zotero para Word y su comparación con Pandoc (2026-11-11).
 
 ### Changed
 - Copia de Chicago 18.ª ed. (notas y bibliografía) sustituida por la del repositorio oficial de estilos CSL (commit `205bf7b`, 2026-11-04); la anterior se conserva como `chicago-notes-bibliography-copia-2026-02.csl`.
@@ -18,6 +21,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `readme.md`: comillas dentro de un título, con la jerarquía de la RAE (*Diccionario panhispánico de dudas*), lo comprobado en Pandoc y en citeproc-js y la limitación del tercer nivel (2026-11-10).
 - `CAMPOS.md`: el campo Extra se llama «Adicional» en la interfaz en español; «Editor original» es la editorial; remisión a las comillas; los campos de otras disciplinas que no salen, anotados como posible ampliación (2026-11-10).
 - `OBRAS-CLASICAS.md`: «Extra / Adicional» en todas las menciones; por qué se usa Sección de un libro y no Libro; corregida la nota que decía «un libro normal» (2026-11-10).
+- `cambios-a-realizar.md`: prueba de campos ignorados sobre una biblioteca real y el CMOS18 test; propuesta para obras clásicas (dos modelos, número de la serie, fallback sin `type: classic`); resultados de la prueba en Word (2026-11-11).
+- `readme.md`: lista de archivos y apartado de pruebas con el CMOS18 test y la prueba en Word (2026-11-11).
+- `.gitignore`: exportaciones personales y el filtro `zotero.lua` (2026-11-11).
 - `cambios-a-realizar.md`: dudas de un usuario del estilo, variables que Chicago imprime y el estilo ignora (con su campo de Zotero) y casos de obras patrísticas por decidir (2026-11-10).
 
 ## [0.2.0] - 2026-11-03
